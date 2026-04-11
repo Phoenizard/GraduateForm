@@ -25,3 +25,7 @@ dist-ssr
 
 # Environment variables
 .env
+
+# Project docs
+CLAUDE.md
+PLAN.md
