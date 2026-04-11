@@ -32,6 +32,12 @@ function isFieldFilled(fieldKey, formData) {
     return ['q10_gpa_pct', 'q10_gpa_4', 'q10_language', 'q10_gre']
       .some((k) => formData[k]?.trim())
   }
+  // Q11 is an array of structured entries — at least 1 entry with school+project filled
+  if (fieldKey === 'q11') {
+    const val = formData.q11
+    if (!Array.isArray(val) || val.length === 0) return false
+    return val.some((entry) => (entry.school || '').trim() && (entry.project || '').trim())
+  }
   const val = formData[fieldKey]
   if (Array.isArray(val)) return val.length > 0
   if (typeof val === 'string') return val.trim().length > 0

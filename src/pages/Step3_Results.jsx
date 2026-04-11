@@ -3,6 +3,7 @@ import { useFormStore } from '../store/formStore';
 import TextInput from '../components/fields/TextInput';
 import SingleChoice from '../components/fields/SingleChoice';
 import MatrixText from '../components/fields/MatrixText';
+import MultiEntryField from '../components/fields/MultiEntryField';
 
 const q9StatusOptions = [
   { value: 'decided', label: '我的去向已定' },
@@ -56,28 +57,41 @@ export default function Step3_Results() {
         required
       />
 
-      <TextInput
+      <MultiEntryField
         label="Admission（录取）"
         fieldKey="q11"
         required
-        multiline
-        placeholder={"学校, 项目, (con), (timeline)\n如：University of Nottingham, MSc in Statistics, con 40, 12.1提交-3.1offer"}
+        fields={[
+          { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
+          { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
+          { key: 'submitTime', label: '提交时间', type: 'text' },
+          { key: 'receiveTime', label: '收到时间', type: 'text' },
+          { key: 'cond', label: 'Cond', type: 'text', optional: true },
+          { key: 'scholarship', label: '奖学金', type: 'text', optional: true },
+          { key: 'note', label: '备注', type: 'text', placeholder: '如面试，语言，GRE等要求补充', optional: true },
+        ]}
       />
 
-      <TextInput
+      <MultiEntryField
         label="Waitlist"
         fieldKey="q12"
-        required={false}
-        multiline
-        placeholder="学校, 项目, (timeline)"
+        fields={[
+          { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
+          { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
+          { key: 'submitTime', label: '提交时间', type: 'text' },
+          { key: 'receiveTime', label: '收到时间', type: 'text' },
+        ]}
       />
 
-      <TextInput
+      <MultiEntryField
         label="Reject（拒信）"
         fieldKey="q13"
-        required={false}
-        multiline
-        placeholder="学校, 项目, (timeline)"
+        fields={[
+          { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
+          { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
+          { key: 'submitTime', label: '提交时间', type: 'text' },
+          { key: 'receiveTime', label: '收到时间', type: 'text' },
+        ]}
       />
 
       <SingleChoice

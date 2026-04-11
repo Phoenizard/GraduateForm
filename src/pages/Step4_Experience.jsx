@@ -2,6 +2,31 @@ import { useEffect } from 'react';
 import { useFormStore } from '../store/formStore';
 import TextInput from '../components/fields/TextInput';
 import SingleChoice from '../components/fields/SingleChoice';
+import MultiEntryField from '../components/fields/MultiEntryField';
+
+const yearOptions = [
+  { value: '大一', label: '大一' },
+  { value: '大二', label: '大二' },
+  { value: '大三', label: '大三' },
+  { value: '大四', label: '大四' },
+];
+
+const q16Fields = [
+  { key: 'time', label: '时间', type: 'select', options: yearOptions, hint: '如果是假期，比如大二考完放的暑假期间，记为大二' },
+  { key: 'institution', label: '机构/地点', type: 'text' },
+  { key: 'title', label: '项目名称/职位', type: 'text', placeholder: '如XXX项目或Research Assistant' },
+  { key: 'advisor', label: '指导老师', type: 'text', optional: true },
+  { key: 'duration', label: '时长', type: 'text' },
+  { key: 'content', label: '项目内容', type: 'textarea', optional: true, placeholder: '如和XXX领域方向相关', fullWidth: true },
+  { key: 'output', label: '产出', type: 'text', optional: true, fullWidth: true },
+];
+
+const q17Fields = [
+  { key: 'time', label: '时间', type: 'select', options: yearOptions, hint: '如果是假期，比如大二考完放的暑假期间，记为大二' },
+  { key: 'company', label: '企业/地点', type: 'text', optional: true },
+  { key: 'duration', label: '时长', type: 'text' },
+  { key: 'content', label: '工作内容', type: 'textarea', optional: true, fullWidth: true },
+];
 
 export default function Step4_Experience() {
   const q15 = useFormStore((s) => s.formData.q15);
@@ -26,23 +51,17 @@ export default function Step4_Experience() {
 
       {q15 === 'willing' && (
         <>
-          <TextInput
-            label="科研经历"
+          <MultiEntryField
+            label="科研/项目经历"
             fieldKey="q16"
-            multiline
-            placeholder={"时间 / 地点 / 项目名称或指导老师 / 持续时间 / 有无产出\n如：大二暑假，unnc校内科研，xxxx项目，3个月，无产出"}
+            fields={q16Fields}
+            legacyKey="content"
           />
-          <TextInput
+          <MultiEntryField
             label="实习经历"
             fieldKey="q17"
-            multiline
-            placeholder={"时间 / 地点 / 工作内容 / 持续时间\n如：大一暑假，杭州，xxx公司，xxxx工作内容，2个月"}
-          />
-          <TextInput
-            label="项目经历"
-            fieldKey="q18"
-            multiline
-            placeholder="时间 / 内容等"
+            fields={q17Fields}
+            legacyKey="content"
           />
           <TextInput
             label="推荐信"

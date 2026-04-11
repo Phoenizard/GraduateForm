@@ -15,6 +15,19 @@ const STATUS_FILTERS = [
   { value: 'draft', label: '草稿' },
 ]
 
+const STRUCTURED_KEYS = new Set(['q11', 'q12', 'q13', 'q16', 'q17'])
+
+function formatStructuredForCSV(val) {
+  if (typeof val === 'string') return val
+  if (!Array.isArray(val) || val.length === 0) return ''
+  return val.map((entry) =>
+    Object.entries(entry)
+      .filter(([, v]) => v)
+      .map(([k, v]) => `${k}: ${v}`)
+      .join(', ')
+  ).join('; ')
+}
+
 function generateCSV(submissions) {
   const headers = FIELD_LABELS.map((f) => f.label)
   const allHeaders = ['状态', '提交时间', '更新时间', ...headers]
@@ -23,6 +36,7 @@ function generateCSV(submissions) {
     const d = s.draft || {}
     const fields = FIELD_LABELS.map(({ key }) => {
       const val = d[key]
+      if (STRUCTURED_KEYS.has(key)) return formatStructuredForCSV(val)
       if (val == null || val === '') return ''
       if (Array.isArray(val)) return val.join('、')
       return String(val)

@@ -79,6 +79,18 @@ export async function fetchUserCount() {
   return count || 0
 }
 
+// 将结构化条目数组序列化为文本（用于写入 text 列）
+function stringifyEntries(val) {
+  if (typeof val === 'string') return val
+  if (!Array.isArray(val) || val.length === 0) return ''
+  return val.map((entry) =>
+    Object.entries(entry)
+      .filter(([, v]) => v)
+      .map(([k, v]) => `${v}`)
+      .join(', ')
+  ).join('\n')
+}
+
 export async function submitForm(submissionId, draft) {
   return supabase
     .from('submissions')
@@ -95,7 +107,7 @@ export async function submitForm(submissionId, draft) {
       q8_purpose: draft.q8,
       q9_destination_status: draft.q9_status,
       q9_destination: draft.q9_text,
-      q11_admission: draft.q11,
+      q11_admission: stringifyEntries(draft.q11),
       q21_apply_method: draft.q21,
     })
     .eq('id', submissionId)

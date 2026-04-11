@@ -16,14 +16,13 @@ const FIELD_LABELS = [
   { key: 'q10_gpa_4', label: 'Q10 GPA' },
   { key: 'q10_language', label: 'Q10 语言成绩' },
   { key: 'q10_gre', label: 'Q10 GRE/GMAT' },
-  { key: 'q11', label: 'Q11 Admission' },
-  { key: 'q12', label: 'Q12 Waitlist' },
-  { key: 'q13', label: 'Q13 Reject' },
+  { key: 'q11', label: 'Q11 Admission', structured: true },
+  { key: 'q12', label: 'Q12 Waitlist', structured: true },
+  { key: 'q13', label: 'Q13 Reject', structured: true },
   { key: 'q14', label: 'Q14 未出结果项目' },
   { key: 'q15', label: 'Q15 愿意提供经历' },
-  { key: 'q16', label: 'Q16 科研经历' },
-  { key: 'q17', label: 'Q17 实习经历' },
-  { key: 'q18', label: 'Q18 项目经历' },
+  { key: 'q16', label: 'Q16 科研/项目经历', structured: true },
+  { key: 'q17', label: 'Q17 实习经历', structured: true },
   { key: 'q19', label: 'Q19 推荐信' },
   { key: 'q20', label: 'Q20 荣誉奖项' },
   { key: 'q21', label: 'Q21 申请方式' },
@@ -34,10 +33,60 @@ const FIELD_LABELS = [
   { key: 'q26', label: 'Q26 申请经验心得' },
 ]
 
+const ENTRY_FIELD_LABELS = {
+  school: '学校',
+  project: '项目',
+  submitTime: '提交时间',
+  receiveTime: '收到时间',
+  cond: 'Cond',
+  scholarship: '奖学金',
+  note: '备注',
+  time: '时间',
+  institution: '机构/地点',
+  title: '项目名称/职位',
+  advisor: '指导老师',
+  duration: '时长',
+  content: '内容',
+  output: '产出',
+  company: '企业/地点',
+}
+
 function formatValue(val) {
   if (val == null || val === '') return '未填写'
-  if (Array.isArray(val)) return val.join('、')
+  if (Array.isArray(val) && val.length > 0 && typeof val[0] === 'string') return val.join('、')
   return String(val)
+}
+
+function formatEntries(val) {
+  // Legacy string format
+  if (typeof val === 'string') return val || '未填写'
+  if (!Array.isArray(val) || val.length === 0) return null
+  return val
+}
+
+function StructuredEntries({ entries }) {
+  const formatted = formatEntries(entries)
+  if (formatted === null) return <span className="text-sm text-gray-300">未填写</span>
+  if (typeof formatted === 'string') {
+    return <span className={`text-sm whitespace-pre-wrap ${formatted === '未填写' ? 'text-gray-300' : 'text-gray-900'}`}>{formatted}</span>
+  }
+  return (
+    <div className="space-y-2 w-full">
+      {formatted.map((entry, i) => (
+        <div key={i} className="bg-gray-50 rounded-lg p-3 text-sm space-y-1">
+          {Object.entries(entry).map(([k, v]) => {
+            if (!v) return null
+            return (
+              <div key={k} className="flex gap-2">
+                <span className="text-gray-400 shrink-0">{ENTRY_FIELD_LABELS[k] || k}:</span>
+                <span className="text-gray-900">{v}</span>
+              </div>
+            )
+          })}
+        </div>
+      ))}
+    </div>
+  )
 }
 
 export default function SubmissionDetail({ submission, onClose }) {
@@ -60,8 +109,16 @@ export default function SubmissionDetail({ submission, onClose }) {
           <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-xl leading-none">&times;</button>
         </div>
         <div className="px-6 py-4 space-y-3">
-          {FIELD_LABELS.map(({ key, label }) => {
+          {FIELD_LABELS.map(({ key, label, structured }) => {
             const val = draft[key]
+            if (structured) {
+              return (
+                <div key={key} className="flex flex-col gap-1">
+                  <span className="text-sm font-medium text-gray-500">{label}</span>
+                  <StructuredEntries entries={val} />
+                </div>
+              )
+            }
             const display = formatValue(val)
             return (
               <div key={key} className="flex flex-col sm:flex-row sm:gap-4">
