@@ -1,4 +1,5 @@
 import { useEffect, useState, Component } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useFormStore } from './store/formStore'
 import { loadDraft, submitForm } from './lib/supabase'
 import { useAutoSave } from './hooks/useAutoSave'
@@ -14,6 +15,7 @@ import Step4 from './pages/Step4_Experience'
 import Step5 from './pages/Step5_Agency'
 import Step6 from './pages/Step6_Essay'
 import ThankYou from './pages/ThankYou'
+import AdminPage from './pages/AdminPage'
 
 const STEPS = [Step1, Step2, Step3, Step4, Step5, Step6]
 
@@ -115,8 +117,13 @@ function AppInner() {
 
 export default function App() {
   return (
-    <ErrorBoundary>
-      <AppInner />
-    </ErrorBoundary>
+    <BrowserRouter>
+      <ErrorBoundary>
+        <Routes>
+          <Route path="/" element={<AppInner />} />
+          <Route path="/admin" element={<AdminPage />} />
+        </Routes>
+      </ErrorBoundary>
+    </BrowserRouter>
   )
 }

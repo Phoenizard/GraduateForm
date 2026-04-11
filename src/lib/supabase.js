@@ -60,6 +60,25 @@ export async function revertToDraft(submissionId) {
     .eq('id', submissionId)
 }
 
+// ---- Admin 查询 ----
+
+export async function fetchAllSubmissions() {
+  const { data, error } = await supabase
+    .from('submissions')
+    .select('id, user_id, status, draft, submitted_at, updated_at')
+    .order('updated_at', { ascending: false })
+  if (error) throw error
+  return data || []
+}
+
+export async function fetchUserCount() {
+  const { count, error } = await supabase
+    .from('users')
+    .select('*', { count: 'exact', head: true })
+  if (error) throw error
+  return count || 0
+}
+
 export async function submitForm(submissionId, draft) {
   return supabase
     .from('submissions')
