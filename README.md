@@ -1,16 +1,15 @@
-# React + Vite
+# 飞跃手册 — 26fall 申请数据收集问卷
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+诺丁汉大学数学+统计系毕业生申请信息收集系统。React + Vite + TailwindCSS + Supabase。
 
-Currently, two official plugins are available:
+## 开发
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+cp .env.example .env   # 填入 Supabase 凭据
+npm install
+npm run dev
+```
 
-## React Compiler
+## 部署
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cloudflare Pages，构建命令 `npm run build`，输出目录 `dist`。环境变量在 Cloudflare 控制台配置。
