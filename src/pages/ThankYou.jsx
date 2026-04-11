@@ -33,14 +33,28 @@ export default function ThankYou() {
             您的联系方式将在飞跃手册中公开，欢迎学弟学妹直接联系您。
           </p>
         )}
-        <button
-          type="button"
-          onClick={handleReEdit}
-          disabled={reverting}
-          className="mt-4 px-6 py-2 text-sm text-blue-600 border border-blue-300 rounded-lg hover:bg-blue-50 disabled:opacity-50 transition-colors"
-        >
-          {reverting ? '处理中…' : '重新填写'}
-        </button>
+        <div className="mt-4 flex gap-3 justify-center">
+          <button
+            type="button"
+            onClick={handleReEdit}
+            disabled={reverting}
+            className="px-6 py-2 text-sm text-blue-600 border border-blue-300 rounded-lg hover:bg-blue-50 disabled:opacity-50 transition-colors"
+          >
+            {reverting ? '处理中…' : '重新填写'}
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              localStorage.removeItem('fybk_user_id');
+              localStorage.removeItem('fybk_identifier');
+              localStorage.removeItem('fybk_step');
+              window.location.reload();
+            }}
+            className="px-6 py-2 text-sm text-gray-600 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+          >
+            退出登录
+          </button>
+        </div>
         <p className="text-xs text-gray-400 mt-2">在原有答案基础上修改，修改后需重新提交</p>
       </div>
     </div>
