@@ -76,8 +76,9 @@ export default function LoginGate() {
         </div>
         <div className="mt-4 text-xs text-gray-400">
           <p>项目组联系方式</p>
-          <p>文: charlotte_yyw04 smyyy6@nottingham.edu.cn</p>
-          <p>开发: phoenizard smyxj7@nottingham.edu.cn 19512390314</p>
+          <p>charlotte_yyw04 smyyy6@nottingham.edu.cn</p>
+          <p>Tina 2441816834@qq.com</p>
+          <p>phoenizard smyxj7@nottingham.edu.cn 19512390314</p>
         </div>
       </div>
 
