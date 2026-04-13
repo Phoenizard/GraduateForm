@@ -64,8 +64,8 @@ export default function Step3_Results() {
         fields={[
           { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
           { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
-          { key: 'submitTime', label: '提交时间', type: 'text' },
-          { key: 'receiveTime', label: '收到时间', type: 'text' },
+          { key: 'submitTime', label: '提交时间', type: 'text', optional: true },
+          { key: 'receiveTime', label: '收到时间', type: 'text', optional: true },
           { key: 'cond', label: 'Cond', type: 'text', optional: true },
           { key: 'scholarship', label: '奖学金', type: 'text', optional: true },
           { key: 'note', label: '备注', type: 'text', placeholder: '如面试，语言，GRE等要求补充', optional: true },
@@ -78,8 +78,8 @@ export default function Step3_Results() {
         fields={[
           { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
           { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
-          { key: 'submitTime', label: '提交时间', type: 'text' },
-          { key: 'receiveTime', label: '收到时间', type: 'text' },
+          { key: 'submitTime', label: '提交时间', type: 'text', optional: true },
+          { key: 'receiveTime', label: '收到时间', type: 'text', optional: true },
         ]}
       />
 
@@ -89,8 +89,9 @@ export default function Step3_Results() {
         fields={[
           { key: 'school', label: '学校', type: 'school', placeholder: '搜索或输入学校名' },
           { key: 'project', label: '项目', type: 'text', placeholder: 'MSc in Statistics' },
-          { key: 'submitTime', label: '提交时间', type: 'text' },
-          { key: 'receiveTime', label: '收到时间', type: 'text' },
+          { key: 'submitTime', label: '提交时间', type: 'text', optional: true },
+          { key: 'receiveTime', label: '收到时间', type: 'text', optional: true },
+          { key: 'note', label: '备注', type: 'textarea', optional: true },
         ]}
       />
 

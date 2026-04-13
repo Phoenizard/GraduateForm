@@ -69,7 +69,7 @@ export default function Step5_Agency() {
               label="中介分享（可透露具体名称）"
               fieldKey="q23"
               multiline
-              placeholder="可从以下方面入手：选校精准度 / 文书质量 / 沟通效率 / 费用合理性 / 服务态度"
+              hint="可从以下方面入手：选校精准度 / 文书质量 / 沟通效率 / 费用合理性 / 服务态度"
             />
           )}
         </>
@@ -91,7 +91,7 @@ export default function Step5_Agency() {
               label="DIY 申请分享"
               fieldKey="q25"
               multiline
-              placeholder="可参考：如何确定申请学校和项目？选校最看重哪些因素？如何安排申请时间线？如何准备面试？...（自由发挥）"
+              hint="可参考：如何确定申请学校和项目？选校最看重哪些因素？如何安排申请时间线？如何准备面试？...（自由发挥）"
             />
           )}
         </>

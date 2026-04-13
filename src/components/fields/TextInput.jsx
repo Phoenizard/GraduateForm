@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useFormStore } from '../../store/formStore'
 
-export default function TextInput({ label, fieldKey, required, placeholder, multiline, rows = 4 }) {
+export default function TextInput({ label, fieldKey, required, placeholder, multiline, rows = 4, hint }) {
   const value = useFormStore((s) => s.formData[fieldKey] || '')
   const setField = useFormStore((s) => s.setField)
   const [touched, setTouched] = useState(false)
@@ -21,6 +21,7 @@ export default function TextInput({ label, fieldKey, required, placeholder, mult
         {label}
         {required && <span className="text-red-500 ml-1">*</span>}
       </label>
+      {hint && <p className="text-xs text-gray-400 mb-2">{hint}</p>}
       <Tag
         className={`w-full rounded-lg border px-3 py-2 text-sm outline-none transition-colors
           ${showError ? 'border-red-400 focus:border-red-500' : 'border-gray-300 focus:border-blue-500'}`}

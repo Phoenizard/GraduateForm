@@ -75,7 +75,9 @@ export default function LoginGate() {
           </p>
         </div>
         <div className="mt-4 text-xs text-gray-400">
-          <p>项目组联系方式：TODO</p>
+          <p>项目组联系方式</p>
+          <p>文: charlotte_yyw04 smyyy6@nottingham.edu.cn</p>
+          <p>开发: phoenizard smyxj7@nottingham.edu.cn 19512390314</p>
         </div>
       </div>
 
@@ -100,7 +102,7 @@ export default function LoginGate() {
             disabled={loading}
             className="w-full bg-blue-600 text-white rounded-lg py-2.5 text-sm font-medium hover:bg-blue-700 disabled:opacity-50 transition-colors"
           >
-            {loading ? '登录中…' : '开始填写'}
+            {loading ? '登录中…' : '登录'}
           </button>
         </form>
       </div>
