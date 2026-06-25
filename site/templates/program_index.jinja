@@ -1,0 +1,11 @@
+# 项目列表
+{% for region, universities in universities_by_region.items() %}
+## {{ region }}
+{% for university in universities %}
+### {{ university.name }}
+{% for program in university.programs %}
+{%- set program = programs[program.row_id] %}
+- [{{ program.abbrv }}](./{{ program.p_id }}.md) - `{{ program.level }}` {{ program.name }}
+{%- endfor %}
+{% endfor %}
+{%- endfor %}

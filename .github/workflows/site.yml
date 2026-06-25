@@ -1,0 +1,46 @@
+name: publish-site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'site/**'
+      - '.github/workflows/site.yml'
+  workflow_dispatch:        # 手动触发(数据更新后重建)
+  schedule:
+    - cron: '0 18 * * 0'    # 每周日 18:00 UTC 自动重建, 吸收新提交
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Configure git credentials
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - run: echo "cache_id=$(date --utc '+%V')" >> "$GITHUB_ENV"
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+      - name: Install dependencies
+        run: pip install -r site/requirements.txt
+      - name: Generate pages from Supabase
+        working-directory: site
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: python feiyue/maker.py --source cloud
+      - name: Publish site to GitHub Pages
+        working-directory: site/output
+        run: mkdocs gh-deploy --force
