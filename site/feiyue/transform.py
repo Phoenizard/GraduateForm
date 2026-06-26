@@ -94,6 +94,22 @@ def _entries(value) -> list[dict]:
     return [e for e in value if isinstance(e, dict)]
 
 
+# 纯"无值"话术: 整串完全等于其一(去空白、忽略大小写)时归一为空白。
+# 仅清纯无值词; 含真实信息的(如 "无标化语言"/"无G"/"waive")保留。
+_NO_VALUE = {
+    "无", "没有", "暂无", "暂未", "暂时没有", "空", "空白", "无。", "无.",
+    "n/a", "na", "n.a.", "n/a.", "none", "null", "nil",
+    "/", "／", "-", "--", "—", "——", "、", "。", ".", "·",
+}
+
+
+def _blank_if_none(value: str) -> str:
+    """把'描述没有'的纯无值话术(无/N/A/没有/空/-/暂无 等整串)归一为空白。
+    只在整串完全等于无值词时清空, 不动含真实信息的文本(如 '无标化语言')。"""
+    s = (value or "").strip()
+    return "" if s.lower() in _NO_VALUE else s
+
+
 def _md_multiline(text: str) -> str:
     """把用户文本框里的换行忠实还原到 Markdown:
     空行 -> 段落分隔; 段内单换行 -> 硬换行(行尾两空格 = <br>)。
@@ -193,9 +209,10 @@ class Deriver:
         if d.get("q2") != "1":
             return ""
         cs = []
-        if d.get("q3_email"): cs.append(f"邮箱 {d['q3_email']}")
-        if d.get("q3_wechat"): cs.append(f"微信 {d['q3_wechat']}")
-        if d.get("q3_other"): cs.append(d["q3_other"])
+        email, wechat, other = (_blank_if_none(d.get(k)) for k in ("q3_email", "q3_wechat", "q3_other"))
+        if email: cs.append(f"邮箱 {email}")
+        if wechat: cs.append(f"微信 {wechat}")
+        if other: cs.append(other)
         return " · ".join(cs)
 
     def _build_experience(self, d: dict) -> str:
@@ -209,7 +226,7 @@ class Deriver:
                 head = " · ".join(x for x in [e.get("time"), e.get("institution"), e.get("title")] if x)
                 meta = " · ".join(x for x in [e.get("advisor"), e.get("duration")] if x)
                 lines.append(f"- **{head}**" + (f"（{meta}）" if meta else ""))
-                body = " ".join(x for x in [e.get("content"), e.get("output")] if x)
+                body = " ".join(x for x in [_blank_if_none(e.get("content")), _blank_if_none(e.get("output"))] if x)
                 if body:
                     lines.append(f"    {body}")
             parts.append("\n".join(lines))
@@ -220,25 +237,28 @@ class Deriver:
             for e in intern:
                 head = " · ".join(x for x in [e.get("time"), e.get("company"), e.get("duration")] if x)
                 lines.append(f"- **{head}**")
-                if e.get("content"):
-                    lines.append(f"    {e['content']}")
+                content = _blank_if_none(e.get("content"))
+                if content:
+                    lines.append(f"    {content}")
             parts.append("\n".join(lines))
 
-        if d.get("q19"):
-            parts.append(f"## 推荐信\n\n{_md_multiline(d['q19'])}")
-        if d.get("q20"):
-            parts.append(f"## 荣誉奖项\n\n{_md_multiline(d['q20'])}")
+        q19, q20 = _blank_if_none(d.get("q19")), _blank_if_none(d.get("q20"))
+        if q19:
+            parts.append(f"## 推荐信\n\n{_md_multiline(q19)}")
+        if q20:
+            parts.append(f"## 荣誉奖项\n\n{_md_multiline(q20)}")
         return "\n\n".join(parts)
 
     def _build_sharing(self, d: dict) -> str:
         parts = []
         q21 = d.get("q21")
-        if q21 in ("full", "half") and d.get("q22") == "yes" and d.get("q23"):
-            parts.append(f"## 中介分享\n\n{_md_multiline(d['q23'])}")
-        if q21 == "diy" and d.get("q24") == "yes" and d.get("q25"):
-            parts.append(f"## DIY 分享\n\n{_md_multiline(d['q25'])}")
-        if d.get("q26"):
-            parts.append(f"## 申请经验心得\n\n{_md_multiline(d['q26'])}")
+        q23, q25, q26 = (_blank_if_none(d.get(k)) for k in ("q23", "q25", "q26"))
+        if q21 in ("full", "half") and d.get("q22") == "yes" and q23:
+            parts.append(f"## 中介分享\n\n{_md_multiline(q23)}")
+        if q21 == "diy" and d.get("q24") == "yes" and q25:
+            parts.append(f"## DIY 分享\n\n{_md_multiline(q25)}")
+        if q26:
+            parts.append(f"## 申请经验心得\n\n{_md_multiline(q26)}")
         return "\n\n".join(parts)
 
     def add_student(self, row: dict) -> None:
@@ -257,10 +277,11 @@ class Deriver:
                 if p_id is None:
                     continue
                 a_id = _hash_id("a", s_id, q, str(i), p_id)
+                cond, schol, enote = (_blank_if_none(e.get(k)) for k in ("cond", "scholarship", "note"))
                 note = " / ".join(x for x in [
-                    f"Cond {e['cond']}" if e.get("cond") else "",
-                    f"奖 {e['scholarship']}" if e.get("scholarship") else "",
-                    e.get("note", ""),
+                    f"Cond {cond}" if cond else "",
+                    f"奖 {schol}" if schol else "",
+                    enote,
                 ] if x)
                 self.applications[a_id] = {
                     "_id": a_id, "result": result,
@@ -292,10 +313,11 @@ class Deriver:
             choice = {"row_id": SENTINEL_PID, "display_value": "待定 / Undecided"}
 
         prefer = [FIELD_MAP.get(x, x) for x in (d.get("q6") or [])]
-        if d.get("q6_other_text"):
-            prefer = [p for p in prefer if p != "其他"] + [d["q6_other_text"]]
-        gpa = d.get("q10_gpa_pct", "") or ""    # 百分制三年均分
-        gpa4 = d.get("q10_gpa_4", "") or ""     # 4.0 制 GPA
+        q6_other = _blank_if_none(d.get("q6_other_text"))
+        if q6_other:
+            prefer = [p for p in prefer if p != "其他"] + [q6_other]
+        gpa = _blank_if_none(d.get("q10_gpa_pct"))    # 百分制三年均分
+        gpa4 = _blank_if_none(d.get("q10_gpa_4"))     # 4.0 制 GPA
 
         self.students[s_id] = {
             "_id": s_id, "s_id": s_id, "name": d.get("q1") or "匿名",
@@ -305,8 +327,8 @@ class Deriver:
             "prefer_field": "、".join(prefer),
             "gpa": gpa,
             "gpa4": gpa4,
-            "lang": d.get("q10_language", "") or "",
-            "gre": d.get("q10_gre", "") or "",
+            "lang": _blank_if_none(d.get("q10_language")),
+            "gre": _blank_if_none(d.get("q10_gre")),
             "program_choice": [choice],
             "applications": app_refs,
             "contact": self._build_contact(d),
