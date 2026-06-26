@@ -94,6 +94,7 @@ def _entries(value) -> list[dict]:
 class Deriver:
     def __init__(self):
         self.norm = normalize.SchoolNormalizer()
+        self.prognorm = normalize.ProgramNormalizer()
         self.universities: dict = {}
         self.programs: dict = {}
         self.students: dict = {}
@@ -112,7 +113,7 @@ class Deriver:
         if info is None:
             self.skipped_schools += 1
             return None
-        project = normalize.normalize_project(raw_project)
+        project = self.prognorm.normalize(info["name"], raw_project)
         u_id = _hash_id("u", info["name"])
         p_id = _hash_id("p", info["name"], project)
 
@@ -327,5 +328,8 @@ def get_records(source: str = "cloud") -> tuple[list[dict], dict]:
     n = deriver.norm.flush_unmatched()
     if n:
         print(f"[ACTION] {n} new school name(s) need review in site/data/school_map.csv")
+    np = deriver.prognorm.flush_unmatched()
+    if np:
+        print(f"[ACTION] {np} new program name(s) flushed to site/data/program_map.csv for optional merge review")
 
     return [deriver.universities, deriver.programs, deriver.students, deriver.applications], {}

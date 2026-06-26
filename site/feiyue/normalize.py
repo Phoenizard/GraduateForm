@@ -17,6 +17,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 UNIVERSITIES_JS = REPO_ROOT / "src" / "data" / "universities.js"
 SCHOOL_MAP_CSV = Path(__file__).resolve().parents[1] / "data" / "school_map.csv"
+PROGRAM_MAP_CSV = Path(__file__).resolve().parents[1] / "data" / "program_map.csv"
 
 REGION_MARKERS = {
     "英国": "英国",
@@ -163,13 +164,81 @@ class SchoolNormalizer:
         return len(new)
 
 
+class ProgramNormalizer:
+    """项目名归并: 把同一项目的不同写法收敛到官方统一名。
+
+    机制同 SchoolNormalizer: site/data/program_map.csv 是人工归并表,列
+    raw_school 用规范学校名(派生时已规范化), 列 raw_project 是学生原始写法,
+    canonical_program 是官方统一名。匹配键 = (alias(school), alias(raw_project)),
+    故大小写/括号/标点差异都归一。未命中的 (school, raw_project) 追加到表中待人工
+    补全(canonical 留空 = pass-through, 用轻归一后的原串)。
+    """
+
+    def __init__(self):
+        self._overrides: dict[tuple[str, str], str] = {}
+        self._unmatched: set[tuple[str, str]] = set()
+        if PROGRAM_MAP_CSV.exists():
+            with open(PROGRAM_MAP_CSV, encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    school = (row.get("school") or "").strip()
+                    raw = (row.get("raw_project") or "").strip()
+                    canonical = (row.get("canonical_program") or "").strip()
+                    if not school or not raw or not canonical:
+                        continue  # 待补全行(canonical 留空)=pass-through
+                    self._overrides[(_alias_key(school), _alias_key(raw))] = canonical
+
+    def normalize(self, canonical_school: str, raw_project: str) -> str:
+        """返回归并后的项目名;未命中回退轻归一后的原串(并记待审核)。"""
+        proj = normalize_project(raw_project)
+        raw = (raw_project or "").strip()
+        if not raw:
+            return proj
+        key = (_alias_key(canonical_school), _alias_key(raw))
+        if key in self._overrides:
+            return self._overrides[key]
+        self._unmatched.add((canonical_school.strip(), raw))
+        return proj
+
+    def flush_unmatched(self) -> int:
+        """把未命中的 (school, raw_project) 追加到 program_map.csv 待补全区。"""
+        if not self._unmatched:
+            return 0
+        existing = set()
+        file_exists = PROGRAM_MAP_CSV.exists()
+        if file_exists:
+            with open(PROGRAM_MAP_CSV, encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    existing.add((_alias_key(row.get("school") or ""),
+                                  _alias_key(row.get("raw_project") or "")))
+        new = sorted(
+            (s, p) for s, p in self._unmatched
+            if (_alias_key(s), _alias_key(p)) not in existing
+        )
+        if not new:
+            return 0
+        PROGRAM_MAP_CSV.parent.mkdir(parents=True, exist_ok=True)
+        with open(PROGRAM_MAP_CSV, "a", encoding="utf-8", newline="") as f:
+            w = csv.writer(f)
+            if not file_exists:
+                w.writerow(["school", "raw_project", "canonical_program"])
+            for school, proj in new:
+                w.writerow([school, proj, ""])  # 待人工归并
+        return len(new)
+
+
 # ---- 项目名 / 学位 规范化 ----
 
 _LEVEL_PATTERNS = [
     (r"\bph\.?\s?d\b|\bdphil\b|博士", "PhD"),
+    (r"\bmast\b", "MASt"),
     (r"\bm\.?phil\b", "MPhil"),
     (r"\bm\.?res\b", "MRes"),
+    (r"\bmmsc\b|master of medical sciences", "MMSc"),
     (r"\bm\.?eng\b", "MEng"),
+    (r"\bsc\.?m\b", "ScM"),
+    (r"\bm\.?p\.?h\b", "MPH"),
+    (r"\bm\.?p\.?s\b", "MPS"),
+    (r"\bm\.?s\.?e\b", "MSE"),
     (r"\bm\.?a\b(?![a-z])", "MA"),
     (r"\bm\.?sc\b|\bmaster of science\b|\bmsci\b|硕士", "MSc"),
     (r"\bmaster\b|\bms\b|\bms[c]?\b", "MSc"),
