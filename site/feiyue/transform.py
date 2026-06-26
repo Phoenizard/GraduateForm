@@ -173,36 +173,77 @@ class Deriver:
             )
         return p_id
 
-    def _resolve_destination(self, d: dict, app_refs: list, degree_codes: list):
-        """返回 (p_id, mark_chosen) 或 (None, False)。优先把去向匹配到学生自己的 Admit
-        项目(复用并标 Chosen);否则尝试规范化新建;再不行回退 None(→哨兵)。"""
-        q9 = (d.get("q9_text") or "").strip()
-        if not q9:
-            return None, False
-        key = normalize._alias_key(q9)
-
-        # 1) 特征词匹配到某条 Admit 记录的院校
+    def _identify_dest_univ(self, q9: str, key: str, app_refs: list):
+        """识别去向所属大学, 返回规范 info({name,abbrv,region}) 或 None。
+        颗粒度: 只用特征词把去向定位到「大学」(不再据此抓某条具体项目)。
+        (a) 优先匹配该生自己申请记录所涉大学(取最长 token 命中那所);
+        (b) 否则解析 q9 的 school 段, 走 school_map / universities.js 规范化。"""
+        best_info, best_len = None, 0
         for ref in app_refs:
-            app = self.applications[ref["row_id"]]
-            p_id = app["program"][0]["row_id"]
-            info = self.program_univ.get(p_id)
+            info = self.program_univ.get(self.applications[ref["row_id"]]["program"][0]["row_id"])
             if not info:
                 continue
-            if any(tok in key for tok in normalize.signature_tokens(info["name"], info["abbrv"])):
-                return p_id, True
-
-        # 2) 解析 school 部分并尝试规范化(走 school_map / universities.js)
-        dschool, dproject = _parse_destination(q9)
+            hits = [t for t in normalize.signature_tokens(info["name"], info["abbrv"]) if t in key]
+            if hits:
+                longest = max(len(t) for t in hits)
+                if longest > best_len:
+                    best_info, best_len = info, longest
+        if best_info:
+            return best_info
+        dschool, _ = _parse_destination(q9)
         if dschool:
             info = self.norm.normalize(dschool)
             if info and info["region"] != normalize.OTHER_REGION:
-                # 已知院校 → 建去向项目
-                p_id = self._get_or_create_program(dschool, dproject, degree_codes)
-                if p_id:
-                    return p_id, True
-        # 3) 无法解析: 计入待审核(已由 normalize 自动 flush), 回退哨兵
-        self.unresolved_dest += 1
-        return None, False
+                return info
+        return None
+
+    def _strip_school(self, q9: str, info: dict) -> str:
+        """从 q9 原文剥去已识别大学的规范名/基名/缩写(大小写不敏感), 余下作项目段。"""
+        base = re.sub(r"\s*[（(].*?[)）]\s*", "", info["name"]).strip()  # 去括号缩写后的主名
+        out = q9
+        for needle in sorted({info["name"], base, info["abbrv"]}, key=len, reverse=True):
+            if needle:
+                out = re.sub(re.escape(needle), " ", out, flags=re.IGNORECASE)
+        return re.sub(r"\s+", " ", out).strip(" -–—,，、")
+
+    def _resolve_destination(self, d: dict, app_refs: list, degree_codes: list):
+        """返回去向项目 p_id 或 None(→哨兵)。先定校、再定项目: 同校 Admit 项目词元
+        显著重合则复用其 p_id(避免近似重复条目), 否则按去向项目段新建。"""
+        q9 = (d.get("q9_text") or "").strip()
+        if not q9:
+            return None
+        key = normalize._alias_key(q9)
+
+        info = self._identify_dest_univ(q9, key, app_refs)
+        if info is None:
+            # 无法定位院校: 计入待审核(normalize 已自动 flush), 回退哨兵
+            self.unresolved_dest += 1
+            return None
+
+        dproject = self._strip_school(q9, info)
+        dtokens = normalize.signature_tokens(dproject)
+
+        # 细匹配: 同校 Admit 项目词元显著重合 → 复用
+        same_admits = []
+        for ref in app_refs:
+            app = self.applications[ref["row_id"]]
+            if app["result"] != "Admit":
+                continue
+            p_id = app["program"][0]["row_id"]
+            pinfo = self.program_univ.get(p_id)
+            if not pinfo or pinfo["name"] != info["name"]:
+                continue
+            same_admits.append(p_id)
+            if dtokens and (dtokens & normalize.signature_tokens(self.programs[p_id]["name"])):
+                return p_id
+
+        # 同校恰有一条 Admit: 无歧义(去向必是它), 复用之 —— 即便 q9 只给学校名或换了
+        # 项目措辞(如校区名)。多条 Admit 但无词元命中, 或同校无 Admit(去向未记录为录取,
+        # 如 CRN), 才按去向项目段新建。
+        if len(same_admits) == 1:
+            return same_admits[0]
+
+        return self._get_or_create_program(info["name"], dproject, degree_codes)
 
     def _build_contact(self, d: dict) -> str:
         """联系方式: 仅 q2='1'(公开) 才展示, 与 q15(经历意愿)无关。"""
@@ -294,17 +335,27 @@ class Deriver:
                 app_refs.append({"row_id": a_id})
 
         # 最终去向 program_choice (恒存在)
-        dest_pid, mark_chosen = (None, False)
+        dest_pid = None
         if d.get("q9_status") == "decided":
-            dest_pid, mark_chosen = self._resolve_destination(d, app_refs, degree_codes)
+            dest_pid = self._resolve_destination(d, app_refs, degree_codes)
 
         if dest_pid:
-            if mark_chosen:
-                for ref in app_refs:
-                    app = self.applications[ref["row_id"]]
-                    if app["program"][0]["row_id"] == dest_pid and app["result"] == "Admit":
-                        app["result"] = "Chosen"
-                        break
+            # 去向恒作为 Chosen 进入「申请结果」: 已有同项目记录则升级(优先 Admit),
+            # 否则新建一条 Chosen 行 —— 故申请结果 = 去向 + admit + waitlist + reject。
+            same = [ref for ref in app_refs
+                    if self.applications[ref["row_id"]]["program"][0]["row_id"] == dest_pid]
+            if same:
+                same.sort(key=lambda ref: self.applications[ref["row_id"]]["result"] != "Admit")
+                self.applications[same[0]["row_id"]]["result"] = "Chosen"
+            else:
+                a_id = _hash_id("a", s_id, "dest", dest_pid)
+                self.applications[a_id] = {
+                    "_id": a_id, "result": "Chosen",
+                    "submit_date": "", "result_date": "", "note": "最终去向",
+                    "program": [{"row_id": dest_pid}],
+                    "student": [{"row_id": s_id}],
+                }
+                app_refs.append({"row_id": a_id})
             choice = {"row_id": dest_pid, "display_value": self.programs[dest_pid]["abbrv"]}
         elif d.get("q9_status") == "decided" and (d.get("q9_text") or "").strip():
             # 已定但无法解析院校: 显示原文, 链接回退哨兵页(待 school_map 补全后自动归位)
