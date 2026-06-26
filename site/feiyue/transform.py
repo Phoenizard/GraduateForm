@@ -94,6 +94,20 @@ def _entries(value) -> list[dict]:
     return [e for e in value if isinstance(e, dict)]
 
 
+def _md_multiline(text: str) -> str:
+    """把用户文本框里的换行忠实还原到 Markdown:
+    空行 -> 段落分隔; 段内单换行 -> 硬换行(行尾两空格 = <br>)。
+    Markdown 默认把单个 \\n 当空格, 不处理会把多行散文挤成一段。"""
+    s = (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not s:
+        return ""
+    paras = re.split(r"\n[ \t]*\n", s)  # 空行分段
+    return "\n\n".join(
+        "  \n".join(ln.rstrip() for ln in p.split("\n"))  # 段内单换行 -> 硬换行
+        for p in paras
+    )
+
+
 class Deriver:
     def __init__(self):
         self.norm = normalize.SchoolNormalizer()
@@ -209,20 +223,20 @@ class Deriver:
             parts.append("\n".join(lines))
 
         if d.get("q19"):
-            parts.append(f"## 推荐信\n\n{d['q19']}")
+            parts.append(f"## 推荐信\n\n{_md_multiline(d['q19'])}")
         if d.get("q20"):
-            parts.append(f"## 荣誉奖项\n\n{d['q20']}")
+            parts.append(f"## 荣誉奖项\n\n{_md_multiline(d['q20'])}")
         return "\n\n".join(parts)
 
     def _build_sharing(self, d: dict) -> str:
         parts = []
         q21 = d.get("q21")
         if q21 in ("full", "half") and d.get("q22") == "yes" and d.get("q23"):
-            parts.append(f"## 中介分享\n\n{d['q23']}")
+            parts.append(f"## 中介分享\n\n{_md_multiline(d['q23'])}")
         if q21 == "diy" and d.get("q24") == "yes" and d.get("q25"):
-            parts.append(f"## DIY 分享\n\n{d['q25']}")
+            parts.append(f"## DIY 分享\n\n{_md_multiline(d['q25'])}")
         if d.get("q26"):
-            parts.append(f"## 申请经验心得\n\n{d['q26']}")
+            parts.append(f"## 申请经验心得\n\n{_md_multiline(d['q26'])}")
         return "\n\n".join(parts)
 
     def add_student(self, row: dict) -> None:
