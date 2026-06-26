@@ -6,7 +6,7 @@
 
 申请学位：{{ student.apply_degree }}
 
-领域偏好：{{ student.prefer_field or "N/A" }}
+领域偏好：{{ student.prefer_field }}
 
 最终去向：{{ student.program_choice[0].display_value }}
 {% if student.contact %}
@@ -16,10 +16,10 @@
 
 | 维度 | 内容 |
 | --- | --- |
-| 均分（大一/大二/大三） | {{ student.gpa or "N/A" }} |
-| GPA（4.0 制） | {{ student.gpa4 or "N/A" }} |
-| 语言成绩 | {{ student.lang or "N/A" }} |
-| GRE | {{ student.gre or "N/A" }} |
+| 均分（大一/大二/大三） | {{ student.gpa }} |
+| GPA（4.0 制） | {{ student.gpa4 }} |
+| 语言成绩 | {{ student.lang }} |
+| GRE | {{ student.gre }} |
 
 ## 申请结果 Application Results
 
