@@ -254,6 +254,19 @@ def normalize_project(raw_project: str) -> str:
     return s
 
 
+def program_label(name: str, level: str) -> str:
+    """项目展示名(不含学校): name 已含学位词则原样, 否则补 level 前缀。
+    复用 derive_level(name, []) 判断 name 是否已带学位, 避免出现 'ScM ScM in ...' 重复。"""
+    name = (name or "").strip()
+    if not name or name == "—":
+        return level or name or "—"
+    if not level:
+        return name
+    if derive_level(name, []):  # name 本身能解析出学位 => 已含, 不重复
+        return name
+    return f"{level} {name}".strip()
+
+
 def derive_level(project: str, degree_codes: list[str]) -> str:
     """从项目文本推断学位层级;失败则回退 q5。"""
     text = (project or "").lower()

@@ -5,7 +5,7 @@
 ### {{ university.name }}
 {% for program in university.programs %}
 {%- set program = programs[program.row_id] %}
-- [{{ program.abbrv }}](./{{ program.p_id }}.md) - `{{ program.level }}` {{ program.name }}
+- [{{ program.label }}](./{{ program.p_id }}.md)
 {%- endfor %}
 {% endfor %}
 {%- endfor %}

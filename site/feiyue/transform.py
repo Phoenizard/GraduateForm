@@ -94,6 +94,20 @@ def _entries(value) -> list[dict]:
     return [e for e in value if isinstance(e, dict)]
 
 
+def _md_multiline(text: str) -> str:
+    """把用户文本框里的换行忠实还原到 Markdown:
+    空行 -> 段落分隔; 段内单换行 -> 硬换行(行尾两空格 = <br>)。
+    Markdown 默认把单个 \\n 当空格, 不处理会把多行散文挤成一段。"""
+    s = (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not s:
+        return ""
+    paras = re.split(r"\n[ \t]*\n", s)  # 空行分段
+    return "\n\n".join(
+        "  \n".join(ln.rstrip() for ln in p.split("\n"))  # 段内单换行 -> 硬换行
+        for p in paras
+    )
+
+
 class Deriver:
     def __init__(self):
         self.norm = normalize.SchoolNormalizer()
@@ -109,7 +123,8 @@ class Deriver:
         # 哨兵项目: 去向未定。放入 programs 但不挂到任何 University。
         self.programs[SENTINEL_PID] = {
             "_id": SENTINEL_PID, "p_id": SENTINEL_PID,
-            "abbrv": "待定 / Undecided", "level": "", "name": "尚未确定最终去向",
+            "abbrv": "待定 / Undecided", "label": "待定 / Undecided",
+            "level": "", "name": "尚未确定最终去向",
         }
 
     def _get_or_create_program(self, raw_school: str, raw_project: str, degree_codes: list) -> str | None:
@@ -130,10 +145,11 @@ class Deriver:
         # Program
         if p_id not in self.programs:
             level = normalize.derive_level(project, degree_codes)
-            abbrv = f"{info['abbrv']} {project}".strip() if project else info["name"]
+            label = normalize.program_label(project, level)  # 学位+项目名(无学校), 去重
+            abbrv = f"{info['abbrv']} {label}".strip() if project else info["name"]
             self.programs[p_id] = {
                 "_id": p_id, "p_id": p_id, "abbrv": abbrv,
-                "level": level, "name": project or "—",
+                "label": label, "level": level, "name": project or "—",
             }
             self.program_univ[p_id] = info
             self.universities[u_id]["programs"].append(
@@ -209,20 +225,20 @@ class Deriver:
             parts.append("\n".join(lines))
 
         if d.get("q19"):
-            parts.append(f"## 推荐信\n\n{d['q19']}")
+            parts.append(f"## 推荐信\n\n{_md_multiline(d['q19'])}")
         if d.get("q20"):
-            parts.append(f"## 荣誉奖项\n\n{d['q20']}")
+            parts.append(f"## 荣誉奖项\n\n{_md_multiline(d['q20'])}")
         return "\n\n".join(parts)
 
     def _build_sharing(self, d: dict) -> str:
         parts = []
         q21 = d.get("q21")
         if q21 in ("full", "half") and d.get("q22") == "yes" and d.get("q23"):
-            parts.append(f"## 中介分享\n\n{d['q23']}")
+            parts.append(f"## 中介分享\n\n{_md_multiline(d['q23'])}")
         if q21 == "diy" and d.get("q24") == "yes" and d.get("q25"):
-            parts.append(f"## DIY 分享\n\n{d['q25']}")
+            parts.append(f"## DIY 分享\n\n{_md_multiline(d['q25'])}")
         if d.get("q26"):
-            parts.append(f"## 申请经验心得\n\n{d['q26']}")
+            parts.append(f"## 申请经验心得\n\n{_md_multiline(d['q26'])}")
         return "\n\n".join(parts)
 
     def add_student(self, row: dict) -> None:
