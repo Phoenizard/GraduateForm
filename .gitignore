@@ -29,3 +29,14 @@ dist-ssr
 # Project docs
 CLAUDE.md
 PLAN.md
+
+# Exported survey data (contains personal contact info — never commit)
+survey_data_by_user_*.xlsx
+
+# Generated site artifacts (reproducible)
+site/.cache/
+site/output/
+
+# Python
+__pycache__/
+*.pyc

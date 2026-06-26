@@ -1,0 +1,6 @@
+jinja2
+mkdocs-material
+pypinyin
+requests
+python-dotenv
+openpyxl
