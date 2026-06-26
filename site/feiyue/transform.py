@@ -123,7 +123,8 @@ class Deriver:
         # 哨兵项目: 去向未定。放入 programs 但不挂到任何 University。
         self.programs[SENTINEL_PID] = {
             "_id": SENTINEL_PID, "p_id": SENTINEL_PID,
-            "abbrv": "待定 / Undecided", "level": "", "name": "尚未确定最终去向",
+            "abbrv": "待定 / Undecided", "label": "待定 / Undecided",
+            "level": "", "name": "尚未确定最终去向",
         }
 
     def _get_or_create_program(self, raw_school: str, raw_project: str, degree_codes: list) -> str | None:
@@ -144,10 +145,11 @@ class Deriver:
         # Program
         if p_id not in self.programs:
             level = normalize.derive_level(project, degree_codes)
-            abbrv = f"{info['abbrv']} {project}".strip() if project else info["name"]
+            label = normalize.program_label(project, level)  # 学位+项目名(无学校), 去重
+            abbrv = f"{info['abbrv']} {label}".strip() if project else info["name"]
             self.programs[p_id] = {
                 "_id": p_id, "p_id": p_id, "abbrv": abbrv,
-                "level": level, "name": project or "—",
+                "label": label, "level": level, "name": project or "—",
             }
             self.program_univ[p_id] = info
             self.universities[u_id]["programs"].append(

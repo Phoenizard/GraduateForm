@@ -117,7 +117,7 @@ nav:
       - {{ university.abbrv }}:
 {%- for program in university.programs %}
 {%- set program = programs[program.row_id] %}
-        - {{ program.abbrv }}: programs/{{ program.p_id }}.md
+        - {{ program.label }}: programs/{{ program.p_id }}.md
 {%- endfor %}
 {%- endfor %}
 {%- endfor %}
