@@ -114,7 +114,7 @@ nav:
 {%- for region, universities in universities_by_region.items() %}
     - {{ region }}:
 {%- for university in universities %}
-      - {{ university.abbrv }}:
+      - {{ university.name }}:
 {%- for program in university.programs %}
 {%- set program = programs[program.row_id] %}
         - {{ program.label }}: programs/{{ program.p_id }}.md
