@@ -35,21 +35,12 @@ jobs:
             mkdocs-material-
       - name: Install dependencies
         run: pip install -r site/requirements.txt
-      - name: Install Pandoc + XeLaTeX + CJK font (for handbook PDF)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-lang-chinese \
-            texlive-fonts-recommended fonts-noto-cjk lmodern
       - name: Generate pages from Supabase
         working-directory: site
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: python feiyue/maker.py --source cloud
-      - name: Build handbook PDF
-        working-directory: site
-        run: python feiyue/handbook.py --source cache
       - name: Publish site to GitHub Pages
         working-directory: site/output
         run: mkdocs gh-deploy --force
