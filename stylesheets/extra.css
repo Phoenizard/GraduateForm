@@ -1,0 +1,73 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #10263B;
+  --md-accent-fg-color:  #66C3DA;
+  --md-typeset-a-color:  #009BC1;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #10263B;
+  --md-accent-fg-color:  #66C3DA;
+  --md-typeset-a-color:  #009BC1;
+}
+
+/* Download 手册: 顶栏最后一个 tab 推到最右侧, 与 Home…Programs 并排居右 */
+.md-tabs__list > .md-tabs__item:last-child {
+  margin-left: auto;
+}
+
+h1, h2, h3 {
+  font-weight: bold !important;
+}
+
+small {
+  font-weight: normal;
+}
+
+.md-typeset__table {
+  width: 100% !important;
+}
+
+.md-typeset__table table:not([class]) {
+  display: table !important;
+}
+
+.md-typeset__table table td:first-child,
+.md-typeset__table table th:first-child {
+  white-space: nowrap;
+}
+
+/* 申请结果表: 固定布局, 永不超出页宽(不横向滚动);
+   学校列窄且换行, 备注列加宽。覆盖上面的首列 nowrap。 */
+.app-results .md-typeset__table,
+.app-results table {
+  width: 100% !important;
+}
+
+.app-results table {
+  table-layout: fixed;
+}
+
+.app-results table th,
+.app-results table td {
+  white-space: normal !important;   /* 默认允许换行(项目/备注) */
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* 结果 / 提交日期 / 结果日期: 不换行(列已留足宽度) */
+.app-results table th:nth-child(2), .app-results table td:nth-child(2),
+.app-results table th:nth-child(3), .app-results table td:nth-child(3),
+.app-results table th:nth-child(4), .app-results table td:nth-child(4) {
+  white-space: nowrap !important;
+}
+
+.app-results table th:nth-child(1),
+.app-results table td:nth-child(1) { width: 23%; }   /* 项目 / 学校: 换行 */
+.app-results table th:nth-child(2),
+.app-results table td:nth-child(2) { width: 14%; }   /* 结果: 不换行(容 Chosen 等 6 字母) */
+.app-results table th:nth-child(3),
+.app-results table td:nth-child(3) { width: 13%; }   /* 提交日期: 不换行 */
+.app-results table th:nth-child(4),
+.app-results table td:nth-child(4) { width: 13%; }   /* 结果日期: 不换行 */
+.app-results table th:nth-child(5),
+.app-results table td:nth-child(5) { width: 37%; }   /* 备注: 略缩短, 换行 */
