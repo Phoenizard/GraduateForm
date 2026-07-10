@@ -16,8 +16,7 @@ WORKING_DIR = Path.cwd()
 
 def build_students_by_term(students: dict) -> dict:
     """Group students by term, sorted by name (Latin names first, then pinyin),
-    terms in descending order. Shared by the MkDocs site and the handbook PDF so
-    案例顺序在两处保持一致。"""
+    terms in descending order."""
     students_by_term = defaultdict(list)
     for student in students.values():
         students_by_term[student["term"]].append(student)
