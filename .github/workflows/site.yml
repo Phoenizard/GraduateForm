@@ -7,9 +7,7 @@ on:
     paths:
       - 'site/**'
       - '.github/workflows/site.yml'
-  workflow_dispatch:        # 手动触发(数据更新后重建)
-  schedule:
-    - cron: '0 18 * * 0'    # 每周日 18:00 UTC 自动重建, 吸收新提交
+  workflow_dispatch:        # 手动触发(模板/资源更新后重建)
 
 permissions:
   contents: write
@@ -35,12 +33,9 @@ jobs:
             mkdocs-material-
       - name: Install dependencies
         run: pip install -r site/requirements.txt
-      - name: Generate pages from Supabase
+      - name: Generate pages from frozen data
         working-directory: site
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-        run: python feiyue/maker.py --source cloud
+        run: python feiyue/maker.py
       - name: Publish site to GitHub Pages
         working-directory: site/output
         run: mkdocs gh-deploy --force
