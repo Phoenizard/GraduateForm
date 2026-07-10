@@ -1,0 +1,5646 @@
+{
+  "a_b6f4edfd26": {
+    "_id": "a_b6f4edfd26",
+    "result": "Chosen",
+    "submit_date": "2025.12.1",
+    "result_date": "2025.12.17",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_03949fd339"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9146545b74"
+      }
+    ]
+  },
+  "a_03574239e0": {
+    "_id": "a_03574239e0",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2nd 6.5(6) / 有面试",
+    "program": [
+      {
+        "row_id": "p_9ae2f57cd5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_84f5f454ef"
+      }
+    ]
+  },
+  "a_c31e0eccb7": {
+    "_id": "a_c31e0eccb7",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 1st 7(6.5)",
+    "program": [
+      {
+        "row_id": "p_c68edc03cf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_84f5f454ef"
+      }
+    ]
+  },
+  "a_81076f1c37": {
+    "_id": "a_81076f1c37",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 1st 7(6.5)",
+    "program": [
+      {
+        "row_id": "p_383a99eecd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_84f5f454ef"
+      }
+    ]
+  },
+  "a_6e795b6cd7": {
+    "_id": "a_6e795b6cd7",
+    "result": "Admit",
+    "submit_date": "11月",
+    "result_date": "1.29",
+    "note": "Cond 70",
+    "program": [
+      {
+        "row_id": "p_e672ebd868"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ca0b7b93af"
+      }
+    ]
+  },
+  "a_07ab342bee": {
+    "_id": "a_07ab342bee",
+    "result": "Admit",
+    "submit_date": "1.10",
+    "result_date": "1.28",
+    "note": "Cond 70 overall+7（6.5）",
+    "program": [
+      {
+        "row_id": "p_4cc902d23c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ca0b7b93af"
+      }
+    ]
+  },
+  "a_2072e4d3f0": {
+    "_id": "a_2072e4d3f0",
+    "result": "Chosen",
+    "submit_date": "12.30",
+    "result_date": "2.27",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6b3eee8ef7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ca0b7b93af"
+      }
+    ]
+  },
+  "a_bd2bb54b55": {
+    "_id": "a_bd2bb54b55",
+    "result": "Admit",
+    "submit_date": "3.15",
+    "result_date": "4.1",
+    "note": "奖 8000",
+    "program": [
+      {
+        "row_id": "p_c90b16ea4b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ca0b7b93af"
+      }
+    ]
+  },
+  "a_5efd7fcb86": {
+    "_id": "a_5efd7fcb86",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dd1abb87da"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_ed9a7f1421": {
+    "_id": "a_ed9a7f1421",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_786ac49116"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_26b46ece53": {
+    "_id": "a_26b46ece53",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_54d184a1bd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_0fffeb77da": {
+    "_id": "a_0fffeb77da",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2bfcc82f43"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_17d51ec880": {
+    "_id": "a_17d51ec880",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a4e0e494b3"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_715a8310f0": {
+    "_id": "a_715a8310f0",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_3a96eee95f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_f1a7e4bfa9": {
+    "_id": "a_f1a7e4bfa9",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_04b03488b4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_e724759b2f": {
+    "_id": "a_e724759b2f",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "因为没补雅思拒了，本来因为缺雅思特意发两次邮件并延长一个月等我补",
+    "program": [
+      {
+        "row_id": "p_3f9485b5d5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_1ece41c590": {
+    "_id": "a_1ece41c590",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ffc9df2c78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_292e237121": {
+    "_id": "a_292e237121",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_60a9696c3a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_e732758a1f": {
+    "_id": "a_e732758a1f",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1a15acbae4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_bddfd2636d": {
+    "_id": "a_bddfd2636d",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e5fb6279be"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_b2f9a3fc91": {
+    "_id": "a_b2f9a3fc91",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8575336bfc"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_8128abf783": {
+    "_id": "a_8128abf783",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c671a25887"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_8d1c4f385f": {
+    "_id": "a_8d1c4f385f",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_91df8a89ac"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_821a520431": {
+    "_id": "a_821a520431",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_62e5c4b2e1"
+      }
+    ]
+  },
+  "a_b4291fc234": {
+    "_id": "a_b4291fc234",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9f93bdbabd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_80e16e8e63": {
+    "_id": "a_80e16e8e63",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 half scholarship",
+    "program": [
+      {
+        "row_id": "p_d63a778349"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_0aaeb046cf": {
+    "_id": "a_0aaeb046cf",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 $15k",
+    "program": [
+      {
+        "row_id": "p_cf3ae39815"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_93adb95ad2": {
+    "_id": "a_93adb95ad2",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_3f80e6be2b": {
+    "_id": "a_3f80e6be2b",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1bd0f7831c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_2843748af2": {
+    "_id": "a_2843748af2",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1b64ed546"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_f1be413435": {
+    "_id": "a_f1be413435",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_5d8bb4ff78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_0110787268": {
+    "_id": "a_0110787268",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_588dedb674": {
+    "_id": "a_588dedb674",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_36d2e22521"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9ef007ddf5"
+      }
+    ]
+  },
+  "a_17e044970b": {
+    "_id": "a_17e044970b",
+    "result": "Chosen",
+    "submit_date": "2025.12",
+    "result_date": "2026.03",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_504346da5f": {
+    "_id": "a_504346da5f",
+    "result": "Admit",
+    "submit_date": "2025.12",
+    "result_date": "2026.01",
+    "note": "视频面试",
+    "program": [
+      {
+        "row_id": "p_0a614bb19e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_475ff2c575": {
+    "_id": "a_475ff2c575",
+    "result": "Admit",
+    "submit_date": "2025.12",
+    "result_date": "2026.02",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d290632baf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_8d3c5b1103": {
+    "_id": "a_8d3c5b1103",
+    "result": "Admit",
+    "submit_date": "2025.12",
+    "result_date": "2026.01",
+    "note": "奖 $10,000",
+    "program": [
+      {
+        "row_id": "p_0cbdc975a9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_be2ec2238b": {
+    "_id": "a_be2ec2238b",
+    "result": "Admit",
+    "submit_date": "2025.12",
+    "result_date": "2026.02",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d290632baf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_42efa1cda6": {
+    "_id": "a_42efa1cda6",
+    "result": "Reject",
+    "submit_date": "2025.12",
+    "result_date": "2026.05",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a2985f4e00"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_9e656a9438"
+      }
+    ]
+  },
+  "a_766c393da1": {
+    "_id": "a_766c393da1",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 10%",
+    "program": [
+      {
+        "row_id": "p_16ad0a28f9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_9bab039c93": {
+    "_id": "a_9bab039c93",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1e204bdbd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_ecb183a406": {
+    "_id": "a_ecb183a406",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 7000/year",
+    "program": [
+      {
+        "row_id": "p_2cbdc3fb8f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_e723a49ca6": {
+    "_id": "a_e723a49ca6",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2dee4b5d10"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_358a264518": {
+    "_id": "a_358a264518",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 20000/year",
+    "program": [
+      {
+        "row_id": "p_744678d186"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_396c7f79b8": {
+    "_id": "a_396c7f79b8",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b2644da456"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_1ba478ce53": {
+    "_id": "a_1ba478ce53",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1b64ed546"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fb2ea1143d"
+      }
+    ]
+  },
+  "a_2f89f4c6dc": {
+    "_id": "a_2f89f4c6dc",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_08bfbbcbef"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_e68ecb3909": {
+    "_id": "a_e68ecb3909",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a4f0c5f3fd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_280f340686": {
+    "_id": "a_280f340686",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e4afcd0e7e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_72da764b89": {
+    "_id": "a_72da764b89",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_56e1da33e2": {
+    "_id": "a_56e1da33e2",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_26e8f9484b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_dbc55a4c2b": {
+    "_id": "a_dbc55a4c2b",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9a58827875"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_07bf8b7737": {
+    "_id": "a_07bf8b7737",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b08be2cb3d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_0b13bd1e7c": {
+    "_id": "a_0b13bd1e7c",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a2985f4e00"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_4cea8207a3": {
+    "_id": "a_4cea8207a3",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a53f57a627"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c995858542"
+      }
+    ]
+  },
+  "a_7f989e0a78": {
+    "_id": "a_7f989e0a78",
+    "result": "Chosen",
+    "submit_date": "10.23",
+    "result_date": "12.18",
+    "note": "Cond 70",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_b600ee42b5": {
+    "_id": "a_b600ee42b5",
+    "result": "Admit",
+    "submit_date": "10.20",
+    "result_date": "11.12",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2c9a5962de"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_7d1aa3c6c9": {
+    "_id": "a_7d1aa3c6c9",
+    "result": "Admit",
+    "submit_date": "10.20",
+    "result_date": "1.7",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0121198f44"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_ea4df92f24": {
+    "_id": "a_ea4df92f24",
+    "result": "Admit",
+    "submit_date": "10.20",
+    "result_date": "11.19",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2dee4b5d10"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_5879900ae3": {
+    "_id": "a_5879900ae3",
+    "result": "Admit",
+    "submit_date": "10.26",
+    "result_date": "11.24",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6e2daf8b72"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_d2e34c09de": {
+    "_id": "a_d2e34c09de",
+    "result": "Reject",
+    "submit_date": "11.4",
+    "result_date": "12.16",
+    "note": "12.8面邀 12.16面试",
+    "program": [
+      {
+        "row_id": "p_08c75b54a9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_4c6121b7c2": {
+    "_id": "a_4c6121b7c2",
+    "result": "Reject",
+    "submit_date": "11.4",
+    "result_date": "1.8",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a4c5b468e9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_3deb9ba4ee": {
+    "_id": "a_3deb9ba4ee",
+    "result": "Reject",
+    "submit_date": "11.27",
+    "result_date": "2.4",
+    "note": "1.26面试",
+    "program": [
+      {
+        "row_id": "p_7ab2e86e74"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_b83c7f70c7": {
+    "_id": "a_b83c7f70c7",
+    "result": "Reject",
+    "submit_date": "11.27",
+    "result_date": "3.28",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c69f630fda"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_285809a3f0"
+      }
+    ]
+  },
+  "a_f9e8d28a61": {
+    "_id": "a_f9e8d28a61",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_d68927aa37": {
+    "_id": "a_d68927aa37",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 全奖",
+    "program": [
+      {
+        "row_id": "p_f5479ae62d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_eeb6641190": {
+    "_id": "a_eeb6641190",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_14394d97b4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_41a267956f": {
+    "_id": "a_41a267956f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 全奖",
+    "program": [
+      {
+        "row_id": "p_cd81e45c73"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_da25937994": {
+    "_id": "a_da25937994",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2db7f88d60"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_c829a43877": {
+    "_id": "a_c829a43877",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6dd9e706f0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_d24266f517": {
+    "_id": "a_d24266f517",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ef1734b2fe"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_413760cfe2": {
+    "_id": "a_413760cfe2",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_97fa8de793"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_5fb82115f8": {
+    "_id": "a_5fb82115f8",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e3d63fd0fe"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_e456c32790": {
+    "_id": "a_e456c32790",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9b47df910d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ad12c3ccfb"
+      }
+    ]
+  },
+  "a_2b2a17bc64": {
+    "_id": "a_2b2a17bc64",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_16ad0a28f9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_5fc471f771": {
+    "_id": "a_5fc471f771",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_b47d6fa508": {
+    "_id": "a_b47d6fa508",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_7f907132c0": {
+    "_id": "a_7f907132c0",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c63cf66dec"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_7a604e8097": {
+    "_id": "a_7a604e8097",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ecf185dc13"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_ad28a5fbc2": {
+    "_id": "a_ad28a5fbc2",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_adcf5fc3cf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_27fbd16030": {
+    "_id": "a_27fbd16030",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_fcdafcbd78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_224a55d13f": {
+    "_id": "a_224a55d13f",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a53f57a627"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_44c99e4c08"
+      }
+    ]
+  },
+  "a_897fcbe61f": {
+    "_id": "a_897fcbe61f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_fa06383825"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_088fa6ae16"
+      }
+    ]
+  },
+  "a_34e311dde7": {
+    "_id": "a_34e311dde7",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_431470a933"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_088fa6ae16"
+      }
+    ]
+  },
+  "a_a0d9948c50": {
+    "_id": "a_a0d9948c50",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_3f9485b5d5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_de4b2820a9"
+      }
+    ]
+  },
+  "a_d1a34c9c73": {
+    "_id": "a_d1a34c9c73",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_63b24ca737"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_429b71ffbc"
+      }
+    ]
+  },
+  "a_7499cdfc4e": {
+    "_id": "a_7499cdfc4e",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9a58827875"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_429b71ffbc"
+      }
+    ]
+  },
+  "a_63189d5a2c": {
+    "_id": "a_63189d5a2c",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_26e8f9484b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_429b71ffbc"
+      }
+    ]
+  },
+  "a_da3c2fecb0": {
+    "_id": "a_da3c2fecb0",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_429b71ffbc"
+      }
+    ]
+  },
+  "a_3b3e4e6755": {
+    "_id": "a_3b3e4e6755",
+    "result": "Admit",
+    "submit_date": "2025.10",
+    "result_date": "2025.12",
+    "note": "Cond 70 / 无面试，免语言",
+    "program": [
+      {
+        "row_id": "p_08c75b54a9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_fa155ed414": {
+    "_id": "a_fa155ed414",
+    "result": "Admit",
+    "submit_date": "2025.10",
+    "result_date": "2026.3",
+    "note": "Cond 一等学位 / 免语言",
+    "program": [
+      {
+        "row_id": "p_fa06383825"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_158b9c8321": {
+    "_id": "a_158b9c8321",
+    "result": "Admit",
+    "submit_date": "2025.10",
+    "result_date": "2026.3",
+    "note": "Cond 一等学位",
+    "program": [
+      {
+        "row_id": "p_7d7c0e39e6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_36ad392171": {
+    "_id": "a_36ad392171",
+    "result": "Admit",
+    "submit_date": "2026.1",
+    "result_date": "2026.3",
+    "note": "GRE Sub，语言可免除",
+    "program": [
+      {
+        "row_id": "p_431470a933"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_a726e09925": {
+    "_id": "a_a726e09925",
+    "result": "Admit",
+    "submit_date": "2026.1",
+    "result_date": "2026.4",
+    "note": "免语言",
+    "program": [
+      {
+        "row_id": "p_eb213b560a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_20dca74f93": {
+    "_id": "a_20dca74f93",
+    "result": "Reject",
+    "submit_date": "2026.1",
+    "result_date": "2026.3",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c39f06de63"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cc6166fee5"
+      }
+    ]
+  },
+  "a_8e06287940": {
+    "_id": "a_8e06287940",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_deaef2253b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c8d91dfde1"
+      }
+    ]
+  },
+  "a_d5cbdaeb34": {
+    "_id": "a_d5cbdaeb34",
+    "result": "Admit",
+    "submit_date": "25.12.16",
+    "result_date": "26.3.19",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_fa06383825"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_6ef7db3c96": {
+    "_id": "a_6ef7db3c96",
+    "result": "Chosen",
+    "submit_date": "25.10.24",
+    "result_date": "26.1.15",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_adcf5fc3cf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_28e8d69007": {
+    "_id": "a_28e8d69007",
+    "result": "Admit",
+    "submit_date": "25.11.18",
+    "result_date": "26.1.14",
+    "note": "有面试，但是很友好，围绕cv展开，不是压力面！",
+    "program": [
+      {
+        "row_id": "p_c69f630fda"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_92e5b20584": {
+    "_id": "a_92e5b20584",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_785370122a": {
+    "_id": "a_785370122a",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "交网申的时候有一个线上面试，需要回答三道题，行为面试，但感觉对录取结果影响不大",
+    "program": [
+      {
+        "row_id": "p_d7d0601704"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_619d9bc165": {
+    "_id": "a_619d9bc165",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_398b19819b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_3cd26c4946": {
+    "_id": "a_3cd26c4946",
+    "result": "Reject",
+    "submit_date": "25.11.4",
+    "result_date": "25.12.11",
+    "note": "感觉这个项目会看cv和文书的背景是否和项目比较匹配，回想起来可能是因为写文书的侧重点有些偏，在一开始就被刷下来了",
+    "program": [
+      {
+        "row_id": "p_08c75b54a9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_3e1388bf40": {
+    "_id": "a_3e1388bf40",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "26.3.14",
+    "note": "这个项目收到拒信还挺意外的，可能是项目有一些独特的偏好",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_6f7faa3d1a": {
+    "_id": "a_6f7faa3d1a",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "26.2.19",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_5d8bb4ff78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2a35e96b3a"
+      }
+    ]
+  },
+  "a_6c86a7d52a": {
+    "_id": "a_6c86a7d52a",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1学位",
+    "program": [
+      {
+        "row_id": "p_fb81079bcc"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_f90000166f": {
+    "_id": "a_f90000166f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1学位 / 有面试",
+    "program": [
+      {
+        "row_id": "p_8c07d1e39b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_6471b2d3bd": {
+    "_id": "a_6471b2d3bd",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dd1abb87da"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_b51e6dba6e": {
+    "_id": "a_b51e6dba6e",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1学位",
+    "program": [
+      {
+        "row_id": "p_b2644da456"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_9170c0ec11": {
+    "_id": "a_9170c0ec11",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_cd4e0084cc"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_a8256cd6f8": {
+    "_id": "a_a8256cd6f8",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a8a4071c53"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_2c6e9cb09e": {
+    "_id": "a_2c6e9cb09e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_12502c704d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_07b4fe2a93": {
+    "_id": "a_07b4fe2a93",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "最终去向",
+    "program": [
+      {
+        "row_id": "p_3f9485b5d5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_f585867b3f"
+      }
+    ]
+  },
+  "a_169e1a9c49": {
+    "_id": "a_169e1a9c49",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dc7f08af7e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_116da77ae0"
+      }
+    ]
+  },
+  "a_66c2732b3e": {
+    "_id": "a_66c2732b3e",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9e9d96d947"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_116da77ae0"
+      }
+    ]
+  },
+  "a_7c6c21a13c": {
+    "_id": "a_7c6c21a13c",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_804986481e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_116da77ae0"
+      }
+    ]
+  },
+  "a_aa4a03354d": {
+    "_id": "a_aa4a03354d",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_94d7af8c65"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_e40018952c": {
+    "_id": "a_e40018952c",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_211f03881f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_00a9033c97": {
+    "_id": "a_00a9033c97",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6ccf953b96"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_34e6ab8c21": {
+    "_id": "a_34e6ab8c21",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_eae055fcd7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_14f9b0b931": {
+    "_id": "a_14f9b0b931",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a1e442d47e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_cc785b6029": {
+    "_id": "a_cc785b6029",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "最终去向",
+    "program": [
+      {
+        "row_id": "p_453057d455"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_0b941d7420"
+      }
+    ]
+  },
+  "a_64ffeec946": {
+    "_id": "a_64ffeec946",
+    "result": "Admit",
+    "submit_date": "2026-01-05",
+    "result_date": "2026/02/17",
+    "note": "Cond 雅思7（6.5）",
+    "program": [
+      {
+        "row_id": "p_9aa246c0a2"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_2646b42724": {
+    "_id": "a_2646b42724",
+    "result": "Chosen",
+    "submit_date": "2026/02/09",
+    "result_date": "2026/04/14",
+    "note": "Cond 雅思7.5（7） / 面试",
+    "program": [
+      {
+        "row_id": "p_c69f630fda"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_cd1f9bcea1": {
+    "_id": "a_cd1f9bcea1",
+    "result": "Admit",
+    "submit_date": "2025/11/19",
+    "result_date": "2026/02/01",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ef1734b2fe"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_f085b3a0e4": {
+    "_id": "a_f085b3a0e4",
+    "result": "Admit",
+    "submit_date": "2025/11/19",
+    "result_date": "2025/11/25",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_804986481e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_e09975272c": {
+    "_id": "a_e09975272c",
+    "result": "Admit",
+    "submit_date": "2025/11/29",
+    "result_date": "2026/01/16",
+    "note": "GRE",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_9872f027a1": {
+    "_id": "a_9872f027a1",
+    "result": "Admit",
+    "submit_date": "2025/12/13",
+    "result_date": "2026/02/14",
+    "note": "奖 6.6k 刀",
+    "program": [
+      {
+        "row_id": "p_26e8f9484b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_a6bc7f855e": {
+    "_id": "a_a6bc7f855e",
+    "result": "Admit",
+    "submit_date": "2025/11/29",
+    "result_date": "2026/01/03",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_907348572f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_22115876d0": {
+    "_id": "a_22115876d0",
+    "result": "Admit",
+    "submit_date": "2025/11/29",
+    "result_date": "2026/03/20",
+    "note": "奖 3w刀 / GRE",
+    "program": [
+      {
+        "row_id": "p_d7125b2bf1"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_4175e53a10": {
+    "_id": "a_4175e53a10",
+    "result": "Admit",
+    "submit_date": "2026/01/02",
+    "result_date": "2026/02/14",
+    "note": "GRE",
+    "program": [
+      {
+        "row_id": "p_a4f0c5f3fd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_05727fb679": {
+    "_id": "a_05727fb679",
+    "result": "Admit",
+    "submit_date": "2026/02/01",
+    "result_date": "2026/04/01",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_6109aeb465": {
+    "_id": "a_6109aeb465",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_08bfbbcbef"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_7bd2e82c95": {
+    "_id": "a_7bd2e82c95",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5f41899953"
+      }
+    ]
+  },
+  "a_10a334eb12": {
+    "_id": "a_10a334eb12",
+    "result": "Admit",
+    "submit_date": "2026.02.16",
+    "result_date": "2026.02.25",
+    "note": "Cond 2:1 / 留位费限期1个月，在等Cam和UCL途中交了留位费1500 pounds",
+    "program": [
+      {
+        "row_id": "p_7b34371302"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_54055867d5": {
+    "_id": "a_54055867d5",
+    "result": "Admit",
+    "submit_date": "2026.02.02",
+    "result_date": "2026.03.05",
+    "note": "已Decline",
+    "program": [
+      {
+        "row_id": "p_b2644da456"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_2bed08d426": {
+    "_id": "a_2bed08d426",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "2026.04.21",
+    "note": "博士拒后Render录取",
+    "program": [
+      {
+        "row_id": "p_533d0b71ac"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_43551fb939": {
+    "_id": "a_43551fb939",
+    "result": "Chosen",
+    "submit_date": "2.19",
+    "result_date": "4.20",
+    "note": "Cond 2：1 雅思 7(7) / 有面试，非压力面",
+    "program": [
+      {
+        "row_id": "p_c69f630fda"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_b7ecea42a7": {
+    "_id": "a_b7ecea42a7",
+    "result": "Reject",
+    "submit_date": "2026.2.7",
+    "result_date": "2026.3.25",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a21b86e03f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_02f26085cf": {
+    "_id": "a_02f26085cf",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.2.18",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_de6c2e8b0d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_32af59cb88": {
+    "_id": "a_32af59cb88",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.3.11",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6176a159bd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_a4f3886e69": {
+    "_id": "a_a4f3886e69",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.4.3",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_f2830e0772"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_f8ae7e8a5f": {
+    "_id": "a_f8ae7e8a5f",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.3.16",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ec599a0346"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_c6d0d29092": {
+    "_id": "a_c6d0d29092",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.2.05",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0ac11f940b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_22661eaee1": {
+    "_id": "a_22661eaee1",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.3.11",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_14dcba5edd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_edf92dab84": {
+    "_id": "a_edf92dab84",
+    "result": "Reject",
+    "submit_date": "2026.01.22",
+    "result_date": "2026.04.14",
+    "note": "难",
+    "program": [
+      {
+        "row_id": "p_8e71364b35"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_5abed8a338": {
+    "_id": "a_5abed8a338",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.04.25",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_22718a6664"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_84bbe26d86": {
+    "_id": "a_84bbe26d86",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d6cedd7447"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_933b639e6b": {
+    "_id": "a_933b639e6b",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.04.26",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_7b9138d799"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_ba7b2833f2": {
+    "_id": "a_ba7b2833f2",
+    "result": "Reject",
+    "submit_date": "2025.11.23",
+    "result_date": "2026.05.05",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a9579f38f5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2e012a0178"
+      }
+    ]
+  },
+  "a_fa376de13a": {
+    "_id": "a_fa376de13a",
+    "result": "Chosen",
+    "submit_date": "2026-01-08",
+    "result_date": "2026-03-11",
+    "note": "Cond 毕业即可",
+    "program": [
+      {
+        "row_id": "p_6e0f28dd3e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_9b541ebb5c": {
+    "_id": "a_9b541ebb5c",
+    "result": "Admit",
+    "submit_date": "2026-01-08",
+    "result_date": "2026-01-21",
+    "note": "Cond 50%",
+    "program": [
+      {
+        "row_id": "p_d509ce32e9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_af68a48321": {
+    "_id": "a_af68a48321",
+    "result": "Admit",
+    "submit_date": "2026-01-06",
+    "result_date": "2026-01-27",
+    "note": "Cond 60%",
+    "program": [
+      {
+        "row_id": "p_684505c9bd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_f73c239de9": {
+    "_id": "a_f73c239de9",
+    "result": "Admit",
+    "submit_date": "2025-11-07",
+    "result_date": "2026-03-03",
+    "note": "Cond 62%",
+    "program": [
+      {
+        "row_id": "p_31a30a1cf1"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_28e9e5d888": {
+    "_id": "a_28e9e5d888",
+    "result": "Reject",
+    "submit_date": "2026-01-18",
+    "result_date": "2026-01-29",
+    "note": "It needs 65%, i dont think i can make it",
+    "program": [
+      {
+        "row_id": "p_3a96eee95f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_62c5367f41": {
+    "_id": "a_62c5367f41",
+    "result": "Reject",
+    "submit_date": "2026-02-23",
+    "result_date": "2026-04-15",
+    "note": "要交2000英镑保证金，但已经交了哥本哈根了",
+    "program": [
+      {
+        "row_id": "p_f1545b55fe"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8ba059cc46"
+      }
+    ]
+  },
+  "a_b838f189f0": {
+    "_id": "a_b838f189f0",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_311318d80f": {
+    "_id": "a_311318d80f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_5cb7dc9146"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_b01c13cb90": {
+    "_id": "a_b01c13cb90",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_95ecd5fe1e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_978670f9f9": {
+    "_id": "a_978670f9f9",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_67bf79a25a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_e95c0c2448": {
+    "_id": "a_e95c0c2448",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2c9a5962de"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_674a2c8c59": {
+    "_id": "a_674a2c8c59",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6e2daf8b72"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_ddf4da003a": {
+    "_id": "a_ddf4da003a",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d7125b2bf1"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_b1f8f2c659": {
+    "_id": "a_b1f8f2c659",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6b3eee8ef7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_f9423ee9b4": {
+    "_id": "a_f9423ee9b4",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b08be2cb3d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_3db009a844": {
+    "_id": "a_3db009a844",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ef1734b2fe"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_9d1ce17712": {
+    "_id": "a_9d1ce17712",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e181bbb46e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e4c89bee71"
+      }
+    ]
+  },
+  "a_6c0d045bd4": {
+    "_id": "a_6c0d045bd4",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1 雅思7(r6.5) / 有面试",
+    "program": [
+      {
+        "row_id": "p_c69f630fda"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_42f16d2589": {
+    "_id": "a_42f16d2589",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1 雅思7(r6.5) / 有面试；2篇sample work",
+    "program": [
+      {
+        "row_id": "p_6dd9e706f0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_a4351f7185": {
+    "_id": "a_a4351f7185",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:1 雅思6.5(6) / 有面试（考数学+coding）",
+    "program": [
+      {
+        "row_id": "p_8c07d1e39b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_0a7d884ad3": {
+    "_id": "a_0a7d884ad3",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 2:2",
+    "program": [
+      {
+        "row_id": "p_a1e442d47e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_57bf151693": {
+    "_id": "a_57bf151693",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_cf3ae39815"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_79d3972131": {
+    "_id": "a_79d3972131",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_0df495349f": {
+    "_id": "a_0df495349f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_b1bb2445f1": {
+    "_id": "a_b1bb2445f1",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1bd0f7831c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_3326f08324": {
+    "_id": "a_3326f08324",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0a88be74ae"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_dd91f27f22": {
+    "_id": "a_dd91f27f22",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_07159d78b6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_cf8206aa36": {
+    "_id": "a_cf8206aa36",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_64932f5653"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_0adda5deb3": {
+    "_id": "a_0adda5deb3",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d7d0601704"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_74e494d36a": {
+    "_id": "a_74e494d36a",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_45e02deecc"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_59e363aec7": {
+    "_id": "a_59e363aec7",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1ebc30e1e6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_cad2e857dc"
+      }
+    ]
+  },
+  "a_3a5d0655dc": {
+    "_id": "a_3a5d0655dc",
+    "result": "Chosen",
+    "submit_date": "2025/8",
+    "result_date": "2026/2",
+    "note": "Cond pass",
+    "program": [
+      {
+        "row_id": "p_999ce52907"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_7442182137"
+      }
+    ]
+  },
+  "a_e2fd891910": {
+    "_id": "a_e2fd891910",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_20d2b4ccb6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_7442182137"
+      }
+    ]
+  },
+  "a_1c1a0ae128": {
+    "_id": "a_1c1a0ae128",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1f0a813eb6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_7442182137"
+      }
+    ]
+  },
+  "a_d045d5d193": {
+    "_id": "a_d045d5d193",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4b4ac31fb6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_7442182137"
+      }
+    ]
+  },
+  "a_fe59b8be52": {
+    "_id": "a_fe59b8be52",
+    "result": "Chosen",
+    "submit_date": "2026.2-3月",
+    "result_date": "2026.3-4月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_907348572f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_e185a7bad0": {
+    "_id": "a_e185a7bad0",
+    "result": "Admit",
+    "submit_date": "20261-2月",
+    "result_date": "2026.3.5",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_7a6ab86e4a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_4bf8d9eb6d": {
+    "_id": "a_4bf8d9eb6d",
+    "result": "Admit",
+    "submit_date": "2025.12-2026.2月",
+    "result_date": "2026.3月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8d2be7913d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_e7cb5ae8f2": {
+    "_id": "a_e7cb5ae8f2",
+    "result": "Admit",
+    "submit_date": "2025.11月-2026.1月",
+    "result_date": "2026.4-5月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_d4f3529e01"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_e1f0c41b9d": {
+    "_id": "a_e1f0c41b9d",
+    "result": "Admit",
+    "submit_date": "2025.11-12月",
+    "result_date": "2026.2-3月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9b9e29eda4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_59fca97727": {
+    "_id": "a_59fca97727",
+    "result": "Admit",
+    "submit_date": "202512-2026.2",
+    "result_date": "2026.3-4月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_3dfaabf4fb"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_dd575eb441": {
+    "_id": "a_dd575eb441",
+    "result": "Admit",
+    "submit_date": "2026.2-3月",
+    "result_date": "2026.3-4月",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_83532ef5b0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_6037726bd6": {
+    "_id": "a_6037726bd6",
+    "result": "Waitlist",
+    "submit_date": "2026.1-3月",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9269a5ce12"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_673a8f93d1": {
+    "_id": "a_673a8f93d1",
+    "result": "Waitlist",
+    "submit_date": "2026.1-3月",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dd1abb87da"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_f235209a8a": {
+    "_id": "a_f235209a8a",
+    "result": "Waitlist",
+    "submit_date": "2026",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_867c76be7b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_fa77c3112f": {
+    "_id": "a_fa77c3112f",
+    "result": "Reject",
+    "submit_date": "2026",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6b3eee8ef7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_1f591602fa": {
+    "_id": "a_1f591602fa",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_7bf60ff385"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_edb9cf3a3e": {
+    "_id": "a_edb9cf3a3e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_16ad0a28f9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_9a9abf712b": {
+    "_id": "a_9a9abf712b",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b08be2cb3d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_f019b8b60e": {
+    "_id": "a_f019b8b60e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c730c7d30e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_772ba02ff6"
+      }
+    ]
+  },
+  "a_a8f7f2813d": {
+    "_id": "a_a8f7f2813d",
+    "result": "Chosen",
+    "submit_date": "2025.12.01",
+    "result_date": "2026.2.17",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_5d8bb4ff78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_8a9e1bf9b7": {
+    "_id": "a_8a9e1bf9b7",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c1f01e7e80"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_6540e67404": {
+    "_id": "a_6540e67404",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 20000$",
+    "program": [
+      {
+        "row_id": "p_20e79ab39b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_c6321574ac": {
+    "_id": "a_c6321574ac",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_458dcf333e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_92ae9fc455": {
+    "_id": "a_92ae9fc455",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1e204bdbd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_d933faf128": {
+    "_id": "a_d933faf128",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a17a96f1ac"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_01ab528d82": {
+    "_id": "a_01ab528d82",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_adcf5fc3cf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_5d27a8816c": {
+    "_id": "a_5d27a8816c",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0cc7496b3a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_02a1c3072c": {
+    "_id": "a_02a1c3072c",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c39f06de63"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_24b280897d": {
+    "_id": "a_24b280897d",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_98960df33c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_194710eb5b": {
+    "_id": "a_194710eb5b",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1b64ed546"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_28ad0c9bd5"
+      }
+    ]
+  },
+  "a_fa3808b3f8": {
+    "_id": "a_fa3808b3f8",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6dd9e706f0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_b44ef2f914": {
+    "_id": "a_b44ef2f914",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_675379e24b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_8a4692702d": {
+    "_id": "a_8a4692702d",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_139058e2bd": {
+    "_id": "a_139058e2bd",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_d52bc6986c": {
+    "_id": "a_d52bc6986c",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_ea2c17e220"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_2565bb8e69": {
+    "_id": "a_2565bb8e69",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6b3eee8ef7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_0fcf984355": {
+    "_id": "a_0fcf984355",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_9e278f53b6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_0f5c820758": {
+    "_id": "a_0f5c820758",
+    "result": "Reject",
+    "submit_date": "First Round",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_63b24ca737"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_ce7f12529b": {
+    "_id": "a_ce7f12529b",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b08be2cb3d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_df60365d76": {
+    "_id": "a_df60365d76",
+    "result": "Reject",
+    "submit_date": "First Round",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_f3caeabb30"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_eec9a206f3"
+      }
+    ]
+  },
+  "a_cf6f65b821": {
+    "_id": "a_cf6f65b821",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 全奖+RA / 套磁+两轮面试",
+    "program": [
+      {
+        "row_id": "p_ef7070d8f2"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5ee0397cb2"
+      }
+    ]
+  },
+  "a_312d9ac844": {
+    "_id": "a_312d9ac844",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 全奖+RA / 套磁一轮面试",
+    "program": [
+      {
+        "row_id": "p_3f2cccd25e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_5ee0397cb2"
+      }
+    ]
+  },
+  "a_1165d0f361": {
+    "_id": "a_1165d0f361",
+    "result": "Chosen",
+    "submit_date": "12.6",
+    "result_date": "2.26",
+    "note": "奖 50%奖 / 雅思>=7.5, GRE required",
+    "program": [
+      {
+        "row_id": "p_1c50601cc0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_17cf9ede26": {
+    "_id": "a_17cf9ede26",
+    "result": "Admit",
+    "submit_date": "12.24",
+    "result_date": "3.26",
+    "note": "面试",
+    "program": [
+      {
+        "row_id": "p_7ab2e86e74"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_24850fd5da": {
+    "_id": "a_24850fd5da",
+    "result": "Admit",
+    "submit_date": "11.30",
+    "result_date": "1.9",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_c63cf66dec"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_78cac11073": {
+    "_id": "a_78cac11073",
+    "result": "Admit",
+    "submit_date": "12.14",
+    "result_date": "3.24",
+    "note": "奖 1w刀",
+    "program": [
+      {
+        "row_id": "p_63b24ca737"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_27003424a2": {
+    "_id": "a_27003424a2",
+    "result": "Admit",
+    "submit_date": "11.30",
+    "result_date": "1.16",
+    "note": "奖 ~50%奖 / 面试",
+    "program": [
+      {
+        "row_id": "p_5e602a08ae"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_addc24e095": {
+    "_id": "a_addc24e095",
+    "result": "Admit",
+    "submit_date": "11.30",
+    "result_date": "2.19",
+    "note": "奖 40%奖",
+    "program": [
+      {
+        "row_id": "p_300a158681"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_20ddcb2185": {
+    "_id": "a_20ddcb2185",
+    "result": "Admit",
+    "submit_date": "11.30",
+    "result_date": "1.15",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_82123022b2": {
+    "_id": "a_82123022b2",
+    "result": "Admit",
+    "submit_date": "12.20",
+    "result_date": "1.14",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b2644da456"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_4b11337644": {
+    "_id": "a_4b11337644",
+    "result": "Admit",
+    "submit_date": "1.6",
+    "result_date": "2.12",
+    "note": "面试",
+    "program": [
+      {
+        "row_id": "p_3135824f31"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_79d8b591ea": {
+    "_id": "a_79d8b591ea",
+    "result": "Admit",
+    "submit_date": "12.6",
+    "result_date": "12.15",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_94ab4efb86"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_9efe5d2709": {
+    "_id": "a_9efe5d2709",
+    "result": "Reject",
+    "submit_date": "11.13",
+    "result_date": "1.8",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a4c5b468e9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_ac8a1903d8": {
+    "_id": "a_ac8a1903d8",
+    "result": "Reject",
+    "submit_date": "1.28",
+    "result_date": "3.20",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_fa06383825"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_e0c1cc1405": {
+    "_id": "a_e0c1cc1405",
+    "result": "Reject",
+    "submit_date": "12.25",
+    "result_date": "1.28",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1363f836fd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_11782ab4be": {
+    "_id": "a_11782ab4be",
+    "result": "Reject",
+    "submit_date": "12.19",
+    "result_date": "1.14",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b08be2cb3d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_4bf0362be5": {
+    "_id": "a_4bf0362be5",
+    "result": "Reject",
+    "submit_date": "11.30",
+    "result_date": "3.3",
+    "note": "不满足先修课要求+看本科学校+注重科研成果",
+    "program": [
+      {
+        "row_id": "p_fcdafcbd78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_76ef65a712": {
+    "_id": "a_76ef65a712",
+    "result": "Reject",
+    "submit_date": "11.30",
+    "result_date": "3.3",
+    "note": "科研方向不匹配，申请的时候就感觉不对。",
+    "program": [
+      {
+        "row_id": "p_010053866d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_4c085b41b2": {
+    "_id": "a_4c085b41b2",
+    "result": "Reject",
+    "submit_date": "1.14",
+    "result_date": "2.24",
+    "note": "比较注重科研成果。",
+    "program": [
+      {
+        "row_id": "p_a53f57a627"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_37cbd4d073"
+      }
+    ]
+  },
+  "a_cf5ff7a6dd": {
+    "_id": "a_cf5ff7a6dd",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 大四70 & 雅思7(6.5) / 无面",
+    "program": [
+      {
+        "row_id": "p_383a99eecd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_a6258fd598"
+      }
+    ]
+  },
+  "a_69600f52c2": {
+    "_id": "a_69600f52c2",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "无面",
+    "program": [
+      {
+        "row_id": "p_b8c6a40606"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_a6258fd598"
+      }
+    ]
+  },
+  "a_683f835729": {
+    "_id": "a_683f835729",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "无面",
+    "program": [
+      {
+        "row_id": "p_2aaa363d27"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_a6258fd598"
+      }
+    ]
+  },
+  "a_1056d9788c": {
+    "_id": "a_1056d9788c",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_013f2d1a16"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_a6258fd598"
+      }
+    ]
+  },
+  "a_e9fd0739ee": {
+    "_id": "a_e9fd0739ee",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_061ba921f8"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_a6258fd598"
+      }
+    ]
+  },
+  "a_350e7b1d93": {
+    "_id": "a_350e7b1d93",
+    "result": "Chosen",
+    "submit_date": "12.8",
+    "result_date": "12.18",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_2bf7e55883": {
+    "_id": "a_2bf7e55883",
+    "result": "Admit",
+    "submit_date": "12.4",
+    "result_date": "3.11",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_255b7ed32a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_cbcf83925f": {
+    "_id": "a_cbcf83925f",
+    "result": "Admit",
+    "submit_date": "12.9",
+    "result_date": "4.2",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dd1abb87da"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_08955739cc": {
+    "_id": "a_08955739cc",
+    "result": "Reject",
+    "submit_date": "11.11",
+    "result_date": "1.8",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a4c5b468e9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_226d636c27": {
+    "_id": "a_226d636c27",
+    "result": "Reject",
+    "submit_date": "11.14",
+    "result_date": "3.21",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_013f2d1a16"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_361cb02f40": {
+    "_id": "a_361cb02f40",
+    "result": "Reject",
+    "submit_date": "12.3",
+    "result_date": "1.28",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1363f836fd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_c70d807ef8"
+      }
+    ]
+  },
+  "a_cfb2be12f6": {
+    "_id": "a_cfb2be12f6",
+    "result": "Chosen",
+    "submit_date": "1.31",
+    "result_date": "4.1",
+    "note": "几乎没人知道的好项目,可以选的课覆盖整个工程学院(可能是宾大特色),想转工科可以考虑,可能比DS bar低一点,但是招的人远远少于DS(一届20人左右), bar比SE肯定高",
+    "program": [
+      {
+        "row_id": "p_5ae3899ee6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_678a1cdaa2": {
+    "_id": "a_678a1cdaa2",
+    "result": "Admit",
+    "submit_date": "1.26",
+    "result_date": "3.19",
+    "note": "Cond 一等",
+    "program": [
+      {
+        "row_id": "p_fa06383825"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_a1c0c6f249": {
+    "_id": "a_a1c0c6f249",
+    "result": "Admit",
+    "submit_date": "12.11",
+    "result_date": "1.7",
+    "note": "Cond 一等 / tl详细版: 12.11提交 - 12.12 with department -12.19 RIP - 12.21推荐信齐 -  1.7 offer - 1.20接offer-2.22留位费ddl-延期到4.19",
+    "program": [
+      {
+        "row_id": "p_0e14504857"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_0db3a22948": {
+    "_id": "a_0db3a22948",
+    "result": "Admit",
+    "submit_date": "11.29",
+    "result_date": "1.16",
+    "note": "1.30前回复",
+    "program": [
+      {
+        "row_id": "p_6444fd6d02"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_abbe0691c8": {
+    "_id": "a_abbe0691c8",
+    "result": "Admit",
+    "submit_date": "11.29",
+    "result_date": "2.18",
+    "note": "奖 20%学费减免 / 4.15前回复,感觉计算机的课很多,我当时选它就是觉得可以转码",
+    "program": [
+      {
+        "row_id": "p_300a158681"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_aca6b91566": {
+    "_id": "a_aca6b91566",
+    "result": "Admit",
+    "submit_date": "12.10",
+    "result_date": "2.13",
+    "note": "奖 10%学费减免 / 4.16前回复",
+    "program": [
+      {
+        "row_id": "p_26e8f9484b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_c72d8a68f3": {
+    "_id": "a_c72d8a68f3",
+    "result": "Admit",
+    "submit_date": "12.12",
+    "result_date": "2.25",
+    "note": "奖 3w美元奖学金 / 4.15前回复",
+    "program": [
+      {
+        "row_id": "p_63b24ca737"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_4a03dd3b9f": {
+    "_id": "a_4a03dd3b9f",
+    "result": "Admit",
+    "submit_date": "1.14",
+    "result_date": "3.9",
+    "note": "4.15前回复",
+    "program": [
+      {
+        "row_id": "p_9a58827875"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_3c40c49fbb": {
+    "_id": "a_3c40c49fbb",
+    "result": "Admit",
+    "submit_date": "1.24",
+    "result_date": "4.6",
+    "note": "4.20前回复,做计算数学,或者物理应用方向的好项目,和宾大AMCS一样,和博士生一起上课,压力大",
+    "program": [
+      {
+        "row_id": "p_eb213b560a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_3840e8a8b6": {
+    "_id": "a_3840e8a8b6",
+    "result": "Admit",
+    "submit_date": "1.28",
+    "result_date": "3.12",
+    "note": "4.15前回复,读博好项目,但是课太理论了,压力蛮大的,课和博士生一起上的",
+    "program": [
+      {
+        "row_id": "p_431470a933"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_b8a6768c8c": {
+    "_id": "a_b8a6768c8c",
+    "result": "Admit",
+    "submit_date": "1.28",
+    "result_date": "2.11",
+    "note": "8.6前回复",
+    "program": [
+      {
+        "row_id": "p_ea2c17e220"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_5ebe296ecc": {
+    "_id": "a_5ebe296ecc",
+    "result": "Reject",
+    "submit_date": "1.5",
+    "result_date": "2.9",
+    "note": "没招了,bar特别高,建议均分上90再申请吧(今年录取的应该只有上90的榜一大哥),很看实分析复分析线代微积分这类基础课的成绩(特别是分析!),要是分析下了90应该完全没戏(要是分析上了90,但均分88,89maybe可以上吧,前两年发offer多的年代是可以的)",
+    "program": [
+      {
+        "row_id": "p_7d7c0e39e6"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_5642b83ec5": {
+    "_id": "a_5642b83ec5",
+    "result": "Reject",
+    "submit_date": "11.13",
+    "result_date": "12.18",
+    "note": "tl: 11.13 提交 - 12.2面邀 - 12.15面试(从12.10延后)-12.18 rej   项目招的人比较少,之前所有录取的都要面试,今年开始有无面录,相应的面试进的难度就会大很多,面试要是卡壳了可能就希望渺茫了,题不难,主要是聊思路",
+    "program": [
+      {
+        "row_id": "p_08c75b54a9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_de211cc04a": {
+    "_id": "a_de211cc04a",
+    "result": "Reject",
+    "submit_date": "12.2",
+    "result_date": "3.3",
+    "note": "要求有计算机背景, 大S的每个项目都很难, 但是可以尝试哈佛的HDS,听说扩招了",
+    "program": [
+      {
+        "row_id": "p_fcdafcbd78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_37cc3d27b0": {
+    "_id": "a_37cc3d27b0",
+    "result": "Reject",
+    "submit_date": "1.13",
+    "result_date": "2.24",
+    "note": "放不下我的脑机接口理想,但是确实不匹配",
+    "program": [
+      {
+        "row_id": "p_a53f57a627"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_11104ee2f8"
+      }
+    ]
+  },
+  "a_edb5c610a7": {
+    "_id": "a_edb5c610a7",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 $25000.00 per year",
+    "program": [
+      {
+        "row_id": "p_83532ef5b0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_bbcf3f174a": {
+    "_id": "a_bbcf3f174a",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_3872d5e5f4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_e9f5b7eba6": {
+    "_id": "a_e9f5b7eba6",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e1b64ed546"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_db21eba6c6": {
+    "_id": "a_db21eba6c6",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 $15000.00",
+    "program": [
+      {
+        "row_id": "p_1bd0f7831c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_b4b92c5b55": {
+    "_id": "a_b4b92c5b55",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4c087632f5"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_39628d8225": {
+    "_id": "a_39628d8225",
+    "result": "Waitlist",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_398b19819b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_25381b6aa0": {
+    "_id": "a_25381b6aa0",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_de874b1a46"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_782088667b": {
+    "_id": "a_782088667b",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8680124441"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_80b6a72290": {
+    "_id": "a_80b6a72290",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_f3caeabb30"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_87d551533e": {
+    "_id": "a_87d551533e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_e8cdd00e4c"
+      }
+    ]
+  },
+  "a_fe4b1f405d": {
+    "_id": "a_fe4b1f405d",
+    "result": "Admit",
+    "submit_date": "10.13",
+    "result_date": "11.4",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_675379e24b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_167d7af1a7": {
+    "_id": "a_167d7af1a7",
+    "result": "Admit",
+    "submit_date": "10.7",
+    "result_date": "12.10",
+    "note": "奖 9,000 $ / 11.3 面试",
+    "program": [
+      {
+        "row_id": "p_0dea3e9554"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_94e04653d2": {
+    "_id": "a_94e04653d2",
+    "result": "Admit",
+    "submit_date": "12.2",
+    "result_date": "2.25",
+    "note": "奖 10%",
+    "program": [
+      {
+        "row_id": "p_16ad0a28f9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_b24a42bf2e": {
+    "_id": "a_b24a42bf2e",
+    "result": "Admit",
+    "submit_date": "1.5",
+    "result_date": "3.7",
+    "note": "奖 15,000 $",
+    "program": [
+      {
+        "row_id": "p_03008937ba"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_a9a012cd0a": {
+    "_id": "a_a9a012cd0a",
+    "result": "Admit",
+    "submit_date": "1.22",
+    "result_date": "3.18",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8a8489e5d9"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_4e88b30048": {
+    "_id": "a_4e88b30048",
+    "result": "Admit",
+    "submit_date": "10.12",
+    "result_date": "3.26",
+    "note": "12.4 线上笔试面试，笔试很关键且很难",
+    "program": [
+      {
+        "row_id": "p_c730c7d30e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_e160020b37": {
+    "_id": "a_e160020b37",
+    "result": "Chosen",
+    "submit_date": "10.27",
+    "result_date": "4.1",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_c2827a87a8": {
+    "_id": "a_c2827a87a8",
+    "result": "Waitlist",
+    "submit_date": "10.25",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_adcf5fc3cf"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_920ffb5c55": {
+    "_id": "a_920ffb5c55",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "连续两年被拒，不带搭理人的",
+    "program": [
+      {
+        "row_id": "p_e8175c8dce"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_bbe2030c18": {
+    "_id": "a_bbe2030c18",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_5d8bb4ff78"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_84cb04f74e": {
+    "_id": "a_84cb04f74e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "听说扩招了两倍，但没碰瓷成功",
+    "program": [
+      {
+        "row_id": "p_be355b5b5a"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_e2759c3f3d": {
+    "_id": "a_e2759c3f3d",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_63b24ca737"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_93ceadbc3e": {
+    "_id": "a_93ceadbc3e",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e4ade8760e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_46bf946635": {
+    "_id": "a_46bf946635",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_7ab2e86e74"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_197768a6ad": {
+    "_id": "a_197768a6ad",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_0b1ec8f04d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_31624ceaa0": {
+    "_id": "a_31624ceaa0",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_64932f5653"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_dc1fdb8dcb"
+      }
+    ]
+  },
+  "a_160c3ac3fe": {
+    "_id": "a_160c3ac3fe",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "需面试",
+    "program": [
+      {
+        "row_id": "p_2e346aaaab"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_7222a6f4ff": {
+    "_id": "a_7222a6f4ff",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "第一志愿",
+    "program": [
+      {
+        "row_id": "p_5140da0882"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_de5e4f1a77": {
+    "_id": "a_de5e4f1a77",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "第二志愿",
+    "program": [
+      {
+        "row_id": "p_b8c6a40606"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_78ea52ab7f": {
+    "_id": "a_78ea52ab7f",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "需面试",
+    "program": [
+      {
+        "row_id": "p_abda4b3cf7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_e51e930179": {
+    "_id": "a_e51e930179",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_4e6f69208c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_7dc40226b8": {
+    "_id": "a_7dc40226b8",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_cb53d7e674"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_c72a58b7ec": {
+    "_id": "a_c72a58b7ec",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_2317e8a81c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_45148c2136": {
+    "_id": "a_45148c2136",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_03949fd339"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_e9a8f73a95": {
+    "_id": "a_e9a8f73a95",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_dc81ee4b5f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_250962a1bd"
+      }
+    ]
+  },
+  "a_ddaf45e344": {
+    "_id": "a_ddaf45e344",
+    "result": "Chosen",
+    "submit_date": "2025.12.3",
+    "result_date": "2025.1.22",
+    "note": "Cond 2:1 语言内测 or 7/7 / 大约30mins面试",
+    "program": [
+      {
+        "row_id": "p_6dd9e706f0"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_588c6e0f0c": {
+    "_id": "a_588c6e0f0c",
+    "result": "Admit",
+    "submit_date": "2026.3.25",
+    "result_date": "2026.6.18",
+    "note": "Cond 一等 语言7/6.5 / 无面试",
+    "program": [
+      {
+        "row_id": "p_46d1448acd"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_df47253029": {
+    "_id": "a_df47253029",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "奖 30% tuition",
+    "program": [
+      {
+        "row_id": "p_300a158681"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_27bad7b7df": {
+    "_id": "a_27bad7b7df",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "无面拒",
+    "program": [
+      {
+        "row_id": "p_de87abfce4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_62006dbd56": {
+    "_id": "a_62006dbd56",
+    "result": "Reject",
+    "submit_date": "2026.1.10",
+    "result_date": "2026.3.25",
+    "note": "无面拒",
+    "program": [
+      {
+        "row_id": "p_a21b86e03f"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_d74e93322c": {
+    "_id": "a_d74e93322c",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "无面拒",
+    "program": [
+      {
+        "row_id": "p_431470a933"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_ccb8afd51b"
+      }
+    ]
+  },
+  "a_0a6b88f2c3": {
+    "_id": "a_0a6b88f2c3",
+    "result": "Chosen",
+    "submit_date": "2025.11.5",
+    "result_date": "2026.3.12",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_a8a4071c53"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_3873022192": {
+    "_id": "a_3873022192",
+    "result": "Admit",
+    "submit_date": "2025.12.9",
+    "result_date": "2026.5.29",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_999ce52907"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_4061c8a68a": {
+    "_id": "a_4061c8a68a",
+    "result": "Admit",
+    "submit_date": "2025.11.17",
+    "result_date": "2026.1.13",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e6b55d6b6c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_9691759e9b": {
+    "_id": "a_9691759e9b",
+    "result": "Admit",
+    "submit_date": "2025.12.9",
+    "result_date": "2025.12.18",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_804986481e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_15bf02f4f1": {
+    "_id": "a_15bf02f4f1",
+    "result": "Reject",
+    "submit_date": "2025.11.20",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1a15acbae4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_02adefd1f9": {
+    "_id": "a_02adefd1f9",
+    "result": "Reject",
+    "submit_date": "2025.10.18",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_8c07d1e39b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_67fb12a62d"
+      }
+    ]
+  },
+  "a_b1da72a2a2": {
+    "_id": "a_b1da72a2a2",
+    "result": "Chosen",
+    "submit_date": "12.29",
+    "result_date": "3.25",
+    "note": "Cond Con 2:1",
+    "program": [
+      {
+        "row_id": "p_7ab2e86e74"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fcf46ab1c6"
+      }
+    ]
+  },
+  "a_7802df3bda": {
+    "_id": "a_7802df3bda",
+    "result": "Admit",
+    "submit_date": "10.19",
+    "result_date": "11.20",
+    "note": "Cond Con 2:1",
+    "program": [
+      {
+        "row_id": "p_abda4b3cf7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fcf46ab1c6"
+      }
+    ]
+  },
+  "a_51cccd6a60": {
+    "_id": "a_51cccd6a60",
+    "result": "Reject",
+    "submit_date": "11.15",
+    "result_date": "1.14",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_013f2d1a16"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fcf46ab1c6"
+      }
+    ]
+  },
+  "a_1b8cdbf5b9": {
+    "_id": "a_1b8cdbf5b9",
+    "result": "Reject",
+    "submit_date": "12.29",
+    "result_date": "1.14",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_b2644da456"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fcf46ab1c6"
+      }
+    ]
+  },
+  "a_8e2a4a7eae": {
+    "_id": "a_8e2a4a7eae",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_3cc3afaeb4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_fcf46ab1c6"
+      }
+    ]
+  },
+  "a_b946d426e9": {
+    "_id": "a_b946d426e9",
+    "result": "Chosen",
+    "submit_date": "10.27",
+    "result_date": "12.6",
+    "note": "Cond con二等一 / 11.20收到面邀；12.4面试，晚上状态就变成review in progress了；",
+    "program": [
+      {
+        "row_id": "p_8c07d1e39b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2313b00ac6"
+      }
+    ]
+  },
+  "a_47eb13bf24": {
+    "_id": "a_47eb13bf24",
+    "result": "Admit",
+    "submit_date": "10.27",
+    "result_date": "12.3",
+    "note": "Cond con一等",
+    "program": [
+      {
+        "row_id": "p_e6b55d6b6c"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2313b00ac6"
+      }
+    ]
+  },
+  "a_a363dabf20": {
+    "_id": "a_a363dabf20",
+    "result": "Admit",
+    "submit_date": "10.27",
+    "result_date": "1.29",
+    "note": "Cond con一等",
+    "program": [
+      {
+        "row_id": "p_e672ebd868"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2313b00ac6"
+      }
+    ]
+  },
+  "a_fac3009415": {
+    "_id": "a_fac3009415",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "5.27",
+    "note": "无面拒",
+    "program": [
+      {
+        "row_id": "p_e8175c8dce"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2313b00ac6"
+      }
+    ]
+  },
+  "a_da82870a2a": {
+    "_id": "a_da82870a2a",
+    "result": "Reject",
+    "submit_date": "10.10",
+    "result_date": "",
+    "note": "11.21收到面试邀请，12.3面试，后面没消息默拒了应该",
+    "program": [
+      {
+        "row_id": "p_a8a4071c53"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_2313b00ac6"
+      }
+    ]
+  },
+  "a_3b75fd28e8": {
+    "_id": "a_3b75fd28e8",
+    "result": "Chosen",
+    "submit_date": "",
+    "result_date": "",
+    "note": "Cond 二等一",
+    "program": [
+      {
+        "row_id": "p_abda4b3cf7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_cc4343bde3": {
+    "_id": "a_cc4343bde3",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_717f09b6d7"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_1aa17778f0": {
+    "_id": "a_1aa17778f0",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_e672ebd868"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_097bd02715": {
+    "_id": "a_097bd02715",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_804986481e"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_68da8f62db": {
+    "_id": "a_68da8f62db",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_26e8f9484b"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_3574b2dbb2": {
+    "_id": "a_3574b2dbb2",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_453057d455"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_7ef81de988": {
+    "_id": "a_7ef81de988",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_6e2daf8b72"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_5b6b5ecb8e": {
+    "_id": "a_5b6b5ecb8e",
+    "result": "Admit",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_19a3f7e79d"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  },
+  "a_d1d63d3f63": {
+    "_id": "a_d1d63d3f63",
+    "result": "Reject",
+    "submit_date": "",
+    "result_date": "",
+    "note": "",
+    "program": [
+      {
+        "row_id": "p_1a15acbae4"
+      }
+    ],
+    "student": [
+      {
+        "row_id": "s_8100d68349"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "p_undecided": {
+    "_id": "p_undecided",
+    "p_id": "p_undecided",
+    "abbrv": "待定 / Undecided",
+    "label": "待定 / Undecided",
+    "level": "",
+    "name": "尚未确定最终去向"
+  },
+  "p_03949fd339": {
+    "_id": "p_03949fd339",
+    "p_id": "p_03949fd339",
+    "abbrv": "NYU MS in Financial Engineering",
+    "label": "NYU MS in Financial Engineering",
+    "level": "MSc",
+    "name": "NYU MS in Financial Engineering"
+  },
+  "p_9ae2f57cd5": {
+    "_id": "p_9ae2f57cd5",
+    "p_id": "p_9ae2f57cd5",
+    "abbrv": "UCL Finance with Data Science MSc",
+    "label": "UCL Finance with Data Science MSc",
+    "level": "MSc",
+    "name": "UCL Finance with Data Science MSc"
+  },
+  "p_c68edc03cf": {
+    "_id": "p_c68edc03cf",
+    "p_id": "p_c68edc03cf",
+    "abbrv": "Imperial College London Artificial Intelligence Applications and Innovation MSc",
+    "label": "Imperial College London Artificial Intelligence Applications and Innovation MSc",
+    "level": "MSc",
+    "name": "Imperial College London Artificial Intelligence Applications and Innovation MSc"
+  },
+  "p_383a99eecd": {
+    "_id": "p_383a99eecd",
+    "p_id": "p_383a99eecd",
+    "abbrv": "LSE MSc Financial Statistics",
+    "label": "LSE MSc Financial Statistics",
+    "level": "MSc",
+    "name": "LSE MSc Financial Statistics"
+  },
+  "p_e672ebd868": {
+    "_id": "p_e672ebd868",
+    "p_id": "p_e672ebd868",
+    "abbrv": "UCL Statistics MSc",
+    "label": "UCL Statistics MSc",
+    "level": "MSc",
+    "name": "UCL Statistics MSc"
+  },
+  "p_4cc902d23c": {
+    "_id": "p_4cc902d23c",
+    "p_id": "p_4cc902d23c",
+    "abbrv": "University of Warwick Mathematical Finance (MSc)",
+    "label": "University of Warwick Mathematical Finance (MSc)",
+    "level": "MSc",
+    "name": "University of Warwick Mathematical Finance (MSc)"
+  },
+  "p_6b3eee8ef7": {
+    "_id": "p_6b3eee8ef7",
+    "p_id": "p_6b3eee8ef7",
+    "abbrv": "Columbia University MA Statistics program",
+    "label": "Columbia University MA Statistics program",
+    "level": "MA",
+    "name": "Columbia University MA Statistics program"
+  },
+  "p_c90b16ea4b": {
+    "_id": "p_c90b16ea4b",
+    "p_id": "p_c90b16ea4b",
+    "abbrv": "NYU MS in Applied Urban Science and Informatics",
+    "label": "NYU MS in Applied Urban Science and Informatics",
+    "level": "MSc",
+    "name": "NYU MS in Applied Urban Science and Informatics"
+  },
+  "p_dd1abb87da": {
+    "_id": "p_dd1abb87da",
+    "p_id": "p_dd1abb87da",
+    "abbrv": "NTU Master of Science in Analytics",
+    "label": "NTU Master of Science in Analytics",
+    "level": "MSc",
+    "name": "NTU Master of Science in Analytics"
+  },
+  "p_786ac49116": {
+    "_id": "p_786ac49116",
+    "p_id": "p_786ac49116",
+    "abbrv": "NTU Master of Science in Cyber Security (MSCS)",
+    "label": "NTU Master of Science in Cyber Security (MSCS)",
+    "level": "MSc",
+    "name": "NTU Master of Science in Cyber Security (MSCS)"
+  },
+  "p_54d184a1bd": {
+    "_id": "p_54d184a1bd",
+    "p_id": "p_54d184a1bd",
+    "abbrv": "NTU Master of Science in Data Science (MSDS)",
+    "label": "NTU Master of Science in Data Science (MSDS)",
+    "level": "MSc",
+    "name": "NTU Master of Science in Data Science (MSDS)"
+  },
+  "p_2bfcc82f43": {
+    "_id": "p_2bfcc82f43",
+    "p_id": "p_2bfcc82f43",
+    "abbrv": "NTU Master of Science in Financial Technology (DFS direction)",
+    "label": "NTU Master of Science in Financial Technology (DFS direction)",
+    "level": "MSc",
+    "name": "NTU Master of Science in Financial Technology (DFS direction)"
+  },
+  "p_a4e0e494b3": {
+    "_id": "p_a4e0e494b3",
+    "p_id": "p_a4e0e494b3",
+    "abbrv": "University of Bristol MSc in Data Science",
+    "label": "University of Bristol MSc in Data Science",
+    "level": "MSc",
+    "name": "University of Bristol MSc in Data Science"
+  },
+  "p_3a96eee95f": {
+    "_id": "p_3a96eee95f",
+    "p_id": "p_3a96eee95f",
+    "abbrv": "University of Bristol MSc Mathematical Sciences",
+    "label": "University of Bristol MSc Mathematical Sciences",
+    "level": "MSc",
+    "name": "University of Bristol MSc Mathematical Sciences"
+  },
+  "p_04b03488b4": {
+    "_id": "p_04b03488b4",
+    "p_id": "p_04b03488b4",
+    "abbrv": "NTU Master of Science in Applied Economics",
+    "label": "NTU Master of Science in Applied Economics",
+    "level": "MSc",
+    "name": "NTU Master of Science in Applied Economics"
+  },
+  "p_3f9485b5d5": {
+    "_id": "p_3f9485b5d5",
+    "p_id": "p_3f9485b5d5",
+    "abbrv": "NUS Master of Science in Industrial and Systems Engineering",
+    "label": "NUS Master of Science in Industrial and Systems Engineering",
+    "level": "MSc",
+    "name": "NUS Master of Science in Industrial and Systems Engineering"
+  },
+  "p_ffc9df2c78": {
+    "_id": "p_ffc9df2c78",
+    "p_id": "p_ffc9df2c78",
+    "abbrv": "NUS Master of Science in Data Science and Machine Learning (DSML)",
+    "label": "NUS Master of Science in Data Science and Machine Learning (DSML)",
+    "level": "MSc",
+    "name": "NUS Master of Science in Data Science and Machine Learning (DSML)"
+  },
+  "p_60a9696c3a": {
+    "_id": "p_60a9696c3a",
+    "p_id": "p_60a9696c3a",
+    "abbrv": "NUS Master of Science in Mathematics",
+    "label": "NUS Master of Science in Mathematics",
+    "level": "MSc",
+    "name": "NUS Master of Science in Mathematics"
+  },
+  "p_1a15acbae4": {
+    "_id": "p_1a15acbae4",
+    "p_id": "p_1a15acbae4",
+    "abbrv": "NUS Master of Science in Statistics",
+    "label": "NUS Master of Science in Statistics",
+    "level": "MSc",
+    "name": "NUS Master of Science in Statistics"
+  },
+  "p_e5fb6279be": {
+    "_id": "p_e5fb6279be",
+    "p_id": "p_e5fb6279be",
+    "abbrv": "University of Manchester MSc in Machine Learning",
+    "label": "University of Manchester MSc in Machine Learning",
+    "level": "MSc",
+    "name": "University of Manchester MSc in Machine Learning"
+  },
+  "p_8575336bfc": {
+    "_id": "p_8575336bfc",
+    "p_id": "p_8575336bfc",
+    "abbrv": "University of Manchester MSc in Artificial Intelligence",
+    "label": "University of Manchester MSc in Artificial Intelligence",
+    "level": "MSc",
+    "name": "University of Manchester MSc in Artificial Intelligence"
+  },
+  "p_c671a25887": {
+    "_id": "p_c671a25887",
+    "p_id": "p_c671a25887",
+    "abbrv": "University of Manchester MSc in Advanced Computer Science",
+    "label": "University of Manchester MSc in Advanced Computer Science",
+    "level": "MSc",
+    "name": "University of Manchester MSc in Advanced Computer Science"
+  },
+  "p_91df8a89ac": {
+    "_id": "p_91df8a89ac",
+    "p_id": "p_91df8a89ac",
+    "abbrv": "Imperial College London MSc in Statistics",
+    "label": "Imperial College London MSc in Statistics",
+    "level": "MSc",
+    "name": "Imperial College London MSc in Statistics"
+  },
+  "p_0e14504857": {
+    "_id": "p_0e14504857",
+    "p_id": "p_0e14504857",
+    "abbrv": "Imperial College London MSc in Applied Mathematics",
+    "label": "Imperial College London MSc in Applied Mathematics",
+    "level": "MSc",
+    "name": "Imperial College London MSc in Applied Mathematics"
+  },
+  "p_9f93bdbabd": {
+    "_id": "p_9f93bdbabd",
+    "p_id": "p_9f93bdbabd",
+    "abbrv": "NYU Master's in Data Science",
+    "label": "NYU Master's in Data Science",
+    "level": "MSc",
+    "name": "NYU Master's in Data Science"
+  },
+  "p_d63a778349": {
+    "_id": "p_d63a778349",
+    "p_id": "p_d63a778349",
+    "abbrv": "CMU Master of Science in Information Technology (Business Intelligence & Data Analytics)",
+    "label": "CMU Master of Science in Information Technology (Business Intelligence & Data Analytics)",
+    "level": "MSc",
+    "name": "CMU Master of Science in Information Technology (Business Intelligence & Data Analytics)"
+  },
+  "p_cf3ae39815": {
+    "_id": "p_cf3ae39815",
+    "p_id": "p_cf3ae39815",
+    "abbrv": "Cornell Tech Master of Engineering in Data Science & Decision Analytics",
+    "label": "Cornell Tech Master of Engineering in Data Science & Decision Analytics",
+    "level": "MSc",
+    "name": "Cornell Tech Master of Engineering in Data Science & Decision Analytics"
+  },
+  "p_4e6f69208c": {
+    "_id": "p_4e6f69208c",
+    "p_id": "p_4e6f69208c",
+    "abbrv": "UPenn MSE in Systems Engineering",
+    "label": "UPenn MSE in Systems Engineering",
+    "level": "MSE",
+    "name": "UPenn MSE in Systems Engineering"
+  },
+  "p_1bd0f7831c": {
+    "_id": "p_1bd0f7831c",
+    "p_id": "p_1bd0f7831c",
+    "abbrv": "University of Chicago MS in Applied Data Science",
+    "label": "University of Chicago MS in Applied Data Science",
+    "level": "MSc",
+    "name": "University of Chicago MS in Applied Data Science"
+  },
+  "p_e1b64ed546": {
+    "_id": "p_e1b64ed546",
+    "p_id": "p_e1b64ed546",
+    "abbrv": "UCSD MS in Data Science (HDSI)",
+    "label": "UCSD MS in Data Science (HDSI)",
+    "level": "MSc",
+    "name": "UCSD MS in Data Science (HDSI)"
+  },
+  "p_5d8bb4ff78": {
+    "_id": "p_5d8bb4ff78",
+    "p_id": "p_5d8bb4ff78",
+    "abbrv": "Harvard University Master of Science in Data Science",
+    "label": "Harvard University Master of Science in Data Science",
+    "level": "MSc",
+    "name": "Harvard University Master of Science in Data Science"
+  },
+  "p_8a8489e5d9": {
+    "_id": "p_8a8489e5d9",
+    "p_id": "p_8a8489e5d9",
+    "abbrv": "Brown University Master's Program in Data Science (Master of Science, Sc.M.)",
+    "label": "Brown University Master's Program in Data Science (Master of Science, Sc.M.)",
+    "level": "ScM",
+    "name": "Brown University Master's Program in Data Science (Master of Science, Sc.M.)"
+  },
+  "p_36d2e22521": {
+    "_id": "p_36d2e22521",
+    "p_id": "p_36d2e22521",
+    "abbrv": "Duke University Master in Interdisciplinary Data Science",
+    "label": "Duke University Master in Interdisciplinary Data Science",
+    "level": "MSc",
+    "name": "Duke University Master in Interdisciplinary Data Science"
+  },
+  "p_6444fd6d02": {
+    "_id": "p_6444fd6d02",
+    "p_id": "p_6444fd6d02",
+    "abbrv": "Cornell University MS in Biostatistics and Data Science",
+    "label": "Cornell University MS in Biostatistics and Data Science",
+    "level": "MSc",
+    "name": "Cornell University MS in Biostatistics and Data Science"
+  },
+  "p_0a614bb19e": {
+    "_id": "p_0a614bb19e",
+    "p_id": "p_0a614bb19e",
+    "abbrv": "WashU Master of Science in Biostatistics and Data Science (MSBDS)",
+    "label": "WashU Master of Science in Biostatistics and Data Science (MSBDS)",
+    "level": "MSc",
+    "name": "WashU Master of Science in Biostatistics and Data Science (MSBDS)"
+  },
+  "p_d290632baf": {
+    "_id": "p_d290632baf",
+    "p_id": "p_d290632baf",
+    "abbrv": "UCSD Master of Science in Biostatistics",
+    "label": "UCSD Master of Science in Biostatistics",
+    "level": "MSc",
+    "name": "UCSD Master of Science in Biostatistics"
+  },
+  "p_0cbdc975a9": {
+    "_id": "p_0cbdc975a9",
+    "p_id": "p_0cbdc975a9",
+    "abbrv": "NYU MPH in Biostatistics",
+    "label": "NYU MPH in Biostatistics",
+    "level": "MPH",
+    "name": "NYU MPH in Biostatistics"
+  },
+  "p_a2985f4e00": {
+    "_id": "p_a2985f4e00",
+    "p_id": "p_a2985f4e00",
+    "abbrv": "Duke University Master of Biostatistics",
+    "label": "Duke University Master of Biostatistics",
+    "level": "MSc",
+    "name": "Duke University Master of Biostatistics"
+  },
+  "p_16ad0a28f9": {
+    "_id": "p_16ad0a28f9",
+    "p_id": "p_16ad0a28f9",
+    "abbrv": "Johns Hopkins University Master's in Data Science",
+    "label": "Johns Hopkins University Master's in Data Science",
+    "level": "MSc",
+    "name": "Johns Hopkins University Master's in Data Science"
+  },
+  "p_e1e204bdbd": {
+    "_id": "p_e1e204bdbd",
+    "p_id": "p_e1e204bdbd",
+    "abbrv": "University of Michigan, Ann Arbor Master's in Data Science",
+    "label": "University of Michigan, Ann Arbor Master's in Data Science",
+    "level": "MSc",
+    "name": "University of Michigan, Ann Arbor Master's in Data Science"
+  },
+  "p_2cbdc3fb8f": {
+    "_id": "p_2cbdc3fb8f",
+    "p_id": "p_2cbdc3fb8f",
+    "abbrv": "NYU Mathematical Sciences, M.S.",
+    "label": "NYU Mathematical Sciences, M.S.",
+    "level": "MSc",
+    "name": "NYU Mathematical Sciences, M.S."
+  },
+  "p_2dee4b5d10": {
+    "_id": "p_2dee4b5d10",
+    "p_id": "p_2dee4b5d10",
+    "abbrv": "University of Edinburgh MSc Operational Research with Data Science",
+    "label": "University of Edinburgh MSc Operational Research with Data Science",
+    "level": "MSc",
+    "name": "University of Edinburgh MSc Operational Research with Data Science"
+  },
+  "p_744678d186": {
+    "_id": "p_744678d186",
+    "p_id": "p_744678d186",
+    "abbrv": "Boston University Master's in Statistical Practice",
+    "label": "Boston University Master's in Statistical Practice",
+    "level": "MSc",
+    "name": "Boston University Master's in Statistical Practice"
+  },
+  "p_b2644da456": {
+    "_id": "p_b2644da456",
+    "p_id": "p_b2644da456",
+    "abbrv": "UCL Data Science MSc",
+    "label": "UCL Data Science MSc",
+    "level": "MSc",
+    "name": "UCL Data Science MSc"
+  },
+  "p_08bfbbcbef": {
+    "_id": "p_08bfbbcbef",
+    "p_id": "p_08bfbbcbef",
+    "abbrv": "Yale University MS in Biostatistics",
+    "label": "Yale University MS in Biostatistics",
+    "level": "MSc",
+    "name": "Yale University MS in Biostatistics"
+  },
+  "p_a4f0c5f3fd": {
+    "_id": "p_a4f0c5f3fd",
+    "p_id": "p_a4f0c5f3fd",
+    "abbrv": "Duke University MS in Statistical Science",
+    "label": "Duke University MS in Statistical Science",
+    "level": "MSc",
+    "name": "Duke University MS in Statistical Science"
+  },
+  "p_e4afcd0e7e": {
+    "_id": "p_e4afcd0e7e",
+    "p_id": "p_e4afcd0e7e",
+    "abbrv": "UCLA MS in Biostatistics",
+    "label": "UCLA MS in Biostatistics",
+    "level": "MSc",
+    "name": "UCLA MS in Biostatistics"
+  },
+  "p_26e8f9484b": {
+    "_id": "p_26e8f9484b",
+    "p_id": "p_26e8f9484b",
+    "abbrv": "Johns Hopkins University MSE in Applied Mathematics and Statistics",
+    "label": "Johns Hopkins University MSE in Applied Mathematics and Statistics",
+    "level": "MSE",
+    "name": "Johns Hopkins University MSE in Applied Mathematics and Statistics"
+  },
+  "p_9a58827875": {
+    "_id": "p_9a58827875",
+    "p_id": "p_9a58827875",
+    "abbrv": "University of Michigan, Ann Arbor Applied Statistics Master's Program",
+    "label": "University of Michigan, Ann Arbor Applied Statistics Master's Program",
+    "level": "MSc",
+    "name": "University of Michigan, Ann Arbor Applied Statistics Master's Program"
+  },
+  "p_b08be2cb3d": {
+    "_id": "p_b08be2cb3d",
+    "p_id": "p_b08be2cb3d",
+    "abbrv": "Imperial College London Health Data Analytics and Machine Learning MSc",
+    "label": "Imperial College London Health Data Analytics and Machine Learning MSc",
+    "level": "MSc",
+    "name": "Imperial College London Health Data Analytics and Machine Learning MSc"
+  },
+  "p_a53f57a627": {
+    "_id": "p_a53f57a627",
+    "p_id": "p_a53f57a627",
+    "abbrv": "Harvard University Master of Medical Sciences in Biomedical Informatics (MMSc)",
+    "label": "Harvard University Master of Medical Sciences in Biomedical Informatics (MMSc)",
+    "level": "MMSc",
+    "name": "Harvard University Master of Medical Sciences in Biomedical Informatics (MMSc)"
+  },
+  "p_2c9a5962de": {
+    "_id": "p_2c9a5962de",
+    "p_id": "p_2c9a5962de",
+    "abbrv": "University of Manchester MSc Data Science",
+    "label": "University of Manchester MSc Data Science",
+    "level": "MSc",
+    "name": "University of Manchester MSc Data Science"
+  },
+  "p_0121198f44": {
+    "_id": "p_0121198f44",
+    "p_id": "p_0121198f44",
+    "abbrv": "University of Manchester MSc Mathematical Finance",
+    "label": "University of Manchester MSc Mathematical Finance",
+    "level": "MSc",
+    "name": "University of Manchester MSc Mathematical Finance"
+  },
+  "p_6e2daf8b72": {
+    "_id": "p_6e2daf8b72",
+    "p_id": "p_6e2daf8b72",
+    "abbrv": "University of Edinburgh MSc Statistics with Data Science",
+    "label": "University of Edinburgh MSc Statistics with Data Science",
+    "level": "MSc",
+    "name": "University of Edinburgh MSc Statistics with Data Science"
+  },
+  "p_08c75b54a9": {
+    "_id": "p_08c75b54a9",
+    "p_id": "p_08c75b54a9",
+    "abbrv": "University of Oxford MSc in Mathematical Modelling and Scientific Computing (MMSC)",
+    "label": "University of Oxford MSc in Mathematical Modelling and Scientific Computing (MMSC)",
+    "level": "MMSc",
+    "name": "University of Oxford MSc in Mathematical Modelling and Scientific Computing (MMSC)"
+  },
+  "p_a4c5b468e9": {
+    "_id": "p_a4c5b468e9",
+    "p_id": "p_a4c5b468e9",
+    "abbrv": "University of Oxford MSc in Statistical Science",
+    "label": "University of Oxford MSc in Statistical Science",
+    "level": "MSc",
+    "name": "University of Oxford MSc in Statistical Science"
+  },
+  "p_7ab2e86e74": {
+    "_id": "p_7ab2e86e74",
+    "p_id": "p_7ab2e86e74",
+    "abbrv": "University of Cambridge MPhil in Population Health Sciences",
+    "label": "University of Cambridge MPhil in Population Health Sciences",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Population Health Sciences"
+  },
+  "p_c69f630fda": {
+    "_id": "p_c69f630fda",
+    "p_id": "p_c69f630fda",
+    "abbrv": "University of Cambridge MPhil in Data Intensive Science",
+    "label": "University of Cambridge MPhil in Data Intensive Science",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Data Intensive Science"
+  },
+  "p_f5479ae62d": {
+    "_id": "p_f5479ae62d",
+    "p_id": "p_f5479ae62d",
+    "abbrv": "University of Helsinki Master's Programme in Life Science Informatics",
+    "label": "University of Helsinki Master's Programme in Life Science Informatics",
+    "level": "MSc",
+    "name": "University of Helsinki Master's Programme in Life Science Informatics"
+  },
+  "p_14394d97b4": {
+    "_id": "p_14394d97b4",
+    "p_id": "p_14394d97b4",
+    "abbrv": "KTH, Karolinska Institutet and Stockholm University MSc Biostatistics and Data Science",
+    "label": "KTH, Karolinska Institutet and Stockholm University MSc Biostatistics and Data Science",
+    "level": "MSc",
+    "name": "KTH, Karolinska Institutet and Stockholm University MSc Biostatistics and Data Science"
+  },
+  "p_cd81e45c73": {
+    "_id": "p_cd81e45c73",
+    "p_id": "p_cd81e45c73",
+    "abbrv": "KU Leuven Master of Statistics and Data Science",
+    "label": "KU Leuven Master of Statistics and Data Science",
+    "level": "MSc",
+    "name": "KU Leuven Master of Statistics and Data Science"
+  },
+  "p_2db7f88d60": {
+    "_id": "p_2db7f88d60",
+    "p_id": "p_2db7f88d60",
+    "abbrv": "University of North Carolina at Chapel Hill Master of Science Biostatistics",
+    "label": "University of North Carolina at Chapel Hill Master of Science Biostatistics",
+    "level": "MSc",
+    "name": "University of North Carolina at Chapel Hill Master of Science Biostatistics"
+  },
+  "p_6dd9e706f0": {
+    "_id": "p_6dd9e706f0",
+    "p_id": "p_6dd9e706f0",
+    "abbrv": "University of Cambridge MPhil in Scientific Computing",
+    "label": "University of Cambridge MPhil in Scientific Computing",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Scientific Computing"
+  },
+  "p_ef1734b2fe": {
+    "_id": "p_ef1734b2fe",
+    "p_id": "p_ef1734b2fe",
+    "abbrv": "UCL MSc Medical Statistics and Data Science",
+    "label": "UCL MSc Medical Statistics and Data Science",
+    "level": "MSc",
+    "name": "UCL MSc Medical Statistics and Data Science"
+  },
+  "p_97fa8de793": {
+    "_id": "p_97fa8de793",
+    "p_id": "p_97fa8de793",
+    "abbrv": "University of Cambridge MPhil in Computational Biology",
+    "label": "University of Cambridge MPhil in Computational Biology",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Computational Biology"
+  },
+  "p_e3d63fd0fe": {
+    "_id": "p_e3d63fd0fe",
+    "p_id": "p_e3d63fd0fe",
+    "abbrv": "UPenn MS program in Biostatistics",
+    "label": "UPenn MS program in Biostatistics",
+    "level": "MSc",
+    "name": "UPenn MS program in Biostatistics"
+  },
+  "p_9b47df910d": {
+    "_id": "p_9b47df910d",
+    "p_id": "p_9b47df910d",
+    "abbrv": "ETH Zurich Master Computational Biology and Bioinformatics",
+    "label": "ETH Zurich Master Computational Biology and Bioinformatics",
+    "level": "MSc",
+    "name": "ETH Zurich Master Computational Biology and Bioinformatics"
+  },
+  "p_c63cf66dec": {
+    "_id": "p_c63cf66dec",
+    "p_id": "p_c63cf66dec",
+    "abbrv": "Yale University MS in Computational Biology and Biomedical Informatics",
+    "label": "Yale University MS in Computational Biology and Biomedical Informatics",
+    "level": "MSc",
+    "name": "Yale University MS in Computational Biology and Biomedical Informatics"
+  },
+  "p_ecf185dc13": {
+    "_id": "p_ecf185dc13",
+    "p_id": "p_ecf185dc13",
+    "abbrv": "EPFL MSc in Computational Science and Engineering",
+    "label": "EPFL MSc in Computational Science and Engineering",
+    "level": "MSc",
+    "name": "EPFL MSc in Computational Science and Engineering"
+  },
+  "p_adcf5fc3cf": {
+    "_id": "p_adcf5fc3cf",
+    "p_id": "p_adcf5fc3cf",
+    "abbrv": "UPenn MSE in Data Science",
+    "label": "UPenn MSE in Data Science",
+    "level": "MSE",
+    "name": "UPenn MSE in Data Science"
+  },
+  "p_fcdafcbd78": {
+    "_id": "p_fcdafcbd78",
+    "p_id": "p_fcdafcbd78",
+    "abbrv": "Stanford University MS in Biomedical Data Science",
+    "label": "Stanford University MS in Biomedical Data Science",
+    "level": "MSc",
+    "name": "Stanford University MS in Biomedical Data Science"
+  },
+  "p_fa06383825": {
+    "_id": "p_fa06383825",
+    "p_id": "p_fa06383825",
+    "abbrv": "University of Oxford MSc in Mathematical Sciences (OMMS)",
+    "label": "University of Oxford MSc in Mathematical Sciences (OMMS)",
+    "level": "MSc",
+    "name": "University of Oxford MSc in Mathematical Sciences (OMMS)"
+  },
+  "p_431470a933": {
+    "_id": "p_431470a933",
+    "p_id": "p_431470a933",
+    "abbrv": "UPenn MA in Applied Mathematics and Computational Science (AMCS)",
+    "label": "UPenn MA in Applied Mathematics and Computational Science (AMCS)",
+    "level": "MA",
+    "name": "UPenn MA in Applied Mathematics and Computational Science (AMCS)"
+  },
+  "p_63b24ca737": {
+    "_id": "p_63b24ca737",
+    "p_id": "p_63b24ca737",
+    "abbrv": "Yale University MPH in Biostatistics",
+    "label": "Yale University MPH in Biostatistics",
+    "level": "MPH",
+    "name": "Yale University MPH in Biostatistics"
+  },
+  "p_7d7c0e39e6": {
+    "_id": "p_7d7c0e39e6",
+    "p_id": "p_7d7c0e39e6",
+    "abbrv": "University of Cambridge MASt in Mathematics (Applied Mathematics)",
+    "label": "University of Cambridge MASt in Mathematics (Applied Mathematics)",
+    "level": "MASt",
+    "name": "University of Cambridge MASt in Mathematics (Applied Mathematics)"
+  },
+  "p_eb213b560a": {
+    "_id": "p_eb213b560a",
+    "p_id": "p_eb213b560a",
+    "abbrv": "University of Chicago MS in Computational and Applied Mathematics (MCAM)",
+    "label": "University of Chicago MS in Computational and Applied Mathematics (MCAM)",
+    "level": "MSc",
+    "name": "University of Chicago MS in Computational and Applied Mathematics (MCAM)"
+  },
+  "p_c39f06de63": {
+    "_id": "p_c39f06de63",
+    "p_id": "p_c39f06de63",
+    "abbrv": "Stanford University MS in Computational and Mathematical Engineering (ICME)",
+    "label": "Stanford University MS in Computational and Mathematical Engineering (ICME)",
+    "level": "MSc",
+    "name": "Stanford University MS in Computational and Mathematical Engineering (ICME)"
+  },
+  "p_deaef2253b": {
+    "_id": "p_deaef2253b",
+    "p_id": "p_deaef2253b",
+    "abbrv": "UCL Marketing MSc",
+    "label": "UCL Marketing MSc",
+    "level": "MSc",
+    "name": "UCL Marketing MSc"
+  },
+  "p_d7d0601704": {
+    "_id": "p_d7d0601704",
+    "p_id": "p_d7d0601704",
+    "abbrv": "Columbia University MS in Data Science",
+    "label": "Columbia University MS in Data Science",
+    "level": "MSc",
+    "name": "Columbia University MS in Data Science"
+  },
+  "p_398b19819b": {
+    "_id": "p_398b19819b",
+    "p_id": "p_398b19819b",
+    "abbrv": "UCLA Master of Engineering in Data Science",
+    "label": "UCLA Master of Engineering in Data Science",
+    "level": "MSc",
+    "name": "UCLA Master of Engineering in Data Science"
+  },
+  "p_fb81079bcc": {
+    "_id": "p_fb81079bcc",
+    "p_id": "p_fb81079bcc",
+    "abbrv": "UCL MSc Emerging Digital Technologies",
+    "label": "UCL MSc Emerging Digital Technologies",
+    "level": "MSc",
+    "name": "UCL MSc Emerging Digital Technologies"
+  },
+  "p_8c07d1e39b": {
+    "_id": "p_8c07d1e39b",
+    "p_id": "p_8c07d1e39b",
+    "abbrv": "Imperial College London Applied Computational Science and Engineering MSc",
+    "label": "Imperial College London Applied Computational Science and Engineering MSc",
+    "level": "MSc",
+    "name": "Imperial College London Applied Computational Science and Engineering MSc"
+  },
+  "p_cd4e0084cc": {
+    "_id": "p_cd4e0084cc",
+    "p_id": "p_cd4e0084cc",
+    "abbrv": "NTU MSc in Artificial Intelligence",
+    "label": "NTU MSc in Artificial Intelligence",
+    "level": "MSc",
+    "name": "NTU MSc in Artificial Intelligence"
+  },
+  "p_a8a4071c53": {
+    "_id": "p_a8a4071c53",
+    "p_id": "p_a8a4071c53",
+    "abbrv": "HKU Master of Statistics (MStat)",
+    "label": "HKU Master of Statistics (MStat)",
+    "level": "MSc",
+    "name": "HKU Master of Statistics (MStat)"
+  },
+  "p_12502c704d": {
+    "_id": "p_12502c704d",
+    "p_id": "p_12502c704d",
+    "abbrv": "NUS MSc in Supply Chain Management",
+    "label": "NUS MSc in Supply Chain Management",
+    "level": "MSc",
+    "name": "NUS MSc in Supply Chain Management"
+  },
+  "p_dc7f08af7e": {
+    "_id": "p_dc7f08af7e",
+    "p_id": "p_dc7f08af7e",
+    "abbrv": "CUHK MSc in Sport Science and Physical Activity",
+    "label": "CUHK MSc in Sport Science and Physical Activity",
+    "level": "MSc",
+    "name": "CUHK MSc in Sport Science and Physical Activity"
+  },
+  "p_9e9d96d947": {
+    "_id": "p_9e9d96d947",
+    "p_id": "p_9e9d96d947",
+    "abbrv": "PolyU MSc in Sports Technology and Management",
+    "label": "PolyU MSc in Sports Technology and Management",
+    "level": "MSc",
+    "name": "PolyU MSc in Sports Technology and Management"
+  },
+  "p_804986481e": {
+    "_id": "p_804986481e",
+    "p_id": "p_804986481e",
+    "abbrv": "UCL Health Data Science MSc",
+    "label": "UCL Health Data Science MSc",
+    "level": "MSc",
+    "name": "UCL Health Data Science MSc"
+  },
+  "p_94d7af8c65": {
+    "_id": "p_94d7af8c65",
+    "p_id": "p_94d7af8c65",
+    "abbrv": "UCL Social and Geographic Data Science MSc",
+    "label": "UCL Social and Geographic Data Science MSc",
+    "level": "MSc",
+    "name": "UCL Social and Geographic Data Science MSc"
+  },
+  "p_211f03881f": {
+    "_id": "p_211f03881f",
+    "p_id": "p_211f03881f",
+    "abbrv": "UCL Mathematics Education MA",
+    "label": "UCL Mathematics Education MA",
+    "level": "MA",
+    "name": "UCL Mathematics Education MA"
+  },
+  "p_6ccf953b96": {
+    "_id": "p_6ccf953b96",
+    "p_id": "p_6ccf953b96",
+    "abbrv": "KCL MSc Applied Statistical modelling and Health informatics",
+    "label": "KCL MSc Applied Statistical modelling and Health informatics",
+    "level": "MSc",
+    "name": "KCL MSc Applied Statistical modelling and Health informatics"
+  },
+  "p_eae055fcd7": {
+    "_id": "p_eae055fcd7",
+    "p_id": "p_eae055fcd7",
+    "abbrv": "HKUST Master of Science in Mathematics for Educators (MAED)",
+    "label": "HKUST Master of Science in Mathematics for Educators (MAED)",
+    "level": "MSc",
+    "name": "HKUST Master of Science in Mathematics for Educators (MAED)"
+  },
+  "p_a1e442d47e": {
+    "_id": "p_a1e442d47e",
+    "p_id": "p_a1e442d47e",
+    "abbrv": "CUHK MSc in Mathematics",
+    "label": "CUHK MSc in Mathematics",
+    "level": "MSc",
+    "name": "CUHK MSc in Mathematics"
+  },
+  "p_453057d455": {
+    "_id": "p_453057d455",
+    "p_id": "p_453057d455",
+    "abbrv": "University of Edinburgh MSc Statistics and Operational Research",
+    "label": "University of Edinburgh MSc Statistics and Operational Research",
+    "level": "MSc",
+    "name": "University of Edinburgh MSc Statistics and Operational Research"
+  },
+  "p_9aa246c0a2": {
+    "_id": "p_9aa246c0a2",
+    "p_id": "p_9aa246c0a2",
+    "abbrv": "Imperial College London MSc Biomedical Engeneering(Computational Bioengineering)",
+    "label": "Imperial College London MSc Biomedical Engeneering(Computational Bioengineering)",
+    "level": "MSc",
+    "name": "Imperial College London MSc Biomedical Engeneering(Computational Bioengineering)"
+  },
+  "p_907348572f": {
+    "_id": "p_907348572f",
+    "p_id": "p_907348572f",
+    "abbrv": "University of Michigan, Ann Arbor Master of Science (MS) in Biostatistics",
+    "label": "University of Michigan, Ann Arbor Master of Science (MS) in Biostatistics",
+    "level": "MSc",
+    "name": "University of Michigan, Ann Arbor Master of Science (MS) in Biostatistics"
+  },
+  "p_d7125b2bf1": {
+    "_id": "p_d7125b2bf1",
+    "p_id": "p_d7125b2bf1",
+    "abbrv": "Columbia University MS in Biostatistics",
+    "label": "Columbia University MS in Biostatistics",
+    "level": "MSc",
+    "name": "Columbia University MS in Biostatistics"
+  },
+  "p_7b34371302": {
+    "_id": "p_7b34371302",
+    "p_id": "p_7b34371302",
+    "abbrv": "University of Edinburgh MSc in Artificial Intelligence",
+    "label": "University of Edinburgh MSc in Artificial Intelligence",
+    "level": "MSc",
+    "name": "University of Edinburgh MSc in Artificial Intelligence"
+  },
+  "p_533d0b71ac": {
+    "_id": "p_533d0b71ac",
+    "p_id": "p_533d0b71ac",
+    "abbrv": "University of Maryland, College Park MSc in Artificial Intelligence",
+    "label": "University of Maryland, College Park MSc in Artificial Intelligence",
+    "level": "MSc",
+    "name": "University of Maryland, College Park MSc in Artificial Intelligence"
+  },
+  "p_a21b86e03f": {
+    "_id": "p_a21b86e03f",
+    "p_id": "p_a21b86e03f",
+    "abbrv": "Imperial College London MSc Artificial Intelligence",
+    "label": "Imperial College London MSc Artificial Intelligence",
+    "level": "MSc",
+    "name": "Imperial College London MSc Artificial Intelligence"
+  },
+  "p_de6c2e8b0d": {
+    "_id": "p_de6c2e8b0d",
+    "p_id": "p_de6c2e8b0d",
+    "abbrv": "Yale University PhD in Computer Science",
+    "label": "Yale University PhD in Computer Science",
+    "level": "PhD",
+    "name": "Yale University PhD in Computer Science"
+  },
+  "p_6176a159bd": {
+    "_id": "p_6176a159bd",
+    "p_id": "p_6176a159bd",
+    "abbrv": "University of Virginia PhD in Computer Science",
+    "label": "University of Virginia PhD in Computer Science",
+    "level": "PhD",
+    "name": "University of Virginia PhD in Computer Science"
+  },
+  "p_f2830e0772": {
+    "_id": "p_f2830e0772",
+    "p_id": "p_f2830e0772",
+    "abbrv": "University of Maryland, College Park PhD in Computer Science",
+    "label": "University of Maryland, College Park PhD in Computer Science",
+    "level": "PhD",
+    "name": "University of Maryland, College Park PhD in Computer Science"
+  },
+  "p_ec599a0346": {
+    "_id": "p_ec599a0346",
+    "p_id": "p_ec599a0346",
+    "abbrv": "UIUC PhD in Computer Science",
+    "label": "UIUC PhD in Computer Science",
+    "level": "PhD",
+    "name": "UIUC PhD in Computer Science"
+  },
+  "p_0ac11f940b": {
+    "_id": "p_0ac11f940b",
+    "p_id": "p_0ac11f940b",
+    "abbrv": "University of Washington PhD in Computer Science and Engineering",
+    "label": "University of Washington PhD in Computer Science and Engineering",
+    "level": "PhD",
+    "name": "University of Washington PhD in Computer Science and Engineering"
+  },
+  "p_14dcba5edd": {
+    "_id": "p_14dcba5edd",
+    "p_id": "p_14dcba5edd",
+    "abbrv": "VT PhD in Computer Science",
+    "label": "VT PhD in Computer Science",
+    "level": "PhD",
+    "name": "VT PhD in Computer Science"
+  },
+  "p_8e71364b35": {
+    "_id": "p_8e71364b35",
+    "p_id": "p_8e71364b35",
+    "abbrv": "UCL MSc in Computational Statistics and Machine Learning",
+    "label": "UCL MSc in Computational Statistics and Machine Learning",
+    "level": "MSc",
+    "name": "UCL MSc in Computational Statistics and Machine Learning"
+  },
+  "p_22718a6664": {
+    "_id": "p_22718a6664",
+    "p_id": "p_22718a6664",
+    "abbrv": "University of Notre Dame PhD in Computer Science and Engineering",
+    "label": "University of Notre Dame PhD in Computer Science and Engineering",
+    "level": "PhD",
+    "name": "University of Notre Dame PhD in Computer Science and Engineering"
+  },
+  "p_d6cedd7447": {
+    "_id": "p_d6cedd7447",
+    "p_id": "p_d6cedd7447",
+    "abbrv": "UCI PhD in Computer Science and Engineering",
+    "label": "UCI PhD in Computer Science and Engineering",
+    "level": "PhD",
+    "name": "UCI PhD in Computer Science and Engineering"
+  },
+  "p_7b9138d799": {
+    "_id": "p_7b9138d799",
+    "p_id": "p_7b9138d799",
+    "abbrv": "UCLA PhD in Computer Science and Engineering",
+    "label": "UCLA PhD in Computer Science and Engineering",
+    "level": "PhD",
+    "name": "UCLA PhD in Computer Science and Engineering"
+  },
+  "p_a9579f38f5": {
+    "_id": "p_a9579f38f5",
+    "p_id": "p_a9579f38f5",
+    "abbrv": "University of North Carolina at Chapel Hill PhD in Computer Science",
+    "label": "University of North Carolina at Chapel Hill PhD in Computer Science",
+    "level": "PhD",
+    "name": "University of North Carolina at Chapel Hill PhD in Computer Science"
+  },
+  "p_6e0f28dd3e": {
+    "_id": "p_6e0f28dd3e",
+    "p_id": "p_6e0f28dd3e",
+    "abbrv": "University of Copenhagen MSc in Mathematics",
+    "label": "University of Copenhagen MSc in Mathematics",
+    "level": "MSc",
+    "name": "University of Copenhagen MSc in Mathematics"
+  },
+  "p_d509ce32e9": {
+    "_id": "p_d509ce32e9",
+    "p_id": "p_d509ce32e9",
+    "abbrv": "University of York MSc in Mathematics",
+    "label": "University of York MSc in Mathematics",
+    "level": "MSc",
+    "name": "University of York MSc in Mathematics"
+  },
+  "p_684505c9bd": {
+    "_id": "p_684505c9bd",
+    "p_id": "p_684505c9bd",
+    "abbrv": "University of Leeds MSc Mathematics",
+    "label": "University of Leeds MSc Mathematics",
+    "level": "MSc",
+    "name": "University of Leeds MSc Mathematics"
+  },
+  "p_31a30a1cf1": {
+    "_id": "p_31a30a1cf1",
+    "p_id": "p_31a30a1cf1",
+    "abbrv": "University of Manchester MSc in Pure Mathematics",
+    "label": "University of Manchester MSc in Pure Mathematics",
+    "level": "MSc",
+    "name": "University of Manchester MSc in Pure Mathematics"
+  },
+  "p_f1545b55fe": {
+    "_id": "p_f1545b55fe",
+    "p_id": "p_f1545b55fe",
+    "abbrv": "KCL Mathematics MSc",
+    "label": "KCL Mathematics MSc",
+    "level": "MSc",
+    "name": "KCL Mathematics MSc"
+  },
+  "p_5cb7dc9146": {
+    "_id": "p_5cb7dc9146",
+    "p_id": "p_5cb7dc9146",
+    "abbrv": "Northwestern University MS in Data Science (Accelerated)",
+    "label": "Northwestern University MS in Data Science (Accelerated)",
+    "level": "MSc",
+    "name": "Northwestern University MS in Data Science (Accelerated)"
+  },
+  "p_95ecd5fe1e": {
+    "_id": "p_95ecd5fe1e",
+    "p_id": "p_95ecd5fe1e",
+    "abbrv": "UCLA Master of Data Science in Health (MDSH) Program",
+    "label": "UCLA Master of Data Science in Health (MDSH) Program",
+    "level": "MSc",
+    "name": "UCLA Master of Data Science in Health (MDSH) Program"
+  },
+  "p_67bf79a25a": {
+    "_id": "p_67bf79a25a",
+    "p_id": "p_67bf79a25a",
+    "abbrv": "NYU Master's in Courant Computer Science",
+    "label": "NYU Master's in Courant Computer Science",
+    "level": "MSc",
+    "name": "NYU Master's in Courant Computer Science"
+  },
+  "p_e181bbb46e": {
+    "_id": "p_e181bbb46e",
+    "p_id": "p_e181bbb46e",
+    "abbrv": "CMU MS in Data Analytics for Science",
+    "label": "CMU MS in Data Analytics for Science",
+    "level": "MSc",
+    "name": "CMU MS in Data Analytics for Science"
+  },
+  "p_0a88be74ae": {
+    "_id": "p_0a88be74ae",
+    "p_id": "p_0a88be74ae",
+    "abbrv": "Harvard University Master's in Computational Science and Engineering (CSE)",
+    "label": "Harvard University Master's in Computational Science and Engineering (CSE)",
+    "level": "MSc",
+    "name": "Harvard University Master's in Computational Science and Engineering (CSE)"
+  },
+  "p_07159d78b6": {
+    "_id": "p_07159d78b6",
+    "p_id": "p_07159d78b6",
+    "abbrv": "Yale University MS in Health Informatics",
+    "label": "Yale University MS in Health Informatics",
+    "level": "MSc",
+    "name": "Yale University MS in Health Informatics"
+  },
+  "p_64932f5653": {
+    "_id": "p_64932f5653",
+    "p_id": "p_64932f5653",
+    "abbrv": "Northwestern University Master of Science in Machine Learning and Data Science (MLDS)",
+    "label": "Northwestern University Master of Science in Machine Learning and Data Science (MLDS)",
+    "level": "MSc",
+    "name": "Northwestern University Master of Science in Machine Learning and Data Science (MLDS)"
+  },
+  "p_45e02deecc": {
+    "_id": "p_45e02deecc",
+    "p_id": "p_45e02deecc",
+    "abbrv": "HKUST MSc in Data Driven Modelling",
+    "label": "HKUST MSc in Data Driven Modelling",
+    "level": "MSc",
+    "name": "HKUST MSc in Data Driven Modelling"
+  },
+  "p_1ebc30e1e6": {
+    "_id": "p_1ebc30e1e6",
+    "p_id": "p_1ebc30e1e6",
+    "abbrv": "Cornell University MPS in Data Science and Applied Statistics",
+    "label": "Cornell University MPS in Data Science and Applied Statistics",
+    "level": "MPS",
+    "name": "Cornell University MPS in Data Science and Applied Statistics"
+  },
+  "p_999ce52907": {
+    "_id": "p_999ce52907",
+    "p_id": "p_999ce52907",
+    "abbrv": "NTU Master of Science in Biomedical Data Science",
+    "label": "NTU Master of Science in Biomedical Data Science",
+    "level": "MSc",
+    "name": "NTU Master of Science in Biomedical Data Science"
+  },
+  "p_20d2b4ccb6": {
+    "_id": "p_20d2b4ccb6",
+    "p_id": "p_20d2b4ccb6",
+    "abbrv": "UCB Ph.D. in Statistics, Data Science",
+    "label": "UCB Ph.D. in Statistics, Data Science",
+    "level": "PhD",
+    "name": "UCB Ph.D. in Statistics, Data Science"
+  },
+  "p_1f0a813eb6": {
+    "_id": "p_1f0a813eb6",
+    "p_id": "p_1f0a813eb6",
+    "abbrv": "University of Michigan, Ann Arbor Ph.D. in Statistics",
+    "label": "University of Michigan, Ann Arbor Ph.D. in Statistics",
+    "level": "PhD",
+    "name": "University of Michigan, Ann Arbor Ph.D. in Statistics"
+  },
+  "p_4b4ac31fb6": {
+    "_id": "p_4b4ac31fb6",
+    "p_id": "p_4b4ac31fb6",
+    "abbrv": "Georgia Tech Ph.D. in Industrial Engineering, Statistics and Data Science",
+    "label": "Georgia Tech Ph.D. in Industrial Engineering, Statistics and Data Science",
+    "level": "PhD",
+    "name": "Georgia Tech Ph.D. in Industrial Engineering, Statistics and Data Science"
+  },
+  "p_7a6ab86e4a": {
+    "_id": "p_7a6ab86e4a",
+    "p_id": "p_7a6ab86e4a",
+    "abbrv": "NYU MSc applied mathematics",
+    "label": "NYU MSc applied mathematics",
+    "level": "MSc",
+    "name": "NYU MSc applied mathematics"
+  },
+  "p_8d2be7913d": {
+    "_id": "p_8d2be7913d",
+    "p_id": "p_8d2be7913d",
+    "abbrv": "Boston University MSc data science",
+    "label": "Boston University MSc data science",
+    "level": "MSc",
+    "name": "Boston University MSc data science"
+  },
+  "p_d4f3529e01": {
+    "_id": "p_d4f3529e01",
+    "p_id": "p_d4f3529e01",
+    "abbrv": "UCL Computer Science MSc",
+    "label": "UCL Computer Science MSc",
+    "level": "MSc",
+    "name": "UCL Computer Science MSc"
+  },
+  "p_9b9e29eda4": {
+    "_id": "p_9b9e29eda4",
+    "p_id": "p_9b9e29eda4",
+    "abbrv": "University of Manchester MSc Health Data Science",
+    "label": "University of Manchester MSc Health Data Science",
+    "level": "MSc",
+    "name": "University of Manchester MSc Health Data Science"
+  },
+  "p_3dfaabf4fb": {
+    "_id": "p_3dfaabf4fb",
+    "p_id": "p_3dfaabf4fb",
+    "abbrv": "CityU MSc Financial Mathematics",
+    "label": "CityU MSc Financial Mathematics",
+    "level": "MSc",
+    "name": "CityU MSc Financial Mathematics"
+  },
+  "p_83532ef5b0": {
+    "_id": "p_83532ef5b0",
+    "p_id": "p_83532ef5b0",
+    "abbrv": "USC Master of Science in Applied Data Science",
+    "label": "USC Master of Science in Applied Data Science",
+    "level": "MSc",
+    "name": "USC Master of Science in Applied Data Science"
+  },
+  "p_9269a5ce12": {
+    "_id": "p_9269a5ce12",
+    "p_id": "p_9269a5ce12",
+    "abbrv": "Johns Hopkins University MS in Systems Engineering",
+    "label": "Johns Hopkins University MS in Systems Engineering",
+    "level": "MSc",
+    "name": "Johns Hopkins University MS in Systems Engineering"
+  },
+  "p_867c76be7b": {
+    "_id": "p_867c76be7b",
+    "p_id": "p_867c76be7b",
+    "abbrv": "HKU Master of Science in Computer Science",
+    "label": "HKU Master of Science in Computer Science",
+    "level": "MSc",
+    "name": "HKU Master of Science in Computer Science"
+  },
+  "p_7bf60ff385": {
+    "_id": "p_7bf60ff385",
+    "p_id": "p_7bf60ff385",
+    "abbrv": "UIUC Master of Computer Science in Data Science",
+    "label": "UIUC Master of Computer Science in Data Science",
+    "level": "MSc",
+    "name": "UIUC Master of Computer Science in Data Science"
+  },
+  "p_c730c7d30e": {
+    "_id": "p_c730c7d30e",
+    "p_id": "p_c730c7d30e",
+    "abbrv": "HKU Master of Data Science",
+    "label": "HKU Master of Data Science",
+    "level": "MSc",
+    "name": "HKU Master of Data Science"
+  },
+  "p_c1f01e7e80": {
+    "_id": "p_c1f01e7e80",
+    "p_id": "p_c1f01e7e80",
+    "abbrv": "UW Master of Science (M.S.) in Statistics - Advanced Methods and Data Analysis (AMDS)",
+    "label": "UW Master of Science (M.S.) in Statistics - Advanced Methods and Data Analysis (AMDS)",
+    "level": "MSc",
+    "name": "UW Master of Science (M.S.) in Statistics - Advanced Methods and Data Analysis (AMDS)"
+  },
+  "p_20e79ab39b": {
+    "_id": "p_20e79ab39b",
+    "p_id": "p_20e79ab39b",
+    "abbrv": "University of Chicago Pre-Doctoral MS in Computer Science Program",
+    "label": "University of Chicago Pre-Doctoral MS in Computer Science Program",
+    "level": "MSc",
+    "name": "University of Chicago Pre-Doctoral MS in Computer Science Program"
+  },
+  "p_458dcf333e": {
+    "_id": "p_458dcf333e",
+    "p_id": "p_458dcf333e",
+    "abbrv": "University of Chicago Master's Program in Computer Science (MPCS)",
+    "label": "University of Chicago Master's Program in Computer Science (MPCS)",
+    "level": "MSc",
+    "name": "University of Chicago Master's Program in Computer Science (MPCS)"
+  },
+  "p_a17a96f1ac": {
+    "_id": "p_a17a96f1ac",
+    "p_id": "p_a17a96f1ac",
+    "abbrv": "Yale University MS in Statistics & Data Science",
+    "label": "Yale University MS in Statistics & Data Science",
+    "level": "MSc",
+    "name": "Yale University MS in Statistics & Data Science"
+  },
+  "p_0cc7496b3a": {
+    "_id": "p_0cc7496b3a",
+    "p_id": "p_0cc7496b3a",
+    "abbrv": "MIT master's degree (SM) program in operations research (OR)",
+    "label": "MIT master's degree (SM) program in operations research (OR)",
+    "level": "MSc",
+    "name": "MIT master's degree (SM) program in operations research (OR)"
+  },
+  "p_98960df33c": {
+    "_id": "p_98960df33c",
+    "p_id": "p_98960df33c",
+    "abbrv": "CMU Master's in Machine Learning",
+    "label": "CMU Master's in Machine Learning",
+    "level": "MSc",
+    "name": "CMU Master's in Machine Learning"
+  },
+  "p_675379e24b": {
+    "_id": "p_675379e24b",
+    "p_id": "p_675379e24b",
+    "abbrv": "University of Edinburgh MSc Data Science",
+    "label": "University of Edinburgh MSc Data Science",
+    "level": "MSc",
+    "name": "University of Edinburgh MSc Data Science"
+  },
+  "p_ea2c17e220": {
+    "_id": "p_ea2c17e220",
+    "p_id": "p_ea2c17e220",
+    "abbrv": "Northwestern University MS in Engineering Sciences and Applied Mathematics",
+    "label": "Northwestern University MS in Engineering Sciences and Applied Mathematics",
+    "level": "MSc",
+    "name": "Northwestern University MS in Engineering Sciences and Applied Mathematics"
+  },
+  "p_9e278f53b6": {
+    "_id": "p_9e278f53b6",
+    "p_id": "p_9e278f53b6",
+    "abbrv": "Cornell University MEng in Systems Engineering",
+    "label": "Cornell University MEng in Systems Engineering",
+    "level": "MEng",
+    "name": "Cornell University MEng in Systems Engineering"
+  },
+  "p_f3caeabb30": {
+    "_id": "p_f3caeabb30",
+    "p_id": "p_f3caeabb30",
+    "abbrv": "Cornell Tech Master in Operations Research and Information Engineering",
+    "label": "Cornell Tech Master in Operations Research and Information Engineering",
+    "level": "MSc",
+    "name": "Cornell Tech Master in Operations Research and Information Engineering"
+  },
+  "p_ef7070d8f2": {
+    "_id": "p_ef7070d8f2",
+    "p_id": "p_ef7070d8f2",
+    "abbrv": "Clemson Automotive Engineering (PHD)",
+    "label": "Clemson Automotive Engineering (PHD)",
+    "level": "PhD",
+    "name": "Clemson Automotive Engineering (PHD)"
+  },
+  "p_3f2cccd25e": {
+    "_id": "p_3f2cccd25e",
+    "p_id": "p_3f2cccd25e",
+    "abbrv": "UGA Mechanical Engineering (PHD)",
+    "label": "UGA Mechanical Engineering (PHD)",
+    "level": "PhD",
+    "name": "UGA Mechanical Engineering (PHD)"
+  },
+  "p_1c50601cc0": {
+    "_id": "p_1c50601cc0",
+    "p_id": "p_1c50601cc0",
+    "abbrv": "Harvard University Master of Science – Computational biology and quantatitive genetics",
+    "label": "Harvard University Master of Science – Computational biology and quantatitive genetics",
+    "level": "MSc",
+    "name": "Harvard University Master of Science – Computational biology and quantatitive genetics"
+  },
+  "p_5e602a08ae": {
+    "_id": "p_5e602a08ae",
+    "p_id": "p_5e602a08ae",
+    "abbrv": "Johns Hopkins University ScM in Biostatistics",
+    "label": "Johns Hopkins University ScM in Biostatistics",
+    "level": "ScM",
+    "name": "Johns Hopkins University ScM in Biostatistics"
+  },
+  "p_300a158681": {
+    "_id": "p_300a158681",
+    "p_id": "p_300a158681",
+    "abbrv": "Brown University Master of Science in Biostatistics",
+    "label": "Brown University Master of Science in Biostatistics",
+    "level": "MSc",
+    "name": "Brown University Master of Science in Biostatistics"
+  },
+  "p_3135824f31": {
+    "_id": "p_3135824f31",
+    "p_id": "p_3135824f31",
+    "abbrv": "NUS Master of Science in Precision Health and Medicine",
+    "label": "NUS Master of Science in Precision Health and Medicine",
+    "level": "MSc",
+    "name": "NUS Master of Science in Precision Health and Medicine"
+  },
+  "p_94ab4efb86": {
+    "_id": "p_94ab4efb86",
+    "p_id": "p_94ab4efb86",
+    "abbrv": "University of Melbourne Master of Biostatistics",
+    "label": "University of Melbourne Master of Biostatistics",
+    "level": "MSc",
+    "name": "University of Melbourne Master of Biostatistics"
+  },
+  "p_1363f836fd": {
+    "_id": "p_1363f836fd",
+    "p_id": "p_1363f836fd",
+    "abbrv": "University of Cambridge MASt in Mathematics (Mathematical Statistics)",
+    "label": "University of Cambridge MASt in Mathematics (Mathematical Statistics)",
+    "level": "MASt",
+    "name": "University of Cambridge MASt in Mathematics (Mathematical Statistics)"
+  },
+  "p_010053866d": {
+    "_id": "p_010053866d",
+    "p_id": "p_010053866d",
+    "abbrv": "UCB Biostatistics MA",
+    "label": "UCB Biostatistics MA",
+    "level": "MA",
+    "name": "UCB Biostatistics MA"
+  },
+  "p_b8c6a40606": {
+    "_id": "p_b8c6a40606",
+    "p_id": "p_b8c6a40606",
+    "abbrv": "LSE MSc Operations Research and Analytics",
+    "label": "LSE MSc Operations Research and Analytics",
+    "level": "MSc",
+    "name": "LSE MSc Operations Research and Analytics"
+  },
+  "p_2aaa363d27": {
+    "_id": "p_2aaa363d27",
+    "p_id": "p_2aaa363d27",
+    "abbrv": "UCL Venture Capital and Private Equity with Financial Technology MSc",
+    "label": "UCL Venture Capital and Private Equity with Financial Technology MSc",
+    "level": "MSc",
+    "name": "UCL Venture Capital and Private Equity with Financial Technology MSc"
+  },
+  "p_013f2d1a16": {
+    "_id": "p_013f2d1a16",
+    "p_id": "p_013f2d1a16",
+    "abbrv": "University of Oxford MSc in Mathematical and Computational Finance",
+    "label": "University of Oxford MSc in Mathematical and Computational Finance",
+    "level": "MSc",
+    "name": "University of Oxford MSc in Mathematical and Computational Finance"
+  },
+  "p_061ba921f8": {
+    "_id": "p_061ba921f8",
+    "p_id": "p_061ba921f8",
+    "abbrv": "Imperial College London Statistics (Statistical Finance) MSc",
+    "label": "Imperial College London Statistics (Statistical Finance) MSc",
+    "level": "MSc",
+    "name": "Imperial College London Statistics (Statistical Finance) MSc"
+  },
+  "p_255b7ed32a": {
+    "_id": "p_255b7ed32a",
+    "p_id": "p_255b7ed32a",
+    "abbrv": "NUS Master of Science in Data Science for Sustainability",
+    "label": "NUS Master of Science in Data Science for Sustainability",
+    "level": "MSc",
+    "name": "NUS Master of Science in Data Science for Sustainability"
+  },
+  "p_5ae3899ee6": {
+    "_id": "p_5ae3899ee6",
+    "p_id": "p_5ae3899ee6",
+    "abbrv": "UPenn MSE in Scientific Computing",
+    "label": "UPenn MSE in Scientific Computing",
+    "level": "MSE",
+    "name": "UPenn MSE in Scientific Computing"
+  },
+  "p_3872d5e5f4": {
+    "_id": "p_3872d5e5f4",
+    "p_id": "p_3872d5e5f4",
+    "abbrv": "University of Sydney Master of Computer Science",
+    "label": "University of Sydney Master of Computer Science",
+    "level": "MSc",
+    "name": "University of Sydney Master of Computer Science"
+  },
+  "p_4c087632f5": {
+    "_id": "p_4c087632f5",
+    "p_id": "p_4c087632f5",
+    "abbrv": "NYU Tandon's Emerging Technologies MS program (Machine Learning & Artificial Intelligence)",
+    "label": "NYU Tandon's Emerging Technologies MS program (Machine Learning & Artificial Intelligence)",
+    "level": "MSc",
+    "name": "NYU Tandon's Emerging Technologies MS program (Machine Learning & Artificial Intelligence)"
+  },
+  "p_de874b1a46": {
+    "_id": "p_de874b1a46",
+    "p_id": "p_de874b1a46",
+    "abbrv": "UCB Master of Information Management and Systems",
+    "label": "UCB Master of Information Management and Systems",
+    "level": "MSc",
+    "name": "UCB Master of Information Management and Systems"
+  },
+  "p_8680124441": {
+    "_id": "p_8680124441",
+    "p_id": "p_8680124441",
+    "abbrv": "University of Washington Master of Science in Data Science",
+    "label": "University of Washington Master of Science in Data Science",
+    "level": "MSc",
+    "name": "University of Washington Master of Science in Data Science"
+  },
+  "p_0dea3e9554": {
+    "_id": "p_0dea3e9554",
+    "p_id": "p_0dea3e9554",
+    "abbrv": "CMU Master of Science in Business Analytics (MSBA) program",
+    "label": "CMU Master of Science in Business Analytics (MSBA) program",
+    "level": "MSc",
+    "name": "CMU Master of Science in Business Analytics (MSBA) program"
+  },
+  "p_03008937ba": {
+    "_id": "p_03008937ba",
+    "p_id": "p_03008937ba",
+    "abbrv": "UCB Industrial Engineering & Operations Research Meng",
+    "label": "UCB Industrial Engineering & Operations Research Meng",
+    "level": "MEng",
+    "name": "UCB Industrial Engineering & Operations Research Meng"
+  },
+  "p_e8175c8dce": {
+    "_id": "p_e8175c8dce",
+    "p_id": "p_e8175c8dce",
+    "abbrv": "HKU Master of Science in Business Analytics programme",
+    "label": "HKU Master of Science in Business Analytics programme",
+    "level": "MSc",
+    "name": "HKU Master of Science in Business Analytics programme"
+  },
+  "p_be355b5b5a": {
+    "_id": "p_be355b5b5a",
+    "p_id": "p_be355b5b5a",
+    "abbrv": "Harvard University MSc Health Data Science",
+    "label": "Harvard University MSc Health Data Science",
+    "level": "MSc",
+    "name": "Harvard University MSc Health Data Science"
+  },
+  "p_e4ade8760e": {
+    "_id": "p_e4ade8760e",
+    "p_id": "p_e4ade8760e",
+    "abbrv": "University of Cambridge MPhil in Industrial Systems, Manufacture, and Management",
+    "label": "University of Cambridge MPhil in Industrial Systems, Manufacture, and Management",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Industrial Systems, Manufacture, and Management"
+  },
+  "p_0b1ec8f04d": {
+    "_id": "p_0b1ec8f04d",
+    "p_id": "p_0b1ec8f04d",
+    "abbrv": "University of Cambridge MPhil in Strategy, Marketing, Operations and Organisational Behaviour",
+    "label": "University of Cambridge MPhil in Strategy, Marketing, Operations and Organisational Behaviour",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Strategy, Marketing, Operations and Organisational Behaviour"
+  },
+  "p_2e346aaaab": {
+    "_id": "p_2e346aaaab",
+    "p_id": "p_2e346aaaab",
+    "abbrv": "University of Cambridge MPhil in Quantitative Climate and Environmental Science",
+    "label": "University of Cambridge MPhil in Quantitative Climate and Environmental Science",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in Quantitative Climate and Environmental Science"
+  },
+  "p_5140da0882": {
+    "_id": "p_5140da0882",
+    "p_id": "p_5140da0882",
+    "abbrv": "LSE MSc Quantitative Methods for Risk Management",
+    "label": "LSE MSc Quantitative Methods for Risk Management",
+    "level": "MSc",
+    "name": "LSE MSc Quantitative Methods for Risk Management"
+  },
+  "p_abda4b3cf7": {
+    "_id": "p_abda4b3cf7",
+    "p_id": "p_abda4b3cf7",
+    "abbrv": "Imperial College London Environmental Data Science and Machine Learning MSc",
+    "label": "Imperial College London Environmental Data Science and Machine Learning MSc",
+    "level": "MSc",
+    "name": "Imperial College London Environmental Data Science and Machine Learning MSc"
+  },
+  "p_cb53d7e674": {
+    "_id": "p_cb53d7e674",
+    "p_id": "p_cb53d7e674",
+    "abbrv": "Northwestern University MS in Statistics and Data Science",
+    "label": "Northwestern University MS in Statistics and Data Science",
+    "level": "MSc",
+    "name": "Northwestern University MS in Statistics and Data Science"
+  },
+  "p_2317e8a81c": {
+    "_id": "p_2317e8a81c",
+    "p_id": "p_2317e8a81c",
+    "abbrv": "UCL MSc Financial Mathematics",
+    "label": "UCL MSc Financial Mathematics",
+    "level": "MSc",
+    "name": "UCL MSc Financial Mathematics"
+  },
+  "p_dc81ee4b5f": {
+    "_id": "p_dc81ee4b5f",
+    "p_id": "p_dc81ee4b5f",
+    "abbrv": "UW (Seattle) MS in Statistics",
+    "label": "UW (Seattle) MS in Statistics",
+    "level": "MSc",
+    "name": "UW (Seattle) MS in Statistics"
+  },
+  "p_46d1448acd": {
+    "_id": "p_46d1448acd",
+    "p_id": "p_46d1448acd",
+    "abbrv": "Imperial College London Computing (MSc 1YFT)",
+    "label": "Imperial College London Computing (MSc 1YFT)",
+    "level": "MSc",
+    "name": "Imperial College London Computing (MSc 1YFT)"
+  },
+  "p_de87abfce4": {
+    "_id": "p_de87abfce4",
+    "p_id": "p_de87abfce4",
+    "abbrv": "University of Cambridge MPhil in NeuroAI & Intelligent Systems",
+    "label": "University of Cambridge MPhil in NeuroAI & Intelligent Systems",
+    "level": "MPhil",
+    "name": "University of Cambridge MPhil in NeuroAI & Intelligent Systems"
+  },
+  "p_e6b55d6b6c": {
+    "_id": "p_e6b55d6b6c",
+    "p_id": "p_e6b55d6b6c",
+    "abbrv": "UCL Scientific and Data Intensive Computing MSc",
+    "label": "UCL Scientific and Data Intensive Computing MSc",
+    "level": "MSc",
+    "name": "UCL Scientific and Data Intensive Computing MSc"
+  },
+  "p_3cc3afaeb4": {
+    "_id": "p_3cc3afaeb4",
+    "p_id": "p_3cc3afaeb4",
+    "abbrv": "UCL Computational Finance MSc",
+    "label": "UCL Computational Finance MSc",
+    "level": "MSc",
+    "name": "UCL Computational Finance MSc"
+  },
+  "p_717f09b6d7": {
+    "_id": "p_717f09b6d7",
+    "p_id": "p_717f09b6d7",
+    "abbrv": "KCL MSc in statistics",
+    "label": "KCL MSc in statistics",
+    "level": "MSc",
+    "name": "KCL MSc in statistics"
+  },
+  "p_19a3f7e79d": {
+    "_id": "p_19a3f7e79d",
+    "p_id": "p_19a3f7e79d",
+    "abbrv": "University of Manchester MSc Statistics",
+    "label": "University of Manchester MSc Statistics",
+    "level": "MSc",
+    "name": "University of Manchester MSc Statistics"
+  }
+}
