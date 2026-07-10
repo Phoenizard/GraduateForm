@@ -13,5 +13,3 @@ hide:
 
 [:octicons-download-24: 下载 DIY 申请手册](../pdf/diy-booklet.pdf){ .md-button .md-button--primary }
 [前往下载页:octicons-chevron-right-24:](../pdf/index.md){ .md-button }
-
-如果你愿意分享自己的 DIY 经历，欢迎通过项目仓库 <a href="https://github.com/Phoenizard/GraduateForm" target="_blank">:material-github:Phoenizard/GraduateForm:octicons-arrow-up-right-24:</a> 联系我们。
