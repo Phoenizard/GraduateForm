@@ -1,0 +1,1218 @@
+{
+  "u_3712daeb45": {
+    "_id": "u_3712daeb45",
+    "name": "New York University",
+    "abbrv": "NYU",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_0cbdc975a9",
+        "display_value": "NYU MPH in Biostatistics"
+      },
+      {
+        "row_id": "p_c90b16ea4b",
+        "display_value": "NYU MS in Applied Urban Science and Informatics"
+      },
+      {
+        "row_id": "p_03949fd339",
+        "display_value": "NYU MS in Financial Engineering"
+      },
+      {
+        "row_id": "p_7a6ab86e4a",
+        "display_value": "NYU MSc applied mathematics"
+      },
+      {
+        "row_id": "p_67bf79a25a",
+        "display_value": "NYU Master's in Courant Computer Science"
+      },
+      {
+        "row_id": "p_9f93bdbabd",
+        "display_value": "NYU Master's in Data Science"
+      },
+      {
+        "row_id": "p_2cbdc3fb8f",
+        "display_value": "NYU Mathematical Sciences, M.S."
+      },
+      {
+        "row_id": "p_4c087632f5",
+        "display_value": "NYU Tandon's Emerging Technologies MS program (Machine Learning & Artificial Intelligence)"
+      }
+    ]
+  },
+  "u_f41074198c": {
+    "_id": "u_f41074198c",
+    "name": "University College London",
+    "abbrv": "UCL",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_3cc3afaeb4",
+        "display_value": "UCL Computational Finance MSc"
+      },
+      {
+        "row_id": "p_d4f3529e01",
+        "display_value": "UCL Computer Science MSc"
+      },
+      {
+        "row_id": "p_b2644da456",
+        "display_value": "UCL Data Science MSc"
+      },
+      {
+        "row_id": "p_9ae2f57cd5",
+        "display_value": "UCL Finance with Data Science MSc"
+      },
+      {
+        "row_id": "p_804986481e",
+        "display_value": "UCL Health Data Science MSc"
+      },
+      {
+        "row_id": "p_fb81079bcc",
+        "display_value": "UCL MSc Emerging Digital Technologies"
+      },
+      {
+        "row_id": "p_2317e8a81c",
+        "display_value": "UCL MSc Financial Mathematics"
+      },
+      {
+        "row_id": "p_ef1734b2fe",
+        "display_value": "UCL MSc Medical Statistics and Data Science"
+      },
+      {
+        "row_id": "p_8e71364b35",
+        "display_value": "UCL MSc in Computational Statistics and Machine Learning"
+      },
+      {
+        "row_id": "p_deaef2253b",
+        "display_value": "UCL Marketing MSc"
+      },
+      {
+        "row_id": "p_211f03881f",
+        "display_value": "UCL Mathematics Education MA"
+      },
+      {
+        "row_id": "p_e6b55d6b6c",
+        "display_value": "UCL Scientific and Data Intensive Computing MSc"
+      },
+      {
+        "row_id": "p_94d7af8c65",
+        "display_value": "UCL Social and Geographic Data Science MSc"
+      },
+      {
+        "row_id": "p_e672ebd868",
+        "display_value": "UCL Statistics MSc"
+      },
+      {
+        "row_id": "p_2aaa363d27",
+        "display_value": "UCL Venture Capital and Private Equity with Financial Technology MSc"
+      }
+    ]
+  },
+  "u_1ba7043ffc": {
+    "_id": "u_1ba7043ffc",
+    "name": "Imperial College London",
+    "abbrv": "Imperial College London",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_8c07d1e39b",
+        "display_value": "Imperial College London Applied Computational Science and Engineering MSc"
+      },
+      {
+        "row_id": "p_c68edc03cf",
+        "display_value": "Imperial College London Artificial Intelligence Applications and Innovation MSc"
+      },
+      {
+        "row_id": "p_46d1448acd",
+        "display_value": "Imperial College London Computing (MSc 1YFT)"
+      },
+      {
+        "row_id": "p_abda4b3cf7",
+        "display_value": "Imperial College London Environmental Data Science and Machine Learning MSc"
+      },
+      {
+        "row_id": "p_b08be2cb3d",
+        "display_value": "Imperial College London Health Data Analytics and Machine Learning MSc"
+      },
+      {
+        "row_id": "p_a21b86e03f",
+        "display_value": "Imperial College London MSc Artificial Intelligence"
+      },
+      {
+        "row_id": "p_9aa246c0a2",
+        "display_value": "Imperial College London MSc Biomedical Engeneering(Computational Bioengineering)"
+      },
+      {
+        "row_id": "p_0e14504857",
+        "display_value": "Imperial College London MSc in Applied Mathematics"
+      },
+      {
+        "row_id": "p_91df8a89ac",
+        "display_value": "Imperial College London MSc in Statistics"
+      },
+      {
+        "row_id": "p_061ba921f8",
+        "display_value": "Imperial College London Statistics (Statistical Finance) MSc"
+      }
+    ]
+  },
+  "u_00754fcdcf": {
+    "_id": "u_00754fcdcf",
+    "name": "London School of Economics and Political Science",
+    "abbrv": "LSE",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_383a99eecd",
+        "display_value": "LSE MSc Financial Statistics"
+      },
+      {
+        "row_id": "p_b8c6a40606",
+        "display_value": "LSE MSc Operations Research and Analytics"
+      },
+      {
+        "row_id": "p_5140da0882",
+        "display_value": "LSE MSc Quantitative Methods for Risk Management"
+      }
+    ]
+  },
+  "u_cbe5d72eb7": {
+    "_id": "u_cbe5d72eb7",
+    "name": "University of Warwick",
+    "abbrv": "University of Warwick",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_4cc902d23c",
+        "display_value": "University of Warwick Mathematical Finance (MSc)"
+      }
+    ]
+  },
+  "u_fafc347400": {
+    "_id": "u_fafc347400",
+    "name": "Columbia University",
+    "abbrv": "Columbia University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_6b3eee8ef7",
+        "display_value": "Columbia University MA Statistics program"
+      },
+      {
+        "row_id": "p_d7125b2bf1",
+        "display_value": "Columbia University MS in Biostatistics"
+      },
+      {
+        "row_id": "p_d7d0601704",
+        "display_value": "Columbia University MS in Data Science"
+      }
+    ]
+  },
+  "u_10b2bcf8ac": {
+    "_id": "u_10b2bcf8ac",
+    "name": "Nanyang Technological University",
+    "abbrv": "NTU",
+    "region": "新加坡",
+    "programs": [
+      {
+        "row_id": "p_cd4e0084cc",
+        "display_value": "NTU MSc in Artificial Intelligence"
+      },
+      {
+        "row_id": "p_dd1abb87da",
+        "display_value": "NTU Master of Science in Analytics"
+      },
+      {
+        "row_id": "p_04b03488b4",
+        "display_value": "NTU Master of Science in Applied Economics"
+      },
+      {
+        "row_id": "p_999ce52907",
+        "display_value": "NTU Master of Science in Biomedical Data Science"
+      },
+      {
+        "row_id": "p_786ac49116",
+        "display_value": "NTU Master of Science in Cyber Security (MSCS)"
+      },
+      {
+        "row_id": "p_54d184a1bd",
+        "display_value": "NTU Master of Science in Data Science (MSDS)"
+      },
+      {
+        "row_id": "p_2bfcc82f43",
+        "display_value": "NTU Master of Science in Financial Technology (DFS direction)"
+      }
+    ]
+  },
+  "u_a8a70ec360": {
+    "_id": "u_a8a70ec360",
+    "name": "University of Bristol",
+    "abbrv": "University of Bristol",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_3a96eee95f",
+        "display_value": "University of Bristol MSc Mathematical Sciences"
+      },
+      {
+        "row_id": "p_a4e0e494b3",
+        "display_value": "University of Bristol MSc in Data Science"
+      }
+    ]
+  },
+  "u_a4f5e0368b": {
+    "_id": "u_a4f5e0368b",
+    "name": "National University of Singapore",
+    "abbrv": "NUS",
+    "region": "新加坡",
+    "programs": [
+      {
+        "row_id": "p_12502c704d",
+        "display_value": "NUS MSc in Supply Chain Management"
+      },
+      {
+        "row_id": "p_ffc9df2c78",
+        "display_value": "NUS Master of Science in Data Science and Machine Learning (DSML)"
+      },
+      {
+        "row_id": "p_255b7ed32a",
+        "display_value": "NUS Master of Science in Data Science for Sustainability"
+      },
+      {
+        "row_id": "p_3f9485b5d5",
+        "display_value": "NUS Master of Science in Industrial and Systems Engineering"
+      },
+      {
+        "row_id": "p_60a9696c3a",
+        "display_value": "NUS Master of Science in Mathematics"
+      },
+      {
+        "row_id": "p_3135824f31",
+        "display_value": "NUS Master of Science in Precision Health and Medicine"
+      },
+      {
+        "row_id": "p_1a15acbae4",
+        "display_value": "NUS Master of Science in Statistics"
+      }
+    ]
+  },
+  "u_12f48030f1": {
+    "_id": "u_12f48030f1",
+    "name": "University of Manchester",
+    "abbrv": "University of Manchester",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_2c9a5962de",
+        "display_value": "University of Manchester MSc Data Science"
+      },
+      {
+        "row_id": "p_9b9e29eda4",
+        "display_value": "University of Manchester MSc Health Data Science"
+      },
+      {
+        "row_id": "p_0121198f44",
+        "display_value": "University of Manchester MSc Mathematical Finance"
+      },
+      {
+        "row_id": "p_19a3f7e79d",
+        "display_value": "University of Manchester MSc Statistics"
+      },
+      {
+        "row_id": "p_c671a25887",
+        "display_value": "University of Manchester MSc in Advanced Computer Science"
+      },
+      {
+        "row_id": "p_8575336bfc",
+        "display_value": "University of Manchester MSc in Artificial Intelligence"
+      },
+      {
+        "row_id": "p_e5fb6279be",
+        "display_value": "University of Manchester MSc in Machine Learning"
+      },
+      {
+        "row_id": "p_31a30a1cf1",
+        "display_value": "University of Manchester MSc in Pure Mathematics"
+      }
+    ]
+  },
+  "u_3742822190": {
+    "_id": "u_3742822190",
+    "name": "Carnegie Mellon University",
+    "abbrv": "CMU",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_e181bbb46e",
+        "display_value": "CMU MS in Data Analytics for Science"
+      },
+      {
+        "row_id": "p_0dea3e9554",
+        "display_value": "CMU Master of Science in Business Analytics (MSBA) program"
+      },
+      {
+        "row_id": "p_d63a778349",
+        "display_value": "CMU Master of Science in Information Technology (Business Intelligence & Data Analytics)"
+      },
+      {
+        "row_id": "p_98960df33c",
+        "display_value": "CMU Master's in Machine Learning"
+      }
+    ]
+  },
+  "u_6e73475e27": {
+    "_id": "u_6e73475e27",
+    "name": "Cornell University",
+    "abbrv": "Cornell",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_f3caeabb30",
+        "display_value": "Cornell Tech Master in Operations Research and Information Engineering"
+      },
+      {
+        "row_id": "p_cf3ae39815",
+        "display_value": "Cornell Tech Master of Engineering in Data Science & Decision Analytics"
+      },
+      {
+        "row_id": "p_9e278f53b6",
+        "display_value": "Cornell University MEng in Systems Engineering"
+      },
+      {
+        "row_id": "p_1ebc30e1e6",
+        "display_value": "Cornell University MPS in Data Science and Applied Statistics"
+      },
+      {
+        "row_id": "p_6444fd6d02",
+        "display_value": "Cornell University MS in Biostatistics and Data Science"
+      }
+    ]
+  },
+  "u_23dfb8046c": {
+    "_id": "u_23dfb8046c",
+    "name": "University of Pennsylvania",
+    "abbrv": "UPenn",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_431470a933",
+        "display_value": "UPenn MA in Applied Mathematics and Computational Science (AMCS)"
+      },
+      {
+        "row_id": "p_e3d63fd0fe",
+        "display_value": "UPenn MS program in Biostatistics"
+      },
+      {
+        "row_id": "p_adcf5fc3cf",
+        "display_value": "UPenn MSE in Data Science"
+      },
+      {
+        "row_id": "p_5ae3899ee6",
+        "display_value": "UPenn MSE in Scientific Computing"
+      },
+      {
+        "row_id": "p_4e6f69208c",
+        "display_value": "UPenn MSE in Systems Engineering"
+      }
+    ]
+  },
+  "u_62f4153f5e": {
+    "_id": "u_62f4153f5e",
+    "name": "University of Chicago",
+    "abbrv": "University of Chicago",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_1bd0f7831c",
+        "display_value": "University of Chicago MS in Applied Data Science"
+      },
+      {
+        "row_id": "p_eb213b560a",
+        "display_value": "University of Chicago MS in Computational and Applied Mathematics (MCAM)"
+      },
+      {
+        "row_id": "p_458dcf333e",
+        "display_value": "University of Chicago Master's Program in Computer Science (MPCS)"
+      },
+      {
+        "row_id": "p_20e79ab39b",
+        "display_value": "University of Chicago Pre-Doctoral MS in Computer Science Program"
+      }
+    ]
+  },
+  "u_bf7ffba481": {
+    "_id": "u_bf7ffba481",
+    "name": "University of California, San Diego",
+    "abbrv": "UCSD",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_e1b64ed546",
+        "display_value": "UCSD MS in Data Science (HDSI)"
+      },
+      {
+        "row_id": "p_d290632baf",
+        "display_value": "UCSD Master of Science in Biostatistics"
+      }
+    ]
+  },
+  "u_cdd16461ab": {
+    "_id": "u_cdd16461ab",
+    "name": "Harvard University",
+    "abbrv": "Harvard University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_be355b5b5a",
+        "display_value": "Harvard University MSc Health Data Science"
+      },
+      {
+        "row_id": "p_a53f57a627",
+        "display_value": "Harvard University Master of Medical Sciences in Biomedical Informatics (MMSc)"
+      },
+      {
+        "row_id": "p_5d8bb4ff78",
+        "display_value": "Harvard University Master of Science in Data Science"
+      },
+      {
+        "row_id": "p_1c50601cc0",
+        "display_value": "Harvard University Master of Science – Computational biology and quantatitive genetics"
+      },
+      {
+        "row_id": "p_0a88be74ae",
+        "display_value": "Harvard University Master's in Computational Science and Engineering (CSE)"
+      }
+    ]
+  },
+  "u_2dc6c0fdb1": {
+    "_id": "u_2dc6c0fdb1",
+    "name": "Brown University",
+    "abbrv": "Brown University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_300a158681",
+        "display_value": "Brown University Master of Science in Biostatistics"
+      },
+      {
+        "row_id": "p_8a8489e5d9",
+        "display_value": "Brown University Master's Program in Data Science (Master of Science, Sc.M.)"
+      }
+    ]
+  },
+  "u_47d3190e77": {
+    "_id": "u_47d3190e77",
+    "name": "Duke University",
+    "abbrv": "Duke University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_a4f0c5f3fd",
+        "display_value": "Duke University MS in Statistical Science"
+      },
+      {
+        "row_id": "p_36d2e22521",
+        "display_value": "Duke University Master in Interdisciplinary Data Science"
+      },
+      {
+        "row_id": "p_a2985f4e00",
+        "display_value": "Duke University Master of Biostatistics"
+      }
+    ]
+  },
+  "u_17372dd9cf": {
+    "_id": "u_17372dd9cf",
+    "name": "Washington University in St. Louis",
+    "abbrv": "WashU",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_0a614bb19e",
+        "display_value": "WashU Master of Science in Biostatistics and Data Science (MSBDS)"
+      }
+    ]
+  },
+  "u_c836f11f8f": {
+    "_id": "u_c836f11f8f",
+    "name": "Johns Hopkins University",
+    "abbrv": "Johns Hopkins University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_9269a5ce12",
+        "display_value": "Johns Hopkins University MS in Systems Engineering"
+      },
+      {
+        "row_id": "p_26e8f9484b",
+        "display_value": "Johns Hopkins University MSE in Applied Mathematics and Statistics"
+      },
+      {
+        "row_id": "p_16ad0a28f9",
+        "display_value": "Johns Hopkins University Master's in Data Science"
+      },
+      {
+        "row_id": "p_5e602a08ae",
+        "display_value": "Johns Hopkins University ScM in Biostatistics"
+      }
+    ]
+  },
+  "u_9b8ac3028e": {
+    "_id": "u_9b8ac3028e",
+    "name": "University of Michigan, Ann Arbor",
+    "abbrv": "University of Michigan, Ann Arbor",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_9a58827875",
+        "display_value": "University of Michigan, Ann Arbor Applied Statistics Master's Program"
+      },
+      {
+        "row_id": "p_907348572f",
+        "display_value": "University of Michigan, Ann Arbor Master of Science (MS) in Biostatistics"
+      },
+      {
+        "row_id": "p_e1e204bdbd",
+        "display_value": "University of Michigan, Ann Arbor Master's in Data Science"
+      },
+      {
+        "row_id": "p_1f0a813eb6",
+        "display_value": "University of Michigan, Ann Arbor Ph.D. in Statistics"
+      }
+    ]
+  },
+  "u_de588502f2": {
+    "_id": "u_de588502f2",
+    "name": "University of Edinburgh",
+    "abbrv": "University of Edinburgh",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_675379e24b",
+        "display_value": "University of Edinburgh MSc Data Science"
+      },
+      {
+        "row_id": "p_2dee4b5d10",
+        "display_value": "University of Edinburgh MSc Operational Research with Data Science"
+      },
+      {
+        "row_id": "p_453057d455",
+        "display_value": "University of Edinburgh MSc Statistics and Operational Research"
+      },
+      {
+        "row_id": "p_6e2daf8b72",
+        "display_value": "University of Edinburgh MSc Statistics with Data Science"
+      },
+      {
+        "row_id": "p_7b34371302",
+        "display_value": "University of Edinburgh MSc in Artificial Intelligence"
+      }
+    ]
+  },
+  "u_807acc5390": {
+    "_id": "u_807acc5390",
+    "name": "Boston University",
+    "abbrv": "Boston University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_8d2be7913d",
+        "display_value": "Boston University MSc data science"
+      },
+      {
+        "row_id": "p_744678d186",
+        "display_value": "Boston University Master's in Statistical Practice"
+      }
+    ]
+  },
+  "u_af30ac7639": {
+    "_id": "u_af30ac7639",
+    "name": "Yale University",
+    "abbrv": "Yale University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_63b24ca737",
+        "display_value": "Yale University MPH in Biostatistics"
+      },
+      {
+        "row_id": "p_08bfbbcbef",
+        "display_value": "Yale University MS in Biostatistics"
+      },
+      {
+        "row_id": "p_c63cf66dec",
+        "display_value": "Yale University MS in Computational Biology and Biomedical Informatics"
+      },
+      {
+        "row_id": "p_07159d78b6",
+        "display_value": "Yale University MS in Health Informatics"
+      },
+      {
+        "row_id": "p_a17a96f1ac",
+        "display_value": "Yale University MS in Statistics & Data Science"
+      },
+      {
+        "row_id": "p_de6c2e8b0d",
+        "display_value": "Yale University PhD in Computer Science"
+      }
+    ]
+  },
+  "u_f270c395b3": {
+    "_id": "u_f270c395b3",
+    "name": "University of California, Los Angeles",
+    "abbrv": "UCLA",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_e4afcd0e7e",
+        "display_value": "UCLA MS in Biostatistics"
+      },
+      {
+        "row_id": "p_95ecd5fe1e",
+        "display_value": "UCLA Master of Data Science in Health (MDSH) Program"
+      },
+      {
+        "row_id": "p_398b19819b",
+        "display_value": "UCLA Master of Engineering in Data Science"
+      },
+      {
+        "row_id": "p_7b9138d799",
+        "display_value": "UCLA PhD in Computer Science and Engineering"
+      }
+    ]
+  },
+  "u_4fd6f7d59a": {
+    "_id": "u_4fd6f7d59a",
+    "name": "University of Oxford",
+    "abbrv": "University of Oxford",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_08c75b54a9",
+        "display_value": "University of Oxford MSc in Mathematical Modelling and Scientific Computing (MMSC)"
+      },
+      {
+        "row_id": "p_fa06383825",
+        "display_value": "University of Oxford MSc in Mathematical Sciences (OMMS)"
+      },
+      {
+        "row_id": "p_013f2d1a16",
+        "display_value": "University of Oxford MSc in Mathematical and Computational Finance"
+      },
+      {
+        "row_id": "p_a4c5b468e9",
+        "display_value": "University of Oxford MSc in Statistical Science"
+      }
+    ]
+  },
+  "u_940c5db9f6": {
+    "_id": "u_940c5db9f6",
+    "name": "University of Cambridge",
+    "abbrv": "University of Cambridge",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_7d7c0e39e6",
+        "display_value": "University of Cambridge MASt in Mathematics (Applied Mathematics)"
+      },
+      {
+        "row_id": "p_1363f836fd",
+        "display_value": "University of Cambridge MASt in Mathematics (Mathematical Statistics)"
+      },
+      {
+        "row_id": "p_97fa8de793",
+        "display_value": "University of Cambridge MPhil in Computational Biology"
+      },
+      {
+        "row_id": "p_c69f630fda",
+        "display_value": "University of Cambridge MPhil in Data Intensive Science"
+      },
+      {
+        "row_id": "p_e4ade8760e",
+        "display_value": "University of Cambridge MPhil in Industrial Systems, Manufacture, and Management"
+      },
+      {
+        "row_id": "p_de87abfce4",
+        "display_value": "University of Cambridge MPhil in NeuroAI & Intelligent Systems"
+      },
+      {
+        "row_id": "p_7ab2e86e74",
+        "display_value": "University of Cambridge MPhil in Population Health Sciences"
+      },
+      {
+        "row_id": "p_2e346aaaab",
+        "display_value": "University of Cambridge MPhil in Quantitative Climate and Environmental Science"
+      },
+      {
+        "row_id": "p_6dd9e706f0",
+        "display_value": "University of Cambridge MPhil in Scientific Computing"
+      },
+      {
+        "row_id": "p_0b1ec8f04d",
+        "display_value": "University of Cambridge MPhil in Strategy, Marketing, Operations and Organisational Behaviour"
+      }
+    ]
+  },
+  "u_c31a9d2848": {
+    "_id": "u_c31a9d2848",
+    "name": "University of Helsinki",
+    "abbrv": "University of Helsinki",
+    "region": "欧陆",
+    "programs": [
+      {
+        "row_id": "p_f5479ae62d",
+        "display_value": "University of Helsinki Master's Programme in Life Science Informatics"
+      }
+    ]
+  },
+  "u_acc3d466b0": {
+    "_id": "u_acc3d466b0",
+    "name": "Karolinska Institute & KTH & SU",
+    "abbrv": "Karolinska Institute & KTH & SU",
+    "region": "其他",
+    "programs": [
+      {
+        "row_id": "p_14394d97b4",
+        "display_value": "KTH, Karolinska Institutet and Stockholm University MSc Biostatistics and Data Science"
+      }
+    ]
+  },
+  "u_14157161e2": {
+    "_id": "u_14157161e2",
+    "name": "KU Leuven",
+    "abbrv": "KU Leuven",
+    "region": "欧陆",
+    "programs": [
+      {
+        "row_id": "p_cd81e45c73",
+        "display_value": "KU Leuven Master of Statistics and Data Science"
+      }
+    ]
+  },
+  "u_2b43f1214f": {
+    "_id": "u_2b43f1214f",
+    "name": "University of North Carolina at Chapel Hill",
+    "abbrv": "University of North Carolina at Chapel Hill",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_2db7f88d60",
+        "display_value": "University of North Carolina at Chapel Hill Master of Science Biostatistics"
+      },
+      {
+        "row_id": "p_a9579f38f5",
+        "display_value": "University of North Carolina at Chapel Hill PhD in Computer Science"
+      }
+    ]
+  },
+  "u_09039ee8dc": {
+    "_id": "u_09039ee8dc",
+    "name": "ETH Zurich",
+    "abbrv": "ETH Zurich",
+    "region": "欧陆",
+    "programs": [
+      {
+        "row_id": "p_9b47df910d",
+        "display_value": "ETH Zurich Master Computational Biology and Bioinformatics"
+      }
+    ]
+  },
+  "u_bea5a0d136": {
+    "_id": "u_bea5a0d136",
+    "name": "École Polytechnique Fédérale de Lausanne",
+    "abbrv": "EPFL",
+    "region": "欧陆",
+    "programs": [
+      {
+        "row_id": "p_ecf185dc13",
+        "display_value": "EPFL MSc in Computational Science and Engineering"
+      }
+    ]
+  },
+  "u_269fc60adb": {
+    "_id": "u_269fc60adb",
+    "name": "Stanford University",
+    "abbrv": "Stanford University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_fcdafcbd78",
+        "display_value": "Stanford University MS in Biomedical Data Science"
+      },
+      {
+        "row_id": "p_c39f06de63",
+        "display_value": "Stanford University MS in Computational and Mathematical Engineering (ICME)"
+      }
+    ]
+  },
+  "u_789470d9e0": {
+    "_id": "u_789470d9e0",
+    "name": "The University of Hong Kong",
+    "abbrv": "HKU",
+    "region": "香港",
+    "programs": [
+      {
+        "row_id": "p_c730c7d30e",
+        "display_value": "HKU Master of Data Science"
+      },
+      {
+        "row_id": "p_e8175c8dce",
+        "display_value": "HKU Master of Science in Business Analytics programme"
+      },
+      {
+        "row_id": "p_867c76be7b",
+        "display_value": "HKU Master of Science in Computer Science"
+      },
+      {
+        "row_id": "p_a8a4071c53",
+        "display_value": "HKU Master of Statistics (MStat)"
+      }
+    ]
+  },
+  "u_b495813b7e": {
+    "_id": "u_b495813b7e",
+    "name": "The Chinese University of Hong Kong",
+    "abbrv": "CUHK",
+    "region": "香港",
+    "programs": [
+      {
+        "row_id": "p_a1e442d47e",
+        "display_value": "CUHK MSc in Mathematics"
+      },
+      {
+        "row_id": "p_dc7f08af7e",
+        "display_value": "CUHK MSc in Sport Science and Physical Activity"
+      }
+    ]
+  },
+  "u_ff7d2b4391": {
+    "_id": "u_ff7d2b4391",
+    "name": "The Hong Kong Polytechnic University",
+    "abbrv": "PolyU",
+    "region": "香港",
+    "programs": [
+      {
+        "row_id": "p_9e9d96d947",
+        "display_value": "PolyU MSc in Sports Technology and Management"
+      }
+    ]
+  },
+  "u_865eb045c2": {
+    "_id": "u_865eb045c2",
+    "name": "King's College London",
+    "abbrv": "KCL",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_6ccf953b96",
+        "display_value": "KCL MSc Applied Statistical modelling and Health informatics"
+      },
+      {
+        "row_id": "p_717f09b6d7",
+        "display_value": "KCL MSc in statistics"
+      },
+      {
+        "row_id": "p_f1545b55fe",
+        "display_value": "KCL Mathematics MSc"
+      }
+    ]
+  },
+  "u_d9d6adc40b": {
+    "_id": "u_d9d6adc40b",
+    "name": "The Hong Kong University of Science and Technology",
+    "abbrv": "HKUST",
+    "region": "香港",
+    "programs": [
+      {
+        "row_id": "p_45e02deecc",
+        "display_value": "HKUST MSc in Data Driven Modelling"
+      },
+      {
+        "row_id": "p_eae055fcd7",
+        "display_value": "HKUST Master of Science in Mathematics for Educators (MAED)"
+      }
+    ]
+  },
+  "u_14d23c3ea0": {
+    "_id": "u_14d23c3ea0",
+    "name": "University of Maryland, College Park",
+    "abbrv": "University of Maryland, College Park",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_533d0b71ac",
+        "display_value": "University of Maryland, College Park MSc in Artificial Intelligence"
+      },
+      {
+        "row_id": "p_f2830e0772",
+        "display_value": "University of Maryland, College Park PhD in Computer Science"
+      }
+    ]
+  },
+  "u_cfc784e19a": {
+    "_id": "u_cfc784e19a",
+    "name": "University of Virginia",
+    "abbrv": "University of Virginia",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_6176a159bd",
+        "display_value": "University of Virginia PhD in Computer Science"
+      }
+    ]
+  },
+  "u_36658cb06d": {
+    "_id": "u_36658cb06d",
+    "name": "University of Illinois Urbana-Champaign",
+    "abbrv": "UIUC",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_7bf60ff385",
+        "display_value": "UIUC Master of Computer Science in Data Science"
+      },
+      {
+        "row_id": "p_ec599a0346",
+        "display_value": "UIUC PhD in Computer Science"
+      }
+    ]
+  },
+  "u_2fde0bf467": {
+    "_id": "u_2fde0bf467",
+    "name": "University of Washington",
+    "abbrv": "University of Washington",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_dc81ee4b5f",
+        "display_value": "UW (Seattle) MS in Statistics"
+      },
+      {
+        "row_id": "p_c1f01e7e80",
+        "display_value": "UW Master of Science (M.S.) in Statistics - Advanced Methods and Data Analysis (AMDS)"
+      },
+      {
+        "row_id": "p_8680124441",
+        "display_value": "University of Washington Master of Science in Data Science"
+      },
+      {
+        "row_id": "p_0ac11f940b",
+        "display_value": "University of Washington PhD in Computer Science and Engineering"
+      }
+    ]
+  },
+  "u_d6de387dfe": {
+    "_id": "u_d6de387dfe",
+    "name": "Virginia Tech",
+    "abbrv": "VT",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_14dcba5edd",
+        "display_value": "VT PhD in Computer Science"
+      }
+    ]
+  },
+  "u_b5d70cfa3e": {
+    "_id": "u_b5d70cfa3e",
+    "name": "University of Notre Dame",
+    "abbrv": "Notre Dame",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_22718a6664",
+        "display_value": "University of Notre Dame PhD in Computer Science and Engineering"
+      }
+    ]
+  },
+  "u_e38ed0b0bc": {
+    "_id": "u_e38ed0b0bc",
+    "name": "University of California, Irvine",
+    "abbrv": "UCI",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_d6cedd7447",
+        "display_value": "UCI PhD in Computer Science and Engineering"
+      }
+    ]
+  },
+  "u_b154dd0c62": {
+    "_id": "u_b154dd0c62",
+    "name": "University of Copenhagen",
+    "abbrv": "University of Copenhagen",
+    "region": "欧陆",
+    "programs": [
+      {
+        "row_id": "p_6e0f28dd3e",
+        "display_value": "University of Copenhagen MSc in Mathematics"
+      }
+    ]
+  },
+  "u_f7155d44b7": {
+    "_id": "u_f7155d44b7",
+    "name": "University of York",
+    "abbrv": "University of York",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_d509ce32e9",
+        "display_value": "University of York MSc in Mathematics"
+      }
+    ]
+  },
+  "u_378ec14fd3": {
+    "_id": "u_378ec14fd3",
+    "name": "University of Leeds",
+    "abbrv": "University of Leeds",
+    "region": "英国",
+    "programs": [
+      {
+        "row_id": "p_684505c9bd",
+        "display_value": "University of Leeds MSc Mathematics"
+      }
+    ]
+  },
+  "u_3b97d1bbc1": {
+    "_id": "u_3b97d1bbc1",
+    "name": "Northwestern University",
+    "abbrv": "Northwestern University",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_5cb7dc9146",
+        "display_value": "Northwestern University MS in Data Science (Accelerated)"
+      },
+      {
+        "row_id": "p_ea2c17e220",
+        "display_value": "Northwestern University MS in Engineering Sciences and Applied Mathematics"
+      },
+      {
+        "row_id": "p_cb53d7e674",
+        "display_value": "Northwestern University MS in Statistics and Data Science"
+      },
+      {
+        "row_id": "p_64932f5653",
+        "display_value": "Northwestern University Master of Science in Machine Learning and Data Science (MLDS)"
+      }
+    ]
+  },
+  "u_6cde08dc58": {
+    "_id": "u_6cde08dc58",
+    "name": "University of California, Berkeley",
+    "abbrv": "UCB",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_010053866d",
+        "display_value": "UCB Biostatistics MA"
+      },
+      {
+        "row_id": "p_03008937ba",
+        "display_value": "UCB Industrial Engineering & Operations Research Meng"
+      },
+      {
+        "row_id": "p_de874b1a46",
+        "display_value": "UCB Master of Information Management and Systems"
+      },
+      {
+        "row_id": "p_20d2b4ccb6",
+        "display_value": "UCB Ph.D. in Statistics, Data Science"
+      }
+    ]
+  },
+  "u_67eceeba8f": {
+    "_id": "u_67eceeba8f",
+    "name": "Georgia Institute of Technology",
+    "abbrv": "Georgia Tech",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_4b4ac31fb6",
+        "display_value": "Georgia Tech Ph.D. in Industrial Engineering, Statistics and Data Science"
+      }
+    ]
+  },
+  "u_881fef6903": {
+    "_id": "u_881fef6903",
+    "name": "City University of Hong Kong",
+    "abbrv": "CityU",
+    "region": "香港",
+    "programs": [
+      {
+        "row_id": "p_3dfaabf4fb",
+        "display_value": "CityU MSc Financial Mathematics"
+      }
+    ]
+  },
+  "u_56c58f9a6d": {
+    "_id": "u_56c58f9a6d",
+    "name": "University of Southern California",
+    "abbrv": "USC",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_83532ef5b0",
+        "display_value": "USC Master of Science in Applied Data Science"
+      }
+    ]
+  },
+  "u_e450c3134c": {
+    "_id": "u_e450c3134c",
+    "name": "Massachusetts Institute of Technology",
+    "abbrv": "MIT",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_0cc7496b3a",
+        "display_value": "MIT master's degree (SM) program in operations research (OR)"
+      }
+    ]
+  },
+  "u_6bcdeecf9c": {
+    "_id": "u_6bcdeecf9c",
+    "name": "Clemson University",
+    "abbrv": "Clemson",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_ef7070d8f2",
+        "display_value": "Clemson Automotive Engineering (PHD)"
+      }
+    ]
+  },
+  "u_bccb20a1f2": {
+    "_id": "u_bccb20a1f2",
+    "name": "University of Georgia",
+    "abbrv": "UGA",
+    "region": "美国",
+    "programs": [
+      {
+        "row_id": "p_3f2cccd25e",
+        "display_value": "UGA Mechanical Engineering (PHD)"
+      }
+    ]
+  },
+  "u_d4d813f457": {
+    "_id": "u_d4d813f457",
+    "name": "University of Melbourne",
+    "abbrv": "University of Melbourne",
+    "region": "澳大利亚",
+    "programs": [
+      {
+        "row_id": "p_94ab4efb86",
+        "display_value": "University of Melbourne Master of Biostatistics"
+      }
+    ]
+  },
+  "u_71035b1154": {
+    "_id": "u_71035b1154",
+    "name": "University of Sydney",
+    "abbrv": "University of Sydney",
+    "region": "澳大利亚",
+    "programs": [
+      {
+        "row_id": "p_3872d5e5f4",
+        "display_value": "University of Sydney Master of Computer Science"
+      }
+    ]
+  }
+}
